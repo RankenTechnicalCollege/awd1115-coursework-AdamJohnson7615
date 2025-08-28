@@ -1,0 +1,224 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH01\\CH1CrashCourse_AdamJohnson\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{81DBBA66-06E4-4156-BD3D-6F95E5974D07}|Project9\\Project9.csproj|d:\\awd1115-coursework-adamjohnson7615\\labs\\ch01\\ch1crashcourse_adamjohnson\\project9\\pancake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81DBBA66-06E4-4156-BD3D-6F95E5974D07}|Project9\\Project9.csproj|solutionrelative:project9\\pancake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81DBBA66-06E4-4156-BD3D-6F95E5974D07}|Project9\\Project9.csproj|d:\\awd1115-coursework-adamjohnson7615\\labs\\ch01\\ch1crashcourse_adamjohnson\\project9\\leaf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81DBBA66-06E4-4156-BD3D-6F95E5974D07}|Project9\\Project9.csproj|solutionrelative:project9\\leaf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81DBBA66-06E4-4156-BD3D-6F95E5974D07}|Project9\\Project9.csproj|d:\\awd1115-coursework-adamjohnson7615\\labs\\ch01\\ch1crashcourse_adamjohnson\\project9\\corner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81DBBA66-06E4-4156-BD3D-6F95E5974D07}|Project9\\Project9.csproj|solutionrelative:project9\\corner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1247994-F752-4FF3-9D45-5A446589445F}|Project8\\Project8.csproj|d:\\awd1115-coursework-adamjohnson7615\\labs\\ch01\\ch1crashcourse_adamjohnson\\project8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1247994-F752-4FF3-9D45-5A446589445F}|Project8\\Project8.csproj|solutionrelative:project8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1247994-F752-4FF3-9D45-5A446589445F}|Project8\\Project8.csproj|d:\\awd1115-coursework-adamjohnson7615\\labs\\ch01\\ch1crashcourse_adamjohnson\\project8\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1247994-F752-4FF3-9D45-5A446589445F}|Project8\\Project8.csproj|solutionrelative:project8\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9E9AA66-4E01-4452-B9B5-3804A6693959}|Project7\\Project7.csproj|d:\\awd1115-coursework-adamjohnson7615\\labs\\ch01\\ch1crashcourse_adamjohnson\\project7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9E9AA66-4E01-4452-B9B5-3804A6693959}|Project7\\Project7.csproj|solutionrelative:project7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F87923A-B114-4618-A6A8-E76B66937CFC}|Project6\\Project6.csproj|d:\\awd1115-coursework-adamjohnson7615\\labs\\ch01\\ch1crashcourse_adamjohnson\\project6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F87923A-B114-4618-A6A8-E76B66937CFC}|Project6\\Project6.csproj|solutionrelative:project6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3F687DD-773D-4B00-8109-CD6BC2E0C5AC}|Project5\\Project5.csproj|d:\\awd1115-coursework-adamjohnson7615\\labs\\ch01\\ch1crashcourse_adamjohnson\\project5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3F687DD-773D-4B00-8109-CD6BC2E0C5AC}|Project5\\Project5.csproj|solutionrelative:project5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94E6F4F7-1CC6-4473-958D-D979828AAFCC}|Project4\\Project4.csproj|d:\\awd1115-coursework-adamjohnson7615\\labs\\ch01\\ch1crashcourse_adamjohnson\\project4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94E6F4F7-1CC6-4473-958D-D979828AAFCC}|Project4\\Project4.csproj|solutionrelative:project4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBC226F1-8CC9-4E93-99BD-297D29F27895}|Project3\\Project3.csproj|d:\\awd1115-coursework-adamjohnson7615\\labs\\ch01\\ch1crashcourse_adamjohnson\\project3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBC226F1-8CC9-4E93-99BD-297D29F27895}|Project3\\Project3.csproj|solutionrelative:project3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CCD774D-AAD2-4620-9371-83E74C80790D}|Project2\\Project2.csproj|d:\\awd1115-coursework-adamjohnson7615\\labs\\ch01\\ch1crashcourse_adamjohnson\\project2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CCD774D-AAD2-4620-9371-83E74C80790D}|Project2\\Project2.csproj|solutionrelative:project2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29DE7912-7E4C-45FA-A8E3-25114876D6FF}|Project1\\Project1.csproj|d:\\awd1115-coursework-adamjohnson7615\\labs\\ch01\\ch1crashcourse_adamjohnson\\project1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29DE7912-7E4C-45FA-A8E3-25114876D6FF}|Project1\\Project1.csproj|solutionrelative:project1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Leaf.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH01\\CH1CrashCourse_AdamJohnson\\Project9\\Leaf.cs",
+              "RelativeDocumentMoniker": "Project9\\Leaf.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH01\\CH1CrashCourse_AdamJohnson\\Project9\\Leaf.cs",
+              "RelativeToolTip": "Project9\\Leaf.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T23:04:21.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Pancake.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH01\\CH1CrashCourse_AdamJohnson\\Project9\\Pancake.cs",
+              "RelativeDocumentMoniker": "Project9\\Pancake.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH01\\CH1CrashCourse_AdamJohnson\\Project9\\Pancake.cs",
+              "RelativeToolTip": "Project9\\Pancake.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T23:04:04.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Corner.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH01\\CH1CrashCourse_AdamJohnson\\Project9\\Corner.cs",
+              "RelativeDocumentMoniker": "Project9\\Corner.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH01\\CH1CrashCourse_AdamJohnson\\Project9\\Corner.cs",
+              "RelativeToolTip": "Project9\\Corner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T23:03:34.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH01\\CH1CrashCourse_AdamJohnson\\Project8\\Cart.cs",
+              "RelativeDocumentMoniker": "Project8\\Cart.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH01\\CH1CrashCourse_AdamJohnson\\Project8\\Cart.cs",
+              "RelativeToolTip": "Project8\\Cart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T21:38:16.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH01\\CH1CrashCourse_AdamJohnson\\Project8\\Program.cs",
+              "RelativeDocumentMoniker": "Project8\\Program.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH01\\CH1CrashCourse_AdamJohnson\\Project8\\Program.cs",
+              "RelativeToolTip": "Project8\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T21:35:24.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH01\\CH1CrashCourse_AdamJohnson\\Project7\\Program.cs",
+              "RelativeDocumentMoniker": "Project7\\Program.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH01\\CH1CrashCourse_AdamJohnson\\Project7\\Program.cs",
+              "RelativeToolTip": "Project7\\Program.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAFAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T20:13:59.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH01\\CH1CrashCourse_AdamJohnson\\Project6\\Program.cs",
+              "RelativeDocumentMoniker": "Project6\\Program.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH01\\CH1CrashCourse_AdamJohnson\\Project6\\Program.cs",
+              "RelativeToolTip": "Project6\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T20:08:07.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH01\\CH1CrashCourse_AdamJohnson\\Project5\\Program.cs",
+              "RelativeDocumentMoniker": "Project5\\Program.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH01\\CH1CrashCourse_AdamJohnson\\Project5\\Program.cs",
+              "RelativeToolTip": "Project5\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T19:30:07.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH01\\CH1CrashCourse_AdamJohnson\\Project4\\Program.cs",
+              "RelativeDocumentMoniker": "Project4\\Program.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH01\\CH1CrashCourse_AdamJohnson\\Project4\\Program.cs",
+              "RelativeToolTip": "Project4\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T19:18:45.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH01\\CH1CrashCourse_AdamJohnson\\Project3\\Program.cs",
+              "RelativeDocumentMoniker": "Project3\\Program.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH01\\CH1CrashCourse_AdamJohnson\\Project3\\Program.cs",
+              "RelativeToolTip": "Project3\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T18:52:54.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH01\\CH1CrashCourse_AdamJohnson\\Project2\\Program.cs",
+              "RelativeDocumentMoniker": "Project2\\Program.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH01\\CH1CrashCourse_AdamJohnson\\Project2\\Program.cs",
+              "RelativeToolTip": "Project2\\Program.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAQwAsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T16:44:13.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH01\\CH1CrashCourse_AdamJohnson\\Project1\\Program.cs",
+              "RelativeDocumentMoniker": "Project1\\Program.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH01\\CH1CrashCourse_AdamJohnson\\Project1\\Program.cs",
+              "RelativeToolTip": "Project1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T16:11:36.427Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

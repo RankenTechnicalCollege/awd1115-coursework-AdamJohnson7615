@@ -1,0 +1,15 @@
+D:\awd1115-coursework-AdamJohnson7615\Labs\CH01\CH1CrashCourse_AdamJohnson\Project2\bin\Debug\net8.0\Project2.exe
+D:\awd1115-coursework-AdamJohnson7615\Labs\CH01\CH1CrashCourse_AdamJohnson\Project2\bin\Debug\net8.0\Project2.deps.json
+D:\awd1115-coursework-AdamJohnson7615\Labs\CH01\CH1CrashCourse_AdamJohnson\Project2\bin\Debug\net8.0\Project2.runtimeconfig.json
+D:\awd1115-coursework-AdamJohnson7615\Labs\CH01\CH1CrashCourse_AdamJohnson\Project2\bin\Debug\net8.0\Project2.dll
+D:\awd1115-coursework-AdamJohnson7615\Labs\CH01\CH1CrashCourse_AdamJohnson\Project2\bin\Debug\net8.0\Project2.pdb
+D:\awd1115-coursework-AdamJohnson7615\Labs\CH01\CH1CrashCourse_AdamJohnson\Project2\obj\Debug\net8.0\Project2.GeneratedMSBuildEditorConfig.editorconfig
+D:\awd1115-coursework-AdamJohnson7615\Labs\CH01\CH1CrashCourse_AdamJohnson\Project2\obj\Debug\net8.0\Project2.AssemblyInfoInputs.cache
+D:\awd1115-coursework-AdamJohnson7615\Labs\CH01\CH1CrashCourse_AdamJohnson\Project2\obj\Debug\net8.0\Project2.AssemblyInfo.cs
+D:\awd1115-coursework-AdamJohnson7615\Labs\CH01\CH1CrashCourse_AdamJohnson\Project2\obj\Debug\net8.0\Project2.csproj.CoreCompileInputs.cache
+D:\awd1115-coursework-AdamJohnson7615\Labs\CH01\CH1CrashCourse_AdamJohnson\Project2\obj\Debug\net8.0\Project2.sourcelink.json
+D:\awd1115-coursework-AdamJohnson7615\Labs\CH01\CH1CrashCourse_AdamJohnson\Project2\obj\Debug\net8.0\Project2.dll
+D:\awd1115-coursework-AdamJohnson7615\Labs\CH01\CH1CrashCourse_AdamJohnson\Project2\obj\Debug\net8.0\refint\Project2.dll
+D:\awd1115-coursework-AdamJohnson7615\Labs\CH01\CH1CrashCourse_AdamJohnson\Project2\obj\Debug\net8.0\Project2.pdb
+D:\awd1115-coursework-AdamJohnson7615\Labs\CH01\CH1CrashCourse_AdamJohnson\Project2\obj\Debug\net8.0\Project2.genruntimeconfig.cache
+D:\awd1115-coursework-AdamJohnson7615\Labs\CH01\CH1CrashCourse_AdamJohnson\Project2\obj\Debug\net8.0\ref\Project2.dll
