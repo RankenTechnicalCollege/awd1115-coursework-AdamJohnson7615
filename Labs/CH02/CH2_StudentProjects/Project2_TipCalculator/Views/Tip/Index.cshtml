@@ -1,0 +1,28 @@
+﻿@model Project2_TipCalculator.Models.TipCalculator
+
+@{
+    ViewData["Title"] = "Tip Calculator";
+}
+
+<form asp-action="Index" method="post">
+
+    <!-- Meal Cost -->
+
+    <label asp-for="MealCost">Cost of meal:</label><input asp-for="MealCost" type="number" step="0.01" />
+    <span asp-validation-for="MealCost" class="text-danger"></span>
+
+    <!-- Tip Amounts -->
+    <p class="tip-display">15% Tip: @Model.Tip15.ToString("C")</p>
+    <p class="tip-display">20% Tip: @Model.Tip20.ToString("C")</p>
+    <p class="tip-display">25% Tip: @Model.Tip25.ToString("C")</p>
+
+    <!-- Buttons -->
+    <button type="submit">Calculate</button>
+    <a asp-action="Clear" class="button-link">Clear</a>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

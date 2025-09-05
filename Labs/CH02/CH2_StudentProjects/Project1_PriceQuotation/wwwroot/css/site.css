@@ -1,0 +1,71 @@
+/* site.css */
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Heading */
+h1, h2 {
+    color: navy;
+    font-weight: bold;
+}
+
+/* Form labels and inputs */
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="number"] {
+    padding: 5px;
+    width: 200px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Buttons */
+button {
+    margin-top: 15px;
+    padding: 5px 15px;
+    background-color: navy;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+    button:hover {
+        background-color: #000080; /* Darker navy on hover */
+    }
+
+/* Clear link (plain link) */
+a.button-link {
+    background: none;
+    color: navy;
+    padding: 0;
+    border: none;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+    a.button-link:hover {
+        color: darkblue;
+        text-decoration: underline;
+    }
+
+/* Validation messages */
+.text-danger {
+    color: red;
+    margin-top: 5px;
+}
+
+/* Display values */
+p {
+    margin-top: 10px;
+    font-weight: bold;
+}
