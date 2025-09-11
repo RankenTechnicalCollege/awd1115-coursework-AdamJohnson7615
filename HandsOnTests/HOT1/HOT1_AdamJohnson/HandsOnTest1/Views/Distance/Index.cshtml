@@ -1,0 +1,35 @@
+﻿@model HandsOnTest1.Models.DistanceConverter
+
+@{
+    ViewData["Title"] = "Distance Converter";
+}
+
+<div class="container mt-4">
+    <h1 class="mb-4">Distance Converter</h1>
+
+    <form asp-action="Index" method="post" class="needs-validation">
+
+        <!-- Input -->
+        <div class="form-floating mb-3">
+            <input asp-for="Inches" class="form-control" placeholder="Enter inches" />
+            <label asp-for="Inches">Distance in inches</label>
+            <span asp-validation-for="Inches" class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Convert to cm</button>
+    </form>
+
+    <!-- Result -->
+    @if (Model != null && Model.Inches > 0 && ViewData.ModelState.IsValid)
+    {
+        <div class="mt-4">
+            <h4>@Model.Inches.ToString("0.00") inches is @Model.Centimeters.ToString("0.00") centimeters</h4>
+        </div>
+    }
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
