@@ -1,0 +1,12 @@
+body {
+    background: radial-gradient(circle at top, #0d0d0d, #1a1a2e, #0d0d0d);
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    color: #ffffff;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #ffd700;
+}
