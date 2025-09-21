@@ -1,0 +1,57 @@
+﻿@model Project1_ContactManager.Models.Contact
+@{
+    ViewData["Title"] = "Edit";
+}
+@{
+    var isEdit = Model.ContactId != 0;
+    string pageTitle = isEdit ? "Edit Contact" : "Add Contact";
+}
+
+<h2>@pageTitle</h2>
+
+@* Validation summary *@
+@if (!ViewData.ModelState.IsValid)
+{
+    <div class="validation-summary-errors">
+        @Html.ValidationSummary()
+    </div>
+}
+
+<form asp-action="Edit" method="post">
+    @if (isEdit)
+    {
+        <input type="hidden" asp-for="ContactId" />
+    }
+
+    <div class="mb-3">
+        <label asp-for="FirstName"></label>
+        <input asp-for="FirstName" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="LastName"></label>
+        <input asp-for="LastName" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Phone"></label>
+        <input asp-for="Phone" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Email"></label>
+        <input asp-for="Email" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="CategoryId"></label>
+        <select asp-for="CategoryId" class="form-control" asp-items="@(new SelectList(ViewBag.Categories, "CategoryId", "Name"))">
+            <option value="">-- Select Category --</option>
+        </select>
+    </div>
+
+    <div class="btn-group-inline mt-3">
+        <button type="submit" class="btn btn-black">Save</button>
+        <a asp-action="@(isEdit ? "Details" : "Index")" asp-route-id="@Model.ContactId" class="btn btn-black">Cancel</a>
+    </div>
+</form>

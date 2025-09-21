@@ -1,0 +1,96 @@
+/* page background */
+body {
+    background-color: white;
+    color: #000;
+}
+
+/* Centered black box header */
+.top-banner {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.top-banner__box {
+    background-color: #000;
+    padding: 18px 40px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.top-banner__title {
+    margin: 0;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+/* Link color for first/last names */
+a.name-link {
+    color: #0d6efd; /* bootstrap primary blue */
+    text-decoration: none;
+}
+
+/* Table styling */
+.table-no-vertical {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+    .table-no-vertical thead th {
+        font-weight: 700;
+        border-bottom: 3px solid #000;
+        padding: 8px 6px;
+        text-align: left;
+    }
+
+    .table-no-vertical tbody tr {
+        border-bottom: 1px solid #ccc; /* gray line under each row */
+    }
+
+    .table-no-vertical td {
+        padding: 10px 6px;
+    }
+
+/* Details table (gray borders, no vertical lines) */
+.details-table {
+    border-collapse: collapse;
+    width: 60%;
+}
+
+    .details-table tr td:first-child {
+        font-weight: 600;
+        padding: 8px 12px;
+        border-bottom: 1px solid #eee;
+    }
+
+    .details-table tr td:last-child {
+        padding: 8px 12px;
+        border-bottom: 1px solid #eee;
+    }
+
+/* Black buttons with white text */
+.btn-black {
+    background-color: #000;
+    color: #fff;
+    border: none;
+}
+
+    .btn-black:hover {
+        background-color: #111;
+        color: #fff;
+    }
+
+/* Buttons inline spacing */
+.btn-group-inline .btn {
+    margin-right: 8px;
+}
+
+/* Validation summary */
+.validation-summary-errors {
+    color: #b30000;
+    border: 1px solid #f5c2c2;
+    padding: 8px;
+    margin-bottom: 12px;
+    background: #fff5f5;
+}

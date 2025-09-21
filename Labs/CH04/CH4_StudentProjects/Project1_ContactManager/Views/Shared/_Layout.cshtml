@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Contact Manager</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Project1_ContactManager.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <div class="top-banner container">
+            <div class="top-banner__box">
+                <h1 class="top-banner__title">Contact Manager</h1>
+            </div>
+        </div>
+    </header>
+
+    <div class="container body-content">
+        @RenderBody()
+    </div>
+
+    <footer class="text-center mt-5 mb-3">
+        <small>&copy; @DateTime.Now.Year</small>
+    </footer>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
