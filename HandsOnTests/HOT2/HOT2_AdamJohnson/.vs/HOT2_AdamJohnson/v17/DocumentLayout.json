@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT2\\HOT2_AdamJohnson\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C75E2A4C-3E44-4757-ABA7-2F64A02223A6}|SalesOrderApp\\SalesOrderApp.csproj|d:\\awd1115-coursework-adamjohnson7615\\handsontests\\hot2\\hot2_adamjohnson\\salesorderapp\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C75E2A4C-3E44-4757-ABA7-2F64A02223A6}|SalesOrderApp\\SalesOrderApp.csproj|solutionrelative:salesorderapp\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75E2A4C-3E44-4757-ABA7-2F64A02223A6}|SalesOrderApp\\SalesOrderApp.csproj|d:\\awd1115-coursework-adamjohnson7615\\handsontests\\hot2\\hot2_adamjohnson\\salesorderapp\\views\\product\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C75E2A4C-3E44-4757-ABA7-2F64A02223A6}|SalesOrderApp\\SalesOrderApp.csproj|solutionrelative:salesorderapp\\views\\product\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75E2A4C-3E44-4757-ABA7-2F64A02223A6}|SalesOrderApp\\SalesOrderApp.csproj|d:\\awd1115-coursework-adamjohnson7615\\handsontests\\hot2\\hot2_adamjohnson\\salesorderapp\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75E2A4C-3E44-4757-ABA7-2F64A02223A6}|SalesOrderApp\\SalesOrderApp.csproj|solutionrelative:salesorderapp\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75E2A4C-3E44-4757-ABA7-2F64A02223A6}|SalesOrderApp\\SalesOrderApp.csproj|d:\\awd1115-coursework-adamjohnson7615\\handsontests\\hot2\\hot2_adamjohnson\\salesorderapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C75E2A4C-3E44-4757-ABA7-2F64A02223A6}|SalesOrderApp\\SalesOrderApp.csproj|solutionrelative:salesorderapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75E2A4C-3E44-4757-ABA7-2F64A02223A6}|SalesOrderApp\\SalesOrderApp.csproj|d:\\awd1115-coursework-adamjohnson7615\\handsontests\\hot2\\hot2_adamjohnson\\salesorderapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C75E2A4C-3E44-4757-ABA7-2F64A02223A6}|SalesOrderApp\\SalesOrderApp.csproj|solutionrelative:salesorderapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75E2A4C-3E44-4757-ABA7-2F64A02223A6}|SalesOrderApp\\SalesOrderApp.csproj|d:\\awd1115-coursework-adamjohnson7615\\handsontests\\hot2\\hot2_adamjohnson\\salesorderapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75E2A4C-3E44-4757-ABA7-2F64A02223A6}|SalesOrderApp\\SalesOrderApp.csproj|solutionrelative:salesorderapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75E2A4C-3E44-4757-ABA7-2F64A02223A6}|SalesOrderApp\\SalesOrderApp.csproj|d:\\awd1115-coursework-adamjohnson7615\\handsontests\\hot2\\hot2_adamjohnson\\salesorderapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75E2A4C-3E44-4757-ABA7-2F64A02223A6}|SalesOrderApp\\SalesOrderApp.csproj|solutionrelative:salesorderapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75E2A4C-3E44-4757-ABA7-2F64A02223A6}|SalesOrderApp\\SalesOrderApp.csproj|d:\\awd1115-coursework-adamjohnson7615\\handsontests\\hot2\\hot2_adamjohnson\\salesorderapp\\migrations\\20250921222120_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75E2A4C-3E44-4757-ABA7-2F64A02223A6}|SalesOrderApp\\SalesOrderApp.csproj|solutionrelative:salesorderapp\\migrations\\20250921222120_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75E2A4C-3E44-4757-ABA7-2F64A02223A6}|SalesOrderApp\\SalesOrderApp.csproj|d:\\awd1115-coursework-adamjohnson7615\\handsontests\\hot2\\hot2_adamjohnson\\salesorderapp\\models\\salesordercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75E2A4C-3E44-4757-ABA7-2F64A02223A6}|SalesOrderApp\\SalesOrderApp.csproj|solutionrelative:salesorderapp\\models\\salesordercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75E2A4C-3E44-4757-ABA7-2F64A02223A6}|SalesOrderApp\\SalesOrderApp.csproj|d:\\awd1115-coursework-adamjohnson7615\\handsontests\\hot2\\hot2_adamjohnson\\salesorderapp\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75E2A4C-3E44-4757-ABA7-2F64A02223A6}|SalesOrderApp\\SalesOrderApp.csproj|solutionrelative:salesorderapp\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75E2A4C-3E44-4757-ABA7-2F64A02223A6}|SalesOrderApp\\SalesOrderApp.csproj|d:\\awd1115-coursework-adamjohnson7615\\handsontests\\hot2\\hot2_adamjohnson\\salesorderapp\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75E2A4C-3E44-4757-ABA7-2F64A02223A6}|SalesOrderApp\\SalesOrderApp.csproj|solutionrelative:salesorderapp\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT2\\HOT2_AdamJohnson\\SalesOrderApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "SalesOrderApp\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT2\\HOT2_AdamJohnson\\SalesOrderApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "SalesOrderApp\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T22:49:38.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT2\\HOT2_AdamJohnson\\SalesOrderApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "SalesOrderApp\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT2\\HOT2_AdamJohnson\\SalesOrderApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "SalesOrderApp\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-21T22:49:12.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT2\\HOT2_AdamJohnson\\SalesOrderApp\\Views\\Product\\Delete.cshtml",
+              "RelativeDocumentMoniker": "SalesOrderApp\\Views\\Product\\Delete.cshtml",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT2\\HOT2_AdamJohnson\\SalesOrderApp\\Views\\Product\\Delete.cshtml",
+              "RelativeToolTip": "SalesOrderApp\\Views\\Product\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-21T22:27:32.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT2\\HOT2_AdamJohnson\\SalesOrderApp\\Views\\Product\\List.cshtml",
+              "RelativeDocumentMoniker": "SalesOrderApp\\Views\\Product\\List.cshtml",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT2\\HOT2_AdamJohnson\\SalesOrderApp\\Views\\Product\\List.cshtml",
+              "RelativeToolTip": "SalesOrderApp\\Views\\Product\\List.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-21T22:26:00.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT2\\HOT2_AdamJohnson\\SalesOrderApp\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "SalesOrderApp\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT2\\HOT2_AdamJohnson\\SalesOrderApp\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "SalesOrderApp\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T22:24:10.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20250921222120_InitialCreate.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT2\\HOT2_AdamJohnson\\SalesOrderApp\\Migrations\\20250921222120_InitialCreate.cs",
+              "RelativeDocumentMoniker": "SalesOrderApp\\Migrations\\20250921222120_InitialCreate.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT2\\HOT2_AdamJohnson\\SalesOrderApp\\Migrations\\20250921222120_InitialCreate.cs",
+              "RelativeToolTip": "SalesOrderApp\\Migrations\\20250921222120_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T22:21:22.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT2\\HOT2_AdamJohnson\\SalesOrderApp\\Program.cs",
+              "RelativeDocumentMoniker": "SalesOrderApp\\Program.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT2\\HOT2_AdamJohnson\\SalesOrderApp\\Program.cs",
+              "RelativeToolTip": "SalesOrderApp\\Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T21:54:26.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT2\\HOT2_AdamJohnson\\SalesOrderApp\\appsettings.json",
+              "RelativeDocumentMoniker": "SalesOrderApp\\appsettings.json",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT2\\HOT2_AdamJohnson\\SalesOrderApp\\appsettings.json",
+              "RelativeToolTip": "SalesOrderApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-21T21:54:07.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT2\\HOT2_AdamJohnson\\SalesOrderApp\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "SalesOrderApp\\Models\\Category.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT2\\HOT2_AdamJohnson\\SalesOrderApp\\Models\\Category.cs",
+              "RelativeToolTip": "SalesOrderApp\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T22:15:29.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT2\\HOT2_AdamJohnson\\SalesOrderApp\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "SalesOrderApp\\Models\\Product.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT2\\HOT2_AdamJohnson\\SalesOrderApp\\Models\\Product.cs",
+              "RelativeToolTip": "SalesOrderApp\\Models\\Product.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA1wBUAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T22:14:34.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SalesOrderContext.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT2\\HOT2_AdamJohnson\\SalesOrderApp\\Models\\SalesOrderContext.cs",
+              "RelativeDocumentMoniker": "SalesOrderApp\\Models\\SalesOrderContext.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT2\\HOT2_AdamJohnson\\SalesOrderApp\\Models\\SalesOrderContext.cs",
+              "RelativeToolTip": "SalesOrderApp\\Models\\SalesOrderContext.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T21:57:40.075Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

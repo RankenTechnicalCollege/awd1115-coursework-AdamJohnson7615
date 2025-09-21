@@ -1,0 +1,13 @@
+﻿@model SalesOrderApp.Models.Product
+
+<div class="container mt-4 p-4" style="background-color: #ffe5e5; border-radius: 10px;">
+    <h1 style="color: darkred;">Confirm Deletion</h1>
+    <p style="color: red;">Are you sure you want to delete <strong>@Model.ProductName</strong>?</p>
+
+    <form asp-action="DeleteConfirmed" asp-route-id="@Model.ProductID" method="post">
+        <div class="d-flex gap-2 mt-3">
+            <button type="submit" class="btn btn-primary">Delete</button>
+            <a asp-action="List" class="btn btn-primary">Cancel</a>
+        </div>
+    </form>
+</div>

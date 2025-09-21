@@ -1,0 +1,70 @@
+﻿@model SalesOrderApp.Models.Product
+
+@{
+    var isEdit = Model.ProductID != 0;
+    ViewData["Title"] = isEdit ? "Edit Product" : "Add Product";
+}
+
+<div class="container mt-4">
+    <h2>@ViewData["Title"]</h2>
+
+    @if (!ViewData.ModelState.IsValid)
+    {
+        <div class="alert alert-danger">
+            @Html.ValidationSummary()
+        </div>
+    }
+
+    <form asp-action="AddEdit" method="post">
+        @if (isEdit)
+        {
+            <input type="hidden" asp-for="ProductID" />
+        }
+
+        <div class="mb-3">
+            <label asp-for="ProductName">Product Name</label>
+            <input asp-for="ProductName" class="form-control" />
+            <span asp-validation-for="ProductName" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="ProductDescShort">Short Description</label>
+            <input asp-for="ProductDescShort" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="ProductDescLong">Long Description</label>
+            <input asp-for="ProductDescLong" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="ProductImage">Image</label>
+            <input asp-for="ProductImage" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="ProductPrice">Price</label>
+            <input asp-for="ProductPrice" class="form-control" />
+            <span asp-validation-for="ProductPrice" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="ProductQty">Quantity</label>
+            <input asp-for="ProductQty" class="form-control" />
+            <span asp-validation-for="ProductQty" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="CategoryID">Category</label>
+            <select asp-for="CategoryID" class="form-control" asp-items="@(new SelectList(ViewBag.Categories, "CategoryID", "CategoryName"))">
+                <option value="">-- Select Category --</option>
+            </select>
+            <span asp-validation-for="CategoryID" class="text-danger"></span>
+        </div>
+
+        <div class="d-flex gap-2 mt-3">
+            <button type="submit" class="btn btn-primary">Save</button>
+            <a asp-action="List" class="btn btn-primary">Cancel</a>
+        </div>
+    </form>
+</div>
