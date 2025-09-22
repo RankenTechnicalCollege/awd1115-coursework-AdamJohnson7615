@@ -1,0 +1,14 @@
+﻿@model StarLogger.Models.Achievement
+
+<h2>Achievement Details</h2>
+
+<div>
+    <h4>@Model.Name</h4>
+    <p><strong>Game:</strong> @Model.Game.Title</p>
+    <p><strong>Description:</strong> @Model.Description</p>
+    <p><strong>Points:</strong> @Model.Points</p>
+</div>
+
+<a asp-action="Edit" asp-route-id="@Model.AchievementId" class="btn btn-warning">Edit</a>
+<a asp-action="Delete" asp-route-id="@Model.AchievementId" class="btn btn-danger">Delete</a>
+<a asp-action="Index" class="btn btn-secondary">Back to List</a>

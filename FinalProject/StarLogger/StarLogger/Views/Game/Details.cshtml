@@ -1,0 +1,28 @@
+﻿@model StarLogger.Models.Game
+
+<h2>@Model.Title</h2>
+
+<p><strong>Platform:</strong> @Model.Platform</p>
+<p><strong>Release Date:</strong> @Model.ReleaseDate.ToShortDateString()</p>
+<p><strong>Genre:</strong> @Model.Genre</p>
+
+<h4>Achievements:</h4>
+@if (Model.Achievements != null && Model.Achievements.Count > 0)
+{
+    <ul>
+        @foreach (var ach in Model.Achievements)
+        {
+            <li>@ach.Name - @ach.Points pts</li>
+        }
+    </ul>
+}
+else
+{
+    <p>No achievements yet.</p>
+}
+
+<p>
+    <a class="btn btn-warning" href="@Url.Action("Edit", new { id = Model.GameId })">Edit</a>
+    <a class="btn btn-danger" href="@Url.Action("Delete", new { id = Model.GameId })">Delete</a>
+    <a class="btn btn-secondary" href="@Url.Action("Index")">Back</a>
+</p>
