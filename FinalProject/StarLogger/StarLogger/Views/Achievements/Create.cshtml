@@ -4,9 +4,11 @@
     ViewData["Title"] = "Create Achievement";
 }
 
-<h2>Create Achievement</h2>
+<h2>@ViewData["Title"]</h2>
 
 <form asp-action="Create" method="post">
+    @Html.AntiForgeryToken()
+
     <div class="mb-3">
         <label asp-for="Name" class="form-label"></label>
         <input asp-for="Name" class="form-control" />
@@ -21,17 +23,19 @@
 
     <div class="mb-3">
         <label asp-for="Points" class="form-label"></label>
-        <input asp-for="Points" class="form-control" />
+        <input asp-for="Points" type="number" class="form-control" min="0" max="1000" />
         <span asp-validation-for="Points" class="text-danger"></span>
     </div>
 
     <div class="mb-3">
         <label asp-for="GameId" class="form-label">Game</label>
-        <select asp-for="GameId" class="form-select" asp-items="ViewBag.GameId"></select>
+        <select asp-for="GameId" class="form-select" asp-items="@((SelectList)ViewData["GameId"])">
+            <option value="">-- Select a Game --</option>
+        </select>
         <span asp-validation-for="GameId" class="text-danger"></span>
     </div>
 
-    <button type="submit" class="btn btn-primary">Create</button>
+    <button type="submit" class="btn btn-success">Create</button>
     <a asp-action="Index" class="btn btn-secondary">Cancel</a>
 </form>
 

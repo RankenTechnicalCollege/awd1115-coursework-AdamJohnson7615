@@ -1,28 +1,40 @@
 ﻿@model StarLogger.Models.Game
 
-<h2>@ViewData["Title"] = "Add New Game"</h2>
+@{
+    ViewData["Title"] = "Add New Game";
+}
 
-<form asp-action="@ViewData["Action"]" method="post">
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="Create" method="post">
     <div class="mb-3">
         <label asp-for="Title" class="form-label"></label>
         <input asp-for="Title" class="form-control" />
         <span asp-validation-for="Title" class="text-danger"></span>
     </div>
+
     <div class="mb-3">
         <label asp-for="Platform" class="form-label"></label>
         <input asp-for="Platform" class="form-control" />
         <span asp-validation-for="Platform" class="text-danger"></span>
     </div>
+
     <div class="mb-3">
         <label asp-for="ReleaseDate" class="form-label"></label>
         <input asp-for="ReleaseDate" class="form-control" type="date" />
         <span asp-validation-for="ReleaseDate" class="text-danger"></span>
     </div>
+
     <div class="mb-3">
         <label asp-for="Genre" class="form-label"></label>
         <input asp-for="Genre" class="form-control" />
         <span asp-validation-for="Genre" class="text-danger"></span>
     </div>
+
     <button type="submit" class="btn btn-success">Save</button>
     <a asp-action="Index" class="btn btn-secondary">Cancel</a>
 </form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

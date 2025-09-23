@@ -4,7 +4,22 @@
 
 <p>Are you sure you want to delete "<strong>@Model.Title</strong>"?</p>
 
-<form asp-action="DeleteConfirmed" method="post">
+@if (Model.Achievements != null && Model.Achievements.Count > 0)
+{
+    <h4>Achievements that will also be deleted:</h4>
+    <ul>
+        @foreach (var ach in Model.Achievements)
+        {
+            <li>@ach.Name (@ach.Points pts)</li>
+        }
+    </ul>
+}
+else
+{
+    <p>No achievements associated with this game.</p>
+}
+
+<form asp-action="Delete" method="post">
     <input type="hidden" asp-for="GameId" />
     <button type="submit" class="btn btn-danger">Delete</button>
     <a asp-action="Index" class="btn btn-secondary">Cancel</a>

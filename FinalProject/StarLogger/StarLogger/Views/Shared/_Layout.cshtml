@@ -6,8 +6,14 @@
     <title>@ViewData["Title"] - Starlogger</title>
     <meta name="description" content="Starlogger: Track and share your gaming adventures." />
     <meta name="keywords" content="gaming, game tracker, video games, backlog, achievements, gamer community, game profiles, Starlogger">
+
+    <!-- Bootstrap 5.3.8 CSS -->
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+
+    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
 <body class="bg-dark text-white" style="font-family: 'Pixelify Sans', sans-serif;">
@@ -45,7 +51,17 @@
         &copy; @DateTime.Now.Year - Starlogger
     </footer>
 
+    <!-- jQuery first, required for validation -->
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+
+    <!-- jQuery Validation -->
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+
+    <!-- Bootstrap JS Bundle 5.3.8 -->
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Page-specific scripts -->
     @RenderSection("Scripts", required: false)
 </body>
 </html>

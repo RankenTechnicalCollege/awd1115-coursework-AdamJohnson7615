@@ -98,7 +98,10 @@ namespace StarLogger.Controllers
         {
             if (id == null) return NotFound();
 
-            var game = await _context.Games.FindAsync(id);
+            var game = await _context.Games
+                .Include(g => g.Achievements) // Include related Achievements
+                .FirstOrDefaultAsync(g => g.GameId == id);
+
             if (game == null) return NotFound();
 
             return View(game);
@@ -112,11 +115,12 @@ namespace StarLogger.Controllers
             var game = await _context.Games.FindAsync(id);
             if (game != null)
             {
-                _context.Games.Remove(game);
+                _context.Games.Remove(game); // Will cascade delete Achievements if configured
                 await _context.SaveChangesAsync();
             }
             return RedirectToAction(nameof(Index));
         }
+
 
         private bool GameExists(int id) => _context.Games.Any(e => e.GameId == id);
     }

@@ -27,6 +27,7 @@
                 <td>@achievement.Game?.Title</td>
                 <td>@achievement.Points</td>
                 <td>
+                    <a class="btn btn-sm btn-info" asp-action="Details" asp-route-id="@achievement.AchievementId">Details</a>
                     <a class="btn btn-sm btn-warning" asp-action="Edit" asp-route-id="@achievement.AchievementId">Edit</a>
                     <a class="btn btn-sm btn-danger" asp-action="Delete" asp-route-id="@achievement.AchievementId">Delete</a>
                 </td>

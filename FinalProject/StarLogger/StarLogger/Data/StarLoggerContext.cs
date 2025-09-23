@@ -18,7 +18,14 @@ namespace StarLogger.Data
         {
             base.OnModelCreating(modelBuilder);
 
-            // Seed initial game
+            // Configure cascade delete for Achievements when a Game is deleted
+            modelBuilder.Entity<Achievement>()
+                .HasOne(a => a.Game)
+                .WithMany(g => g.Achievements)
+                .HasForeignKey(a => a.GameId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            // Seed initial games
             modelBuilder.Entity<Game>().HasData(
                 new Game
                 {

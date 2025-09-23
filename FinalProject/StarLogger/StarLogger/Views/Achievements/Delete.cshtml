@@ -6,10 +6,10 @@
 
 <div>
     <h4>@Model.Name</h4>
-    <p><strong>Game:</strong> @Model.Game.Title</p>
+    <p><strong>Game:</strong> @Model.Game?.Title</p>
 </div>
 
-<form asp-action="DeleteConfirmed" method="post">
+<form asp-action="Delete" method="post">
     <input type="hidden" asp-for="AchievementId" />
     <button type="submit" class="btn btn-danger">Delete</button>
     <a asp-action="Index" class="btn btn-secondary">Cancel</a>
