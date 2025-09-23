@@ -1,0 +1,72 @@
+﻿@model List<Project1_FAQs.Models.Faq>
+@{
+    ViewData["Title"] = "FAQs";
+    var topics = ViewBag.Topics as List<Project1_FAQs.Models.Topic>;
+    var selectedTopic = ViewBag.SelectedTopic as string;
+    var selectedCategory = ViewBag.SelectedCategory as string;
+}
+
+<div class="container mt-4">
+    <div class="row">
+        <!-- Sidebar for Categories -->
+        <div class="col-md-3">
+            <h5>Categories</h5>
+            <div class="list-group">
+                <a href="@Url.Action("Index", "Faqs", new { topicId = selectedTopic, categoryId = (string?)null })"
+                   class="list-group-item list-group-item-action @(string.IsNullOrEmpty(selectedCategory) ? "active" : "")">
+                    All Categories
+                </a>
+                <a href="@Url.Action("Index", "Faqs", new { categoryId = "general", topicId = selectedTopic })"
+                   class="list-group-item list-group-item-action @(selectedCategory == "general" ? "active" : "")">
+                    General
+                </a>
+                <a href="@Url.Action("Index", "Faqs", new { categoryId = "history", topicId = selectedTopic })"
+                   class="list-group-item list-group-item-action @(selectedCategory == "history" ? "active" : "")">
+                    History
+                </a>
+            </div>
+        </div>
+
+        <!-- Main content -->
+        <div class="col-md-9">
+            <!-- Navbar for Topics -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light mb-3">
+                <div class="container-fluid">
+                    <a class="navbar-brand"
+                       href="@Url.Action("Index", "Faqs", new { topicId = (string?)null, categoryId = (string?)null })">
+                        All FAQs
+                    </a>
+                    <div class="collapse navbar-collapse">
+                        <ul class="navbar-nav me-auto">
+                            @foreach (var topic in topics)
+                            {
+                                var active = selectedTopic == topic.Id ? "active" : "";
+                                <li class="nav-item">
+                                    <a class="nav-link @active"
+                                       href="@Url.Action("Index", "Faqs", new { topicId = topic.Id, categoryId = selectedCategory })">
+                                        @topic.Name
+                                    </a>
+                                </li>
+                            }
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- FAQ List -->
+            <div class="row">
+                @foreach (var faq in Model)
+                {
+                    <div class="col-12 mb-3 p-3 border rounded">
+                        <p>
+                            <strong>@faq.Question</strong> @faq.Answer
+                        </p>
+                        <small class="text-muted">
+                            Topic: @faq.Topic.Name &nbsp;|&nbsp; Category: @faq.Category.Name
+                        </small>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>

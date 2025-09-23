@@ -1,0 +1,171 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH06\\CH6_StudentProjects\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DFAF365C-5F9A-FA39-C7D1-B5A6E8C328F6}|Project2_FAQs\\Project2_FAQs.csproj|d:\\awd1115-coursework-adamjohnson7615\\labs\\ch06\\ch6_studentprojects\\project2_faqs\\controllers\\faqscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFAF365C-5F9A-FA39-C7D1-B5A6E8C328F6}|Project2_FAQs\\Project2_FAQs.csproj|solutionrelative:project2_faqs\\controllers\\faqscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFAF365C-5F9A-FA39-C7D1-B5A6E8C328F6}|Project2_FAQs\\Project2_FAQs.csproj|d:\\awd1115-coursework-adamjohnson7615\\labs\\ch06\\ch6_studentprojects\\project2_faqs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFAF365C-5F9A-FA39-C7D1-B5A6E8C328F6}|Project2_FAQs\\Project2_FAQs.csproj|solutionrelative:project2_faqs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFAF365C-5F9A-FA39-C7D1-B5A6E8C328F6}|Project2_FAQs\\Project2_FAQs.csproj|d:\\awd1115-coursework-adamjohnson7615\\labs\\ch06\\ch6_studentprojects\\project2_faqs\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DFAF365C-5F9A-FA39-C7D1-B5A6E8C328F6}|Project2_FAQs\\Project2_FAQs.csproj|solutionrelative:project2_faqs\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH06\\CH6_StudentProjects\\Project2_FAQs\\Migrations\\20250923004924_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Project2_FAQs\\Migrations\\20250923004924_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH06\\CH6_StudentProjects\\Project2_FAQs\\Migrations\\20250923004708_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Project2_FAQs\\Migrations\\20250923004708_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFAF365C-5F9A-FA39-C7D1-B5A6E8C328F6}|Project2_FAQs\\Project2_FAQs.csproj|d:\\awd1115-coursework-adamjohnson7615\\labs\\ch06\\ch6_studentprojects\\project2_faqs\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFAF365C-5F9A-FA39-C7D1-B5A6E8C328F6}|Project2_FAQs\\Project2_FAQs.csproj|solutionrelative:project2_faqs\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFAF365C-5F9A-FA39-C7D1-B5A6E8C328F6}|Project2_FAQs\\Project2_FAQs.csproj|d:\\awd1115-coursework-adamjohnson7615\\labs\\ch06\\ch6_studentprojects\\project2_faqs\\models\\faqcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFAF365C-5F9A-FA39-C7D1-B5A6E8C328F6}|Project2_FAQs\\Project2_FAQs.csproj|solutionrelative:project2_faqs\\models\\faqcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFAF365C-5F9A-FA39-C7D1-B5A6E8C328F6}|Project2_FAQs\\Project2_FAQs.csproj|d:\\awd1115-coursework-adamjohnson7615\\labs\\ch06\\ch6_studentprojects\\project2_faqs\\models\\faq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFAF365C-5F9A-FA39-C7D1-B5A6E8C328F6}|Project2_FAQs\\Project2_FAQs.csproj|solutionrelative:project2_faqs\\models\\faq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH06\\CH6_StudentProjects\\Project1_FAQs\\Migrations\\20250922193849_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Project1_FAQs\\Migrations\\20250922193849_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FaqsController.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH06\\CH6_StudentProjects\\Project2_FAQs\\Controllers\\FaqsController.cs",
+              "RelativeDocumentMoniker": "Project2_FAQs\\Controllers\\FaqsController.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH06\\CH6_StudentProjects\\Project2_FAQs\\Controllers\\FaqsController.cs",
+              "RelativeToolTip": "Project2_FAQs\\Controllers\\FaqsController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T00:42:07.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH06\\CH6_StudentProjects\\Project2_FAQs\\Program.cs",
+              "RelativeDocumentMoniker": "Project2_FAQs\\Program.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH06\\CH6_StudentProjects\\Project2_FAQs\\Program.cs",
+              "RelativeToolTip": "Project2_FAQs\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T00:48:11.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH06\\CH6_StudentProjects\\Project2_FAQs\\appsettings.json",
+              "RelativeDocumentMoniker": "Project2_FAQs\\appsettings.json",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH06\\CH6_StudentProjects\\Project2_FAQs\\appsettings.json",
+              "RelativeToolTip": "Project2_FAQs\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-23T00:34:02.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20250923004924_InitialCreate.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH06\\CH6_StudentProjects\\Project2_FAQs\\Migrations\\20250923004924_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Project2_FAQs\\Migrations\\20250923004924_InitialCreate.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH06\\CH6_StudentProjects\\Project2_FAQs\\Migrations\\20250923004924_InitialCreate.cs",
+              "RelativeToolTip": "Project2_FAQs\\Migrations\\20250923004924_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T00:49:24.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20250923004708_InitialCreate.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH06\\CH6_StudentProjects\\Project2_FAQs\\Migrations\\20250923004708_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Project2_FAQs\\Migrations\\20250923004708_InitialCreate.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH06\\CH6_StudentProjects\\Project2_FAQs\\Migrations\\20250923004708_InitialCreate.cs",
+              "RelativeToolTip": "Project2_FAQs\\Migrations\\20250923004708_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T00:47:08.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH06\\CH6_StudentProjects\\Project2_FAQs\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Project2_FAQs\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH06\\CH6_StudentProjects\\Project2_FAQs\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Project2_FAQs\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T00:37:58.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FaqContext.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH06\\CH6_StudentProjects\\Project2_FAQs\\Models\\FaqContext.cs",
+              "RelativeDocumentMoniker": "Project2_FAQs\\Models\\FaqContext.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH06\\CH6_StudentProjects\\Project2_FAQs\\Models\\FaqContext.cs",
+              "RelativeToolTip": "Project2_FAQs\\Models\\FaqContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T00:37:41.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Faq.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH06\\CH6_StudentProjects\\Project2_FAQs\\Models\\Faq.cs",
+              "RelativeDocumentMoniker": "Project2_FAQs\\Models\\Faq.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH06\\CH6_StudentProjects\\Project2_FAQs\\Models\\Faq.cs",
+              "RelativeToolTip": "Project2_FAQs\\Models\\Faq.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T00:37:57.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20250922193849_Initial.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH06\\CH6_StudentProjects\\Project1_FAQs\\Migrations\\20250922193849_Initial.cs",
+              "RelativeDocumentMoniker": "Project1_FAQs\\Migrations\\20250922193849_Initial.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH06\\CH6_StudentProjects\\Project1_FAQs\\Migrations\\20250922193849_Initial.cs",
+              "RelativeToolTip": "Project1_FAQs\\Migrations\\20250922193849_Initial.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T19:38:50.353Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
