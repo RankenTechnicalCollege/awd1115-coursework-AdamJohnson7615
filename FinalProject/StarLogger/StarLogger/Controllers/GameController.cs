@@ -2,6 +2,8 @@
 using Microsoft.EntityFrameworkCore;
 using StarLogger.Data;
 using StarLogger.Models;
+using StarLogger.Helpers;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace StarLogger.Controllers
@@ -15,15 +17,16 @@ namespace StarLogger.Controllers
             _context = context;
         }
 
-        // GET: Game
+        // GET: /games/
         public async Task<IActionResult> Index()
         {
             var games = await _context.Games.ToListAsync();
+            ViewData["Title"] = "Games";
             return View(games);
         }
 
-        // GET: Game/Details/5
-        public async Task<IActionResult> Details(int? id)
+        // GET: /games/{id}/{slug}/
+        public async Task<IActionResult> Details(int? id, string slug)
         {
             if (id == null) return NotFound();
 
@@ -33,16 +36,25 @@ namespace StarLogger.Controllers
 
             if (game == null) return NotFound();
 
+            // Set page title
+            ViewData["Title"] = game.Title;
+
+            // Redirect if slug doesn't match
+            var generatedSlug = SlugHelper.ToSlug(game.Title);
+            if (slug != generatedSlug)
+                return RedirectToAction("Details", new { id, slug = generatedSlug });
+
             return View(game);
         }
 
-        // GET: Game/Create
+        // GET: /games/create/
         public IActionResult Create()
         {
+            ViewData["Title"] = "Create Game";
             return View();
         }
 
-        // POST: Game/Create
+        // POST: /games/create/
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(Game game)
@@ -53,21 +65,23 @@ namespace StarLogger.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["Title"] = "Create Game";
             return View(game);
         }
 
-        // GET: Game/Edit/5
-        public async Task<IActionResult> Edit(int? id)
+        // GET: /games/edit/{id}/{slug}/
+        public async Task<IActionResult> Edit(int? id, string slug)
         {
             if (id == null) return NotFound();
 
             var game = await _context.Games.FindAsync(id);
             if (game == null) return NotFound();
 
+            ViewData["Title"] = $"Edit {game.Title}";
             return View(game);
         }
 
-        // POST: Game/Edit/5
+        // POST: /games/edit/{id}/{slug}/
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, Game game)
@@ -90,24 +104,26 @@ namespace StarLogger.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["Title"] = $"Edit {game.Title}";
             return View(game);
         }
 
-        // GET: Game/Delete/5
-        public async Task<IActionResult> Delete(int? id)
+        // GET: /games/delete/{id}/{slug}/
+        public async Task<IActionResult> Delete(int? id, string slug)
         {
             if (id == null) return NotFound();
 
             var game = await _context.Games
-                .Include(g => g.Achievements) // Include related Achievements
+                .Include(g => g.Achievements)
                 .FirstOrDefaultAsync(g => g.GameId == id);
 
             if (game == null) return NotFound();
 
+            ViewData["Title"] = $"Delete {game.Title}";
             return View(game);
         }
 
-        // POST: Game/Delete/5
+        // POST: /games/delete/{id}/{slug}/
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
@@ -115,12 +131,11 @@ namespace StarLogger.Controllers
             var game = await _context.Games.FindAsync(id);
             if (game != null)
             {
-                _context.Games.Remove(game); // Will cascade delete Achievements if configured
+                _context.Games.Remove(game);
                 await _context.SaveChangesAsync();
             }
             return RedirectToAction(nameof(Index));
         }
-
 
         private bool GameExists(int id) => _context.Games.Any(e => e.GameId == id);
     }

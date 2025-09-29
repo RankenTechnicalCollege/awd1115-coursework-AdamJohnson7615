@@ -1,4 +1,5 @@
 ﻿@model StarLogger.Models.Game
+@using StarLogger.Helpers
 
 <h2>@Model.Title</h2>
 
@@ -12,7 +13,15 @@
     <ul>
         @foreach (var ach in Model.Achievements)
         {
-            <li>@ach.Name - @ach.Points pts</li>
+            var achSlug = SlugHelper.ToSlug(ach.Name);
+            <li>
+                <a asp-controller="Achievements"
+                   asp-action="Details"
+                   asp-route-id="@ach.AchievementId"
+                   asp-route-slug="@achSlug">
+                    @ach.Name
+                </a> - @ach.Points pts
+            </li>
         }
     </ul>
 }
@@ -21,8 +30,12 @@ else
     <p>No achievements yet.</p>
 }
 
+@{
+    var slug = SlugHelper.ToSlug(Model.Title);
+}
+
 <p>
-    <a class="btn btn-warning" href="@Url.Action("Edit", new { id = Model.GameId })">Edit</a>
-    <a class="btn btn-danger" href="@Url.Action("Delete", new { id = Model.GameId })">Delete</a>
-    <a class="btn btn-secondary" href="@Url.Action("Index")">Back</a>
+    <a asp-action="Edit" asp-route-id="@Model.GameId" asp-route-slug="@slug" class="btn btn-warning">Edit</a>
+    <a asp-action="Delete" asp-route-id="@Model.GameId" asp-route-slug="@slug" class="btn btn-danger">Delete</a>
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
 </p>
