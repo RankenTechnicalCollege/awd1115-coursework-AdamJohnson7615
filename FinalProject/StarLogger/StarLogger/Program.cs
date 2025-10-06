@@ -88,6 +88,14 @@ app.MapControllerRoute(
     defaults: new { controller = "Game", action = "Delete" });
 
 // ==============================
+// Manage Area Routes
+// ==============================
+app.MapControllerRoute(
+    name: "manage",
+    pattern: "manage/{controller=Game}/{action=Index}/{id?}",
+    defaults: new { area = "Manage" });
+
+// ==============================
 // Default Fallback
 // ==============================
 app.MapControllerRoute(
