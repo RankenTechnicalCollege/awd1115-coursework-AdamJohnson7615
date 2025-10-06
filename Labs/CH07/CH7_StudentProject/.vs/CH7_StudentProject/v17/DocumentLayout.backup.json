@@ -1,0 +1,309 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH07\\CH7_StudentProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DD2FA75D-E91D-4B23-94B7-DA06A539DFE5}|Project1_MyWebsite\\Project1_MyWebsite.csproj|d:\\awd1115-coursework-adamjohnson7615\\labs\\ch07\\ch7_studentproject\\project1_mywebsite\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD2FA75D-E91D-4B23-94B7-DA06A539DFE5}|Project1_MyWebsite\\Project1_MyWebsite.csproj|solutionrelative:project1_mywebsite\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD2FA75D-E91D-4B23-94B7-DA06A539DFE5}|Project1_MyWebsite\\Project1_MyWebsite.csproj|d:\\awd1115-coursework-adamjohnson7615\\labs\\ch07\\ch7_studentproject\\project1_mywebsite\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD2FA75D-E91D-4B23-94B7-DA06A539DFE5}|Project1_MyWebsite\\Project1_MyWebsite.csproj|solutionrelative:project1_mywebsite\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD2FA75D-E91D-4B23-94B7-DA06A539DFE5}|Project1_MyWebsite\\Project1_MyWebsite.csproj|d:\\awd1115-coursework-adamjohnson7615\\labs\\ch07\\ch7_studentproject\\project1_mywebsite\\areas\\help\\views\\tutorial\\page3.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD2FA75D-E91D-4B23-94B7-DA06A539DFE5}|Project1_MyWebsite\\Project1_MyWebsite.csproj|solutionrelative:project1_mywebsite\\areas\\help\\views\\tutorial\\page3.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD2FA75D-E91D-4B23-94B7-DA06A539DFE5}|Project1_MyWebsite\\Project1_MyWebsite.csproj|d:\\awd1115-coursework-adamjohnson7615\\labs\\ch07\\ch7_studentproject\\project1_mywebsite\\areas\\help\\views\\tutorial\\page2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD2FA75D-E91D-4B23-94B7-DA06A539DFE5}|Project1_MyWebsite\\Project1_MyWebsite.csproj|solutionrelative:project1_mywebsite\\areas\\help\\views\\tutorial\\page2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD2FA75D-E91D-4B23-94B7-DA06A539DFE5}|Project1_MyWebsite\\Project1_MyWebsite.csproj|d:\\awd1115-coursework-adamjohnson7615\\labs\\ch07\\ch7_studentproject\\project1_mywebsite\\areas\\help\\views\\tutorial\\page1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD2FA75D-E91D-4B23-94B7-DA06A539DFE5}|Project1_MyWebsite\\Project1_MyWebsite.csproj|solutionrelative:project1_mywebsite\\areas\\help\\views\\tutorial\\page1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD2FA75D-E91D-4B23-94B7-DA06A539DFE5}|Project1_MyWebsite\\Project1_MyWebsite.csproj|d:\\awd1115-coursework-adamjohnson7615\\labs\\ch07\\ch7_studentproject\\project1_mywebsite\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD2FA75D-E91D-4B23-94B7-DA06A539DFE5}|Project1_MyWebsite\\Project1_MyWebsite.csproj|solutionrelative:project1_mywebsite\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD2FA75D-E91D-4B23-94B7-DA06A539DFE5}|Project1_MyWebsite\\Project1_MyWebsite.csproj|d:\\awd1115-coursework-adamjohnson7615\\labs\\ch07\\ch7_studentproject\\project1_mywebsite\\areas\\help\\controllers\\tutorialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD2FA75D-E91D-4B23-94B7-DA06A539DFE5}|Project1_MyWebsite\\Project1_MyWebsite.csproj|solutionrelative:project1_mywebsite\\areas\\help\\controllers\\tutorialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD2FA75D-E91D-4B23-94B7-DA06A539DFE5}|Project1_MyWebsite\\Project1_MyWebsite.csproj|d:\\awd1115-coursework-adamjohnson7615\\labs\\ch07\\ch7_studentproject\\project1_mywebsite\\areas\\help\\views\\shared\\_helplayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD2FA75D-E91D-4B23-94B7-DA06A539DFE5}|Project1_MyWebsite\\Project1_MyWebsite.csproj|solutionrelative:project1_mywebsite\\areas\\help\\views\\shared\\_helplayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD2FA75D-E91D-4B23-94B7-DA06A539DFE5}|Project1_MyWebsite\\Project1_MyWebsite.csproj|d:\\awd1115-coursework-adamjohnson7615\\labs\\ch07\\ch7_studentproject\\project1_mywebsite\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD2FA75D-E91D-4B23-94B7-DA06A539DFE5}|Project1_MyWebsite\\Project1_MyWebsite.csproj|solutionrelative:project1_mywebsite\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD2FA75D-E91D-4B23-94B7-DA06A539DFE5}|Project1_MyWebsite\\Project1_MyWebsite.csproj|d:\\awd1115-coursework-adamjohnson7615\\labs\\ch07\\ch7_studentproject\\project1_mywebsite\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD2FA75D-E91D-4B23-94B7-DA06A539DFE5}|Project1_MyWebsite\\Project1_MyWebsite.csproj|solutionrelative:project1_mywebsite\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD2FA75D-E91D-4B23-94B7-DA06A539DFE5}|Project1_MyWebsite\\Project1_MyWebsite.csproj|d:\\awd1115-coursework-adamjohnson7615\\labs\\ch07\\ch7_studentproject\\project1_mywebsite\\areas\\help\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD2FA75D-E91D-4B23-94B7-DA06A539DFE5}|Project1_MyWebsite\\Project1_MyWebsite.csproj|solutionrelative:project1_mywebsite\\areas\\help\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD2FA75D-E91D-4B23-94B7-DA06A539DFE5}|Project1_MyWebsite\\Project1_MyWebsite.csproj|d:\\awd1115-coursework-adamjohnson7615\\labs\\ch07\\ch7_studentproject\\project1_mywebsite\\areas\\help\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD2FA75D-E91D-4B23-94B7-DA06A539DFE5}|Project1_MyWebsite\\Project1_MyWebsite.csproj|solutionrelative:project1_mywebsite\\areas\\help\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD2FA75D-E91D-4B23-94B7-DA06A539DFE5}|Project1_MyWebsite\\Project1_MyWebsite.csproj|d:\\awd1115-coursework-adamjohnson7615\\labs\\ch07\\ch7_studentproject\\project1_mywebsite\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD2FA75D-E91D-4B23-94B7-DA06A539DFE5}|Project1_MyWebsite\\Project1_MyWebsite.csproj|solutionrelative:project1_mywebsite\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD2FA75D-E91D-4B23-94B7-DA06A539DFE5}|Project1_MyWebsite\\Project1_MyWebsite.csproj|d:\\awd1115-coursework-adamjohnson7615\\labs\\ch07\\ch7_studentproject\\project1_mywebsite\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD2FA75D-E91D-4B23-94B7-DA06A539DFE5}|Project1_MyWebsite\\Project1_MyWebsite.csproj|solutionrelative:project1_mywebsite\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD2FA75D-E91D-4B23-94B7-DA06A539DFE5}|Project1_MyWebsite\\Project1_MyWebsite.csproj|d:\\awd1115-coursework-adamjohnson7615\\labs\\ch07\\ch7_studentproject\\project1_mywebsite\\areas\\help\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD2FA75D-E91D-4B23-94B7-DA06A539DFE5}|Project1_MyWebsite\\Project1_MyWebsite.csproj|solutionrelative:project1_mywebsite\\areas\\help\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD2FA75D-E91D-4B23-94B7-DA06A539DFE5}|Project1_MyWebsite\\Project1_MyWebsite.csproj|d:\\awd1115-coursework-adamjohnson7615\\labs\\ch07\\ch7_studentproject\\project1_mywebsite\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD2FA75D-E91D-4B23-94B7-DA06A539DFE5}|Project1_MyWebsite\\Project1_MyWebsite.csproj|solutionrelative:project1_mywebsite\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD2FA75D-E91D-4B23-94B7-DA06A539DFE5}|Project1_MyWebsite\\Project1_MyWebsite.csproj|d:\\awd1115-coursework-adamjohnson7615\\labs\\ch07\\ch7_studentproject\\project1_mywebsite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD2FA75D-E91D-4B23-94B7-DA06A539DFE5}|Project1_MyWebsite\\Project1_MyWebsite.csproj|solutionrelative:project1_mywebsite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH07\\CH7_StudentProject\\Project1_MyWebsite\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Project1_MyWebsite\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH07\\CH7_StudentProject\\Project1_MyWebsite\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Project1_MyWebsite\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABoAAAAAAAAAAAAmwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-06T00:11:29.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH07\\CH7_StudentProject\\Project1_MyWebsite\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Project1_MyWebsite\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH07\\CH7_StudentProject\\Project1_MyWebsite\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Project1_MyWebsite\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-05T23:40:09.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Page3.cshtml",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH07\\CH7_StudentProject\\Project1_MyWebsite\\Areas\\Help\\Views\\Tutorial\\Page3.cshtml",
+              "RelativeDocumentMoniker": "Project1_MyWebsite\\Areas\\Help\\Views\\Tutorial\\Page3.cshtml",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH07\\CH7_StudentProject\\Project1_MyWebsite\\Areas\\Help\\Views\\Tutorial\\Page3.cshtml",
+              "RelativeToolTip": "Project1_MyWebsite\\Areas\\Help\\Views\\Tutorial\\Page3.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-05T23:37:51.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Page2.cshtml",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH07\\CH7_StudentProject\\Project1_MyWebsite\\Areas\\Help\\Views\\Tutorial\\Page2.cshtml",
+              "RelativeDocumentMoniker": "Project1_MyWebsite\\Areas\\Help\\Views\\Tutorial\\Page2.cshtml",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH07\\CH7_StudentProject\\Project1_MyWebsite\\Areas\\Help\\Views\\Tutorial\\Page2.cshtml",
+              "RelativeToolTip": "Project1_MyWebsite\\Areas\\Help\\Views\\Tutorial\\Page2.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-05T23:37:44.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH07\\CH7_StudentProject\\Project1_MyWebsite\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "Project1_MyWebsite\\Views\\Home\\About.cshtml",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH07\\CH7_StudentProject\\Project1_MyWebsite\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "Project1_MyWebsite\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-05T23:37:05.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH07\\CH7_StudentProject\\Project1_MyWebsite\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Project1_MyWebsite\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH07\\CH7_StudentProject\\Project1_MyWebsite\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Project1_MyWebsite\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-05T23:36:54.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_HelpLayout.cshtml",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH07\\CH7_StudentProject\\Project1_MyWebsite\\Areas\\Help\\Views\\Shared\\_HelpLayout.cshtml",
+              "RelativeDocumentMoniker": "Project1_MyWebsite\\Areas\\Help\\Views\\Shared\\_HelpLayout.cshtml",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH07\\CH7_StudentProject\\Project1_MyWebsite\\Areas\\Help\\Views\\Shared\\_HelpLayout.cshtml",
+              "RelativeToolTip": "Project1_MyWebsite\\Areas\\Help\\Views\\Shared\\_HelpLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-05T23:22:13.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Page1.cshtml",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH07\\CH7_StudentProject\\Project1_MyWebsite\\Areas\\Help\\Views\\Tutorial\\Page1.cshtml",
+              "RelativeDocumentMoniker": "Project1_MyWebsite\\Areas\\Help\\Views\\Tutorial\\Page1.cshtml",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH07\\CH7_StudentProject\\Project1_MyWebsite\\Areas\\Help\\Views\\Tutorial\\Page1.cshtml",
+              "RelativeToolTip": "Project1_MyWebsite\\Areas\\Help\\Views\\Tutorial\\Page1.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-05T23:18:19.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TutorialController.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH07\\CH7_StudentProject\\Project1_MyWebsite\\Areas\\Help\\Controllers\\TutorialController.cs",
+              "RelativeDocumentMoniker": "Project1_MyWebsite\\Areas\\Help\\Controllers\\TutorialController.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH07\\CH7_StudentProject\\Project1_MyWebsite\\Areas\\Help\\Controllers\\TutorialController.cs",
+              "RelativeToolTip": "Project1_MyWebsite\\Areas\\Help\\Controllers\\TutorialController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T23:11:55.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH07\\CH7_StudentProject\\Project1_MyWebsite\\Areas\\Help\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Project1_MyWebsite\\Areas\\Help\\_ViewImports.cshtml",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH07\\CH7_StudentProject\\Project1_MyWebsite\\Areas\\Help\\_ViewImports.cshtml",
+              "RelativeToolTip": "Project1_MyWebsite\\Areas\\Help\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-05T23:23:03.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH07\\CH7_StudentProject\\Project1_MyWebsite\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Project1_MyWebsite\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH07\\CH7_StudentProject\\Project1_MyWebsite\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Project1_MyWebsite\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-05T23:35:45.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH07\\CH7_StudentProject\\Project1_MyWebsite\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Project1_MyWebsite\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH07\\CH7_StudentProject\\Project1_MyWebsite\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Project1_MyWebsite\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-05T23:35:34.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH07\\CH7_StudentProject\\Project1_MyWebsite\\Areas\\Help\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Project1_MyWebsite\\Areas\\Help\\_ViewStart.cshtml",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH07\\CH7_StudentProject\\Project1_MyWebsite\\Areas\\Help\\_ViewStart.cshtml",
+              "RelativeToolTip": "Project1_MyWebsite\\Areas\\Help\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-05T23:22:49.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH07\\CH7_StudentProject\\Project1_MyWebsite\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "Project1_MyWebsite\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH07\\CH7_StudentProject\\Project1_MyWebsite\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "Project1_MyWebsite\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-05T23:14:03.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH07\\CH7_StudentProject\\Project1_MyWebsite\\Areas\\Help\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Project1_MyWebsite\\Areas\\Help\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH07\\CH7_StudentProject\\Project1_MyWebsite\\Areas\\Help\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Project1_MyWebsite\\Areas\\Help\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T23:32:02.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH07\\CH7_StudentProject\\Project1_MyWebsite\\Program.cs",
+              "RelativeDocumentMoniker": "Project1_MyWebsite\\Program.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH07\\CH7_StudentProject\\Project1_MyWebsite\\Program.cs",
+              "RelativeToolTip": "Project1_MyWebsite\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T23:29:13.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH07\\CH7_StudentProject\\Project1_MyWebsite\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Project1_MyWebsite\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH07\\CH7_StudentProject\\Project1_MyWebsite\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Project1_MyWebsite\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T23:14:27.246Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
