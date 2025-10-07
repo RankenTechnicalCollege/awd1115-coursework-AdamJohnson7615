@@ -1,0 +1,67 @@
+﻿@model IEnumerable<Project1_TripsLog.Models.Trip>
+
+@{
+    ViewBag.Title = "Home";
+}
+
+@if (ViewBag.Message != null)
+{
+    <div class="alert alert-success">@ViewBag.Message</div>
+}
+
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <h2>All Trips</h2>
+    <a asp-controller="Trip" asp-action="AddDestination" class="btn btn-primary">Add Trip</a>
+</div>
+
+@if (!Model.Any())
+{
+    <p>No trips have been added yet.</p>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Destination</th>
+                <th>Start Date</th>
+                <th>End Date</th>
+                <th>Accommodation</th>
+                <th>Activities</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var trip in Model)
+            {
+                <tr>
+                    <td>@trip.Destination</td>
+                    <td>@trip.StartDate.ToShortDateString()</td>
+                    <td>@trip.EndDate.ToShortDateString()</td>
+                    <td>
+                        @trip.AccommodationName
+                        @if (!string.IsNullOrWhiteSpace(trip.AccommodationPhone) ||
+                                        !string.IsNullOrWhiteSpace(trip.AccommodationEmail))
+                        {
+                            <div class="text-muted">
+                                @if (!string.IsNullOrWhiteSpace(trip.AccommodationPhone))
+                                {
+                                    <div>Phone: @trip.AccommodationPhone</div>
+                                }
+                                @if (!string.IsNullOrWhiteSpace(trip.AccommodationEmail))
+                                {
+                                    <div>Email: @trip.AccommodationEmail</div>
+                                }
+                            </div>
+                        }
+                    </td>
+                    <td>
+                        @foreach (var activity in trip.Activities?.Split('\n') ?? Array.Empty<string>())
+                        {
+                            <div>@activity</div>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
