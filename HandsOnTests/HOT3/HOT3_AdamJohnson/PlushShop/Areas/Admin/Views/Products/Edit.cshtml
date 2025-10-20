@@ -1,0 +1,64 @@
+﻿@model PlushShop.Models.Product
+@{
+    ViewData["Title"] = "Edit Product";
+    Layout = "_AdminLayout";
+}
+
+<h2 class="mb-4">Edit Product</h2>
+
+<form asp-area="Admin" asp-controller="Products" asp-action="Edit" asp-route-id="@Model.Id" method="post" enctype="multipart/form-data">
+    <div class="mb-3">
+        <label asp-for="Name" class="form-label"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Series" class="form-label"></label>
+        <input asp-for="Series" class="form-control" />
+        <span asp-validation-for="Series" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Company" class="form-label"></label>
+        <input asp-for="Company" class="form-control" />
+        <span asp-validation-for="Company" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="MediaFormat" class="form-label"></label>
+        <input asp-for="MediaFormat" class="form-control" />
+        <span asp-validation-for="MediaFormat" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Price" class="form-label"></label>
+        <input asp-for="Price" class="form-control" />
+        <span asp-validation-for="Price" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Stock" class="form-label"></label>
+        <input asp-for="Stock" class="form-control" />
+        <span asp-validation-for="Stock" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Description" class="form-label"></label>
+        <textarea asp-for="Description" class="form-control" rows="4"></textarea>
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Current Image</label><br />
+        <img src="~/images/products/@Model.ImageFileName" alt="@Model.Name" style="max-height:150px; object-fit:contain;" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Replace Image</label>
+        <input asp-for="ImageFile" type="file" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save Changes</button>
+    <a asp-area="Admin" asp-controller="Products" asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>

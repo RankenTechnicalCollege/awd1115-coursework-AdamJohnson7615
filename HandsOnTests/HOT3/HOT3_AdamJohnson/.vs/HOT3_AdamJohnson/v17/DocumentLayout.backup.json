@@ -1,0 +1,405 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT3\\HOT3_AdamJohnson\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AE489050-DC32-49B8-8F33-1BFE4DEA34C9}|PlushShop\\PlushShop.csproj|d:\\awd1115-coursework-adamjohnson7615\\handsontests\\hot3\\hot3_adamjohnson\\plushshop\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE489050-DC32-49B8-8F33-1BFE4DEA34C9}|PlushShop\\PlushShop.csproj|solutionrelative:plushshop\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE489050-DC32-49B8-8F33-1BFE4DEA34C9}|PlushShop\\PlushShop.csproj|d:\\awd1115-coursework-adamjohnson7615\\handsontests\\hot3\\hot3_adamjohnson\\plushshop\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE489050-DC32-49B8-8F33-1BFE4DEA34C9}|PlushShop\\PlushShop.csproj|solutionrelative:plushshop\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE489050-DC32-49B8-8F33-1BFE4DEA34C9}|PlushShop\\PlushShop.csproj|d:\\awd1115-coursework-adamjohnson7615\\handsontests\\hot3\\hot3_adamjohnson\\plushshop\\areas\\admin\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE489050-DC32-49B8-8F33-1BFE4DEA34C9}|PlushShop\\PlushShop.csproj|solutionrelative:plushshop\\areas\\admin\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE489050-DC32-49B8-8F33-1BFE4DEA34C9}|PlushShop\\PlushShop.csproj|d:\\awd1115-coursework-adamjohnson7615\\handsontests\\hot3\\hot3_adamjohnson\\plushshop\\areas\\admin\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE489050-DC32-49B8-8F33-1BFE4DEA34C9}|PlushShop\\PlushShop.csproj|solutionrelative:plushshop\\areas\\admin\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE489050-DC32-49B8-8F33-1BFE4DEA34C9}|PlushShop\\PlushShop.csproj|d:\\awd1115-coursework-adamjohnson7615\\handsontests\\hot3\\hot3_adamjohnson\\plushshop\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE489050-DC32-49B8-8F33-1BFE4DEA34C9}|PlushShop\\PlushShop.csproj|solutionrelative:plushshop\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE489050-DC32-49B8-8F33-1BFE4DEA34C9}|PlushShop\\PlushShop.csproj|d:\\awd1115-coursework-adamjohnson7615\\handsontests\\hot3\\hot3_adamjohnson\\plushshop\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE489050-DC32-49B8-8F33-1BFE4DEA34C9}|PlushShop\\PlushShop.csproj|solutionrelative:plushshop\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE489050-DC32-49B8-8F33-1BFE4DEA34C9}|PlushShop\\PlushShop.csproj|d:\\awd1115-coursework-adamjohnson7615\\handsontests\\hot3\\hot3_adamjohnson\\plushshop\\areas\\admin\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE489050-DC32-49B8-8F33-1BFE4DEA34C9}|PlushShop\\PlushShop.csproj|solutionrelative:plushshop\\areas\\admin\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE489050-DC32-49B8-8F33-1BFE4DEA34C9}|PlushShop\\PlushShop.csproj|d:\\awd1115-coursework-adamjohnson7615\\handsontests\\hot3\\hot3_adamjohnson\\plushshop\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE489050-DC32-49B8-8F33-1BFE4DEA34C9}|PlushShop\\PlushShop.csproj|solutionrelative:plushshop\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE489050-DC32-49B8-8F33-1BFE4DEA34C9}|PlushShop\\PlushShop.csproj|d:\\awd1115-coursework-adamjohnson7615\\handsontests\\hot3\\hot3_adamjohnson\\plushshop\\areas\\admin\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE489050-DC32-49B8-8F33-1BFE4DEA34C9}|PlushShop\\PlushShop.csproj|solutionrelative:plushshop\\areas\\admin\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE489050-DC32-49B8-8F33-1BFE4DEA34C9}|PlushShop\\PlushShop.csproj|d:\\awd1115-coursework-adamjohnson7615\\handsontests\\hot3\\hot3_adamjohnson\\plushshop\\areas\\admin\\views\\products\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE489050-DC32-49B8-8F33-1BFE4DEA34C9}|PlushShop\\PlushShop.csproj|solutionrelative:plushshop\\areas\\admin\\views\\products\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE489050-DC32-49B8-8F33-1BFE4DEA34C9}|PlushShop\\PlushShop.csproj|d:\\awd1115-coursework-adamjohnson7615\\handsontests\\hot3\\hot3_adamjohnson\\plushshop\\views\\shop\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE489050-DC32-49B8-8F33-1BFE4DEA34C9}|PlushShop\\PlushShop.csproj|solutionrelative:plushshop\\views\\shop\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE489050-DC32-49B8-8F33-1BFE4DEA34C9}|PlushShop\\PlushShop.csproj|d:\\awd1115-coursework-adamjohnson7615\\handsontests\\hot3\\hot3_adamjohnson\\plushshop\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE489050-DC32-49B8-8F33-1BFE4DEA34C9}|PlushShop\\PlushShop.csproj|solutionrelative:plushshop\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE489050-DC32-49B8-8F33-1BFE4DEA34C9}|PlushShop\\PlushShop.csproj|d:\\awd1115-coursework-adamjohnson7615\\handsontests\\hot3\\hot3_adamjohnson\\plushshop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE489050-DC32-49B8-8F33-1BFE4DEA34C9}|PlushShop\\PlushShop.csproj|solutionrelative:plushshop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE489050-DC32-49B8-8F33-1BFE4DEA34C9}|PlushShop\\PlushShop.csproj|d:\\awd1115-coursework-adamjohnson7615\\handsontests\\hot3\\hot3_adamjohnson\\plushshop\\migrations\\20251008002244_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE489050-DC32-49B8-8F33-1BFE4DEA34C9}|PlushShop\\PlushShop.csproj|solutionrelative:plushshop\\migrations\\20251008002244_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE489050-DC32-49B8-8F33-1BFE4DEA34C9}|PlushShop\\PlushShop.csproj|d:\\awd1115-coursework-adamjohnson7615\\handsontests\\hot3\\hot3_adamjohnson\\plushshop\\viewmodels\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE489050-DC32-49B8-8F33-1BFE4DEA34C9}|PlushShop\\PlushShop.csproj|solutionrelative:plushshop\\viewmodels\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE489050-DC32-49B8-8F33-1BFE4DEA34C9}|PlushShop\\PlushShop.csproj|d:\\awd1115-coursework-adamjohnson7615\\handsontests\\hot3\\hot3_adamjohnson\\plushshop\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE489050-DC32-49B8-8F33-1BFE4DEA34C9}|PlushShop\\PlushShop.csproj|solutionrelative:plushshop\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE489050-DC32-49B8-8F33-1BFE4DEA34C9}|PlushShop\\PlushShop.csproj|d:\\awd1115-coursework-adamjohnson7615\\handsontests\\hot3\\hot3_adamjohnson\\plushshop\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE489050-DC32-49B8-8F33-1BFE4DEA34C9}|PlushShop\\PlushShop.csproj|solutionrelative:plushshop\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE489050-DC32-49B8-8F33-1BFE4DEA34C9}|PlushShop\\PlushShop.csproj|d:\\awd1115-coursework-adamjohnson7615\\handsontests\\hot3\\hot3_adamjohnson\\plushshop\\viewmodels\\cartviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE489050-DC32-49B8-8F33-1BFE4DEA34C9}|PlushShop\\PlushShop.csproj|solutionrelative:plushshop\\viewmodels\\cartviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE489050-DC32-49B8-8F33-1BFE4DEA34C9}|PlushShop\\PlushShop.csproj|d:\\awd1115-coursework-adamjohnson7615\\handsontests\\hot3\\hot3_adamjohnson\\plushshop\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE489050-DC32-49B8-8F33-1BFE4DEA34C9}|PlushShop\\PlushShop.csproj|solutionrelative:plushshop\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE489050-DC32-49B8-8F33-1BFE4DEA34C9}|PlushShop\\PlushShop.csproj|d:\\awd1115-coursework-adamjohnson7615\\handsontests\\hot3\\hot3_adamjohnson\\plushshop\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE489050-DC32-49B8-8F33-1BFE4DEA34C9}|PlushShop\\PlushShop.csproj|solutionrelative:plushshop\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE489050-DC32-49B8-8F33-1BFE4DEA34C9}|PlushShop\\PlushShop.csproj|d:\\awd1115-coursework-adamjohnson7615\\handsontests\\hot3\\hot3_adamjohnson\\plushshop\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE489050-DC32-49B8-8F33-1BFE4DEA34C9}|PlushShop\\PlushShop.csproj|solutionrelative:plushshop\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE489050-DC32-49B8-8F33-1BFE4DEA34C9}|PlushShop\\PlushShop.csproj|d:\\awd1115-coursework-adamjohnson7615\\handsontests\\hot3\\hot3_adamjohnson\\plushshop\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE489050-DC32-49B8-8F33-1BFE4DEA34C9}|PlushShop\\PlushShop.csproj|solutionrelative:plushshop\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE489050-DC32-49B8-8F33-1BFE4DEA34C9}|PlushShop\\PlushShop.csproj|d:\\awd1115-coursework-adamjohnson7615\\handsontests\\hot3\\hot3_adamjohnson\\plushshop\\helpers\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE489050-DC32-49B8-8F33-1BFE4DEA34C9}|PlushShop\\PlushShop.csproj|solutionrelative:plushshop\\helpers\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE489050-DC32-49B8-8F33-1BFE4DEA34C9}|PlushShop\\PlushShop.csproj|d:\\awd1115-coursework-adamjohnson7615\\handsontests\\hot3\\hot3_adamjohnson\\plushshop\\plushshop.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AE489050-DC32-49B8-8F33-1BFE4DEA34C9}|PlushShop\\PlushShop.csproj|solutionrelative:plushshop\\plushshop.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT3\\HOT3_AdamJohnson\\PlushShop\\Areas\\Admin\\Views\\Products\\Create.cshtml",
+              "RelativeDocumentMoniker": "PlushShop\\Areas\\Admin\\Views\\Products\\Create.cshtml",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT3\\HOT3_AdamJohnson\\PlushShop\\Areas\\Admin\\Views\\Products\\Create.cshtml",
+              "RelativeToolTip": "PlushShop\\Areas\\Admin\\Views\\Products\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-08T03:16:43.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT3\\HOT3_AdamJohnson\\PlushShop\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "PlushShop\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT3\\HOT3_AdamJohnson\\PlushShop\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "PlushShop\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-08T02:06:17.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT3\\HOT3_AdamJohnson\\PlushShop\\Areas\\Admin\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "PlushShop\\Areas\\Admin\\Views\\Products\\Index.cshtml",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT3\\HOT3_AdamJohnson\\PlushShop\\Areas\\Admin\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "PlushShop\\Areas\\Admin\\Views\\Products\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAiwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-08T00:41:13.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT3\\HOT3_AdamJohnson\\PlushShop\\Areas\\Admin\\Views\\Products\\Edit.cshtml",
+              "RelativeDocumentMoniker": "PlushShop\\Areas\\Admin\\Views\\Products\\Edit.cshtml",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT3\\HOT3_AdamJohnson\\PlushShop\\Areas\\Admin\\Views\\Products\\Edit.cshtml",
+              "RelativeToolTip": "PlushShop\\Areas\\Admin\\Views\\Products\\Edit.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-07T18:42:14.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT3\\HOT3_AdamJohnson\\PlushShop\\Areas\\Admin\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "PlushShop\\Areas\\Admin\\Controllers\\ProductsController.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT3\\HOT3_AdamJohnson\\PlushShop\\Areas\\Admin\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "PlushShop\\Areas\\Admin\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAAwKMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T18:38:01.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT3\\HOT3_AdamJohnson\\PlushShop\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "PlushShop\\Models\\Product.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT3\\HOT3_AdamJohnson\\PlushShop\\Models\\Product.cs",
+              "RelativeToolTip": "PlushShop\\Models\\Product.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAqwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T18:13:59.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT3\\HOT3_AdamJohnson\\PlushShop\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "PlushShop\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT3\\HOT3_AdamJohnson\\PlushShop\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "PlushShop\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-08T00:59:36.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT3\\HOT3_AdamJohnson\\PlushShop\\Data\\SeedData.cs",
+              "RelativeDocumentMoniker": "PlushShop\\Data\\SeedData.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT3\\HOT3_AdamJohnson\\PlushShop\\Data\\SeedData.cs",
+              "RelativeToolTip": "PlushShop\\Data\\SeedData.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAiwD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T18:16:54.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT3\\HOT3_AdamJohnson\\PlushShop\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "PlushShop\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT3\\HOT3_AdamJohnson\\PlushShop\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "PlushShop\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T18:16:11.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT3\\HOT3_AdamJohnson\\PlushShop\\Areas\\Admin\\Views\\Products\\Delete.cshtml",
+              "RelativeDocumentMoniker": "PlushShop\\Areas\\Admin\\Views\\Products\\Delete.cshtml",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT3\\HOT3_AdamJohnson\\PlushShop\\Areas\\Admin\\Views\\Products\\Delete.cshtml",
+              "RelativeToolTip": "PlushShop\\Areas\\Admin\\Views\\Products\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-08T02:46:02.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT3\\HOT3_AdamJohnson\\PlushShop\\Views\\Shop\\Index.cshtml",
+              "RelativeDocumentMoniker": "PlushShop\\Views\\Shop\\Index.cshtml",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT3\\HOT3_AdamJohnson\\PlushShop\\Views\\Shop\\Index.cshtml",
+              "RelativeToolTip": "PlushShop\\Views\\Shop\\Index.cshtml",
+              "ViewState": "AgIAACMAAAAAAAAAAAAcwEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-07T18:41:04.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT3\\HOT3_AdamJohnson\\PlushShop\\Views\\Shop\\Details.cshtml",
+              "RelativeDocumentMoniker": "PlushShop\\Views\\Shop\\Details.cshtml",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT3\\HOT3_AdamJohnson\\PlushShop\\Views\\Shop\\Details.cshtml",
+              "RelativeToolTip": "PlushShop\\Views\\Shop\\Details.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAcwFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-07T18:41:32.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT3\\HOT3_AdamJohnson\\PlushShop\\Program.cs",
+              "RelativeDocumentMoniker": "PlushShop\\Program.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT3\\HOT3_AdamJohnson\\PlushShop\\Program.cs",
+              "RelativeToolTip": "PlushShop\\Program.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAiwEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T18:38:54.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT3\\HOT3_AdamJohnson\\PlushShop\\ViewModels\\CartItem.cs",
+              "RelativeDocumentMoniker": "PlushShop\\ViewModels\\CartItem.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT3\\HOT3_AdamJohnson\\PlushShop\\ViewModels\\CartItem.cs",
+              "RelativeToolTip": "PlushShop\\ViewModels\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T20:35:13.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20251008002244_InitialCreate.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT3\\HOT3_AdamJohnson\\PlushShop\\Migrations\\20251008002244_InitialCreate.cs",
+              "RelativeDocumentMoniker": "PlushShop\\Migrations\\20251008002244_InitialCreate.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT3\\HOT3_AdamJohnson\\PlushShop\\Migrations\\20251008002244_InitialCreate.cs",
+              "RelativeToolTip": "PlushShop\\Migrations\\20251008002244_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T00:22:46.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CartViewModel.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT3\\HOT3_AdamJohnson\\PlushShop\\ViewModels\\CartViewModel.cs",
+              "RelativeDocumentMoniker": "PlushShop\\ViewModels\\CartViewModel.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT3\\HOT3_AdamJohnson\\PlushShop\\ViewModels\\CartViewModel.cs",
+              "RelativeToolTip": "PlushShop\\ViewModels\\CartViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T18:31:05.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT3\\HOT3_AdamJohnson\\PlushShop\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "PlushShop\\Controllers\\CartController.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT3\\HOT3_AdamJohnson\\PlushShop\\Controllers\\CartController.cs",
+              "RelativeToolTip": "PlushShop\\Controllers\\CartController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAwwD0AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T18:38:39.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT3\\HOT3_AdamJohnson\\PlushShop\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "PlushShop\\Views\\Cart\\Index.cshtml",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT3\\HOT3_AdamJohnson\\PlushShop\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "PlushShop\\Views\\Cart\\Index.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAACcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-07T18:42:54.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT3\\HOT3_AdamJohnson\\PlushShop\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "PlushShop\\Models\\Order.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT3\\HOT3_AdamJohnson\\PlushShop\\Models\\Order.cs",
+              "RelativeToolTip": "PlushShop\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAQwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T18:28:22.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ShopController.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT3\\HOT3_AdamJohnson\\PlushShop\\Controllers\\ShopController.cs",
+              "RelativeDocumentMoniker": "PlushShop\\Controllers\\ShopController.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT3\\HOT3_AdamJohnson\\PlushShop\\Controllers\\ShopController.cs",
+              "RelativeToolTip": "PlushShop\\Controllers\\ShopController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T18:36:56.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT3\\HOT3_AdamJohnson\\PlushShop\\Models\\OrderItem.cs",
+              "RelativeDocumentMoniker": "PlushShop\\Models\\OrderItem.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT3\\HOT3_AdamJohnson\\PlushShop\\Models\\OrderItem.cs",
+              "RelativeToolTip": "PlushShop\\Models\\OrderItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAQwBUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T18:29:21.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT3\\HOT3_AdamJohnson\\PlushShop\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "PlushShop\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT3\\HOT3_AdamJohnson\\PlushShop\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "PlushShop\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-07T18:39:18.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "SessionExtensions.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT3\\HOT3_AdamJohnson\\PlushShop\\Helpers\\SessionExtensions.cs",
+              "RelativeDocumentMoniker": "PlushShop\\Helpers\\SessionExtensions.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT3\\HOT3_AdamJohnson\\PlushShop\\Helpers\\SessionExtensions.cs",
+              "RelativeToolTip": "PlushShop\\Helpers\\SessionExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T18:36:15.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "PlushShop.csproj",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT3\\HOT3_AdamJohnson\\PlushShop\\PlushShop.csproj",
+              "RelativeDocumentMoniker": "PlushShop\\PlushShop.csproj",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\HandsOnTests\\HOT3\\HOT3_AdamJohnson\\PlushShop\\PlushShop.csproj",
+              "RelativeToolTip": "PlushShop\\PlushShop.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-07T18:15:39.957Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

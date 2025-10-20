@@ -1,0 +1,49 @@
+﻿@model PlushShop.Models.Product
+@{
+    ViewData["Title"] = "Delete Product";
+    Layout = "_AdminLayout";
+}
+
+<div class="container mt-4">
+    <h2 class="mb-4 text-danger text-center">Delete Product</h2>
+
+    <div class="card shadow-sm mx-auto" style="max-width: 600px;">
+        <div class="card-body text-center">
+            @if (!string.IsNullOrEmpty(Model.ImageFileName))
+            {
+                <img src="~/images/products/@Model.ImageFileName"
+                     alt="@Model.Name"
+                     class="img-fluid border rounded mb-3"
+                     style="max-height: 250px; object-fit: contain;" />
+            }
+            else
+            {
+                <div class="text-muted fst-italic mb-3">No image available</div>
+            }
+
+            <h4 class="fw-bold">@Model.Name</h4>
+            <p class="text-muted mb-1"><strong>Series:</strong> @Model.Series</p>
+            <p class="text-muted mb-1"><strong>Company:</strong> @Model.Company</p>
+            <p class="text-muted mb-1"><strong>Price:</strong> $@Model.Price</p>
+            <p class="text-muted mb-3"><strong>Stock:</strong> @Model.Stock</p>
+
+            <p class="mb-3">@Model.Description</p>
+
+            <div class="alert alert-warning">
+                Are you sure you want to <strong>delete</strong> this product? This action cannot be undone.
+            </div>
+
+            <form asp-area="Admin"
+                  asp-controller="Products"
+                  asp-action="DeleteConfirmed"
+                  asp-route-id="@Model.Id"
+                  method="post">
+                <button type="submit" class="btn btn-danger px-4 me-2">Yes, Delete</button>
+                <a asp-area="Admin"
+                   asp-controller="Products"
+                   asp-action="Index"
+                   class="btn btn-secondary px-4">Cancel</a>
+            </form>
+        </div>
+    </div>
+</div>
