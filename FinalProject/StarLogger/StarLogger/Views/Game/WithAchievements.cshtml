@@ -1,0 +1,35 @@
+﻿@model IEnumerable<StarLogger.Models.ViewModels.GameAchievementsViewModel>
+
+<h2 class="mb-4">Games & Achievements</h2>
+
+@foreach (var game in Model)
+{
+    <div class="card mb-3 shadow-sm">
+        <div class="card-body">
+            <h4 class="card-title">@game.Title</h4>
+            <p class="text-muted">
+                Platform: @game.Platform |
+                Genre: @game.Genre |
+                Released: @game.ReleaseDate.ToShortDateString()
+            </p>
+
+            <p><strong>@game.AchievementCount</strong> Achievements</p>
+
+            @if (game.Achievements.Any())
+            {
+                <ul class="list-group list-group-flush">
+                    @foreach (var a in game.Achievements)
+                    {
+                        <li class="list-group-item">
+                            <strong>@a.Name</strong> — @a.Description (@a.Points pts)
+                        </li>
+                    }
+                </ul>
+            }
+            else
+            {
+                <p><em>No achievements yet.</em></p>
+            }
+        </div>
+    </div>
+}

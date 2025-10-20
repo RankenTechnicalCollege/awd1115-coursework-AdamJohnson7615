@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StarLogger")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+31e01c1b7f2d795cfcb04c22ccbb70fe7dcc7cb0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+28c6e8836d5beff529c83b156b8478a8653a6116")]
 [assembly: System.Reflection.AssemblyProductAttribute("StarLogger")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StarLogger")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -6,7 +6,22 @@
 
 <h2>@ViewData["Title"]</h2>
 
-<form asp-action="Create" method="post">
+@if (ViewData.ModelState != null && !ViewData.ModelState.IsValid)
+{
+    <div class="alert alert-danger">
+        <ul>
+            @foreach (var ms in ViewData.ModelState.Values)
+            {
+                foreach (var error in ms.Errors)
+                {
+                    <li>@error.ErrorMessage</li>
+                }
+            }
+        </ul>
+    </div>
+}
+
+<form asp-action="Create" asp-controller="Achievements" method="post">
     @Html.AntiForgeryToken()
 
     <div class="mb-3">
@@ -28,9 +43,8 @@
     </div>
 
     <div class="mb-3">
-        <label asp-for="GameId" class="form-label">Game</label>
-        <select asp-for="GameId" class="form-select" asp-items="@((SelectList)ViewData["GameId"])">
-            <option value="">-- Select a Game --</option>
+        <label asp-for="GameId" class="form-label"></label>
+        <select asp-for="GameId" class="form-select" asp-items="@(ViewData["GameId"] as SelectList)" required>
         </select>
         <span asp-validation-for="GameId" class="text-danger"></span>
     </div>
@@ -38,12 +52,3 @@
     <button type="submit" class="btn btn-success">Create</button>
     <a asp-action="Index" class="btn btn-secondary">Cancel</a>
 </form>
-@section Scripts {
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
-    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
-}
-
-@section Scripts {
-    <partial name="_ValidationScriptsPartial" />
-}

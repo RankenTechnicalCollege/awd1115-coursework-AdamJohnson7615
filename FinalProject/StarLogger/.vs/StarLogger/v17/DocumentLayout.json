@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|d:\\awd1115-coursework-adamjohnson7615\\finalproject\\starlogger\\starlogger\\areas\\manage\\views\\game\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|solutionrelative:starlogger\\areas\\manage\\views\\game\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|d:\\awd1115-coursework-adamjohnson7615\\finalproject\\starlogger\\starlogger\\areas\\manage\\views\\game\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|solutionrelative:starlogger\\areas\\manage\\views\\game\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|d:\\awd1115-coursework-adamjohnson7615\\finalproject\\starlogger\\starlogger\\areas\\manage\\views\\achievements\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|solutionrelative:starlogger\\areas\\manage\\views\\achievements\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|d:\\awd1115-coursework-adamjohnson7615\\finalproject\\starlogger\\starlogger\\areas\\manage\\views\\achievements\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|solutionrelative:starlogger\\areas\\manage\\views\\achievements\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|d:\\awd1115-coursework-adamjohnson7615\\finalproject\\starlogger\\starlogger\\views\\achievements\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|solutionrelative:starlogger\\views\\achievements\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|d:\\awd1115-coursework-adamjohnson7615\\finalproject\\starlogger\\starlogger\\controllers\\achievementscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|solutionrelative:starlogger\\controllers\\achievementscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|d:\\awd1115-coursework-adamjohnson7615\\finalproject\\starlogger\\starlogger\\data\\starloggercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|solutionrelative:starlogger\\data\\starloggercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|d:\\awd1115-coursework-adamjohnson7615\\finalproject\\starlogger\\starlogger\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|solutionrelative:starlogger\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|d:\\awd1115-coursework-adamjohnson7615\\finalproject\\starlogger\\starlogger\\views\\achievements\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|solutionrelative:starlogger\\views\\achievements\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|d:\\awd1115-coursework-adamjohnson7615\\finalproject\\starlogger\\starlogger\\views\\game\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -31,112 +31,72 @@
       "RelativeMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|solutionrelative:starlogger\\views\\game\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|d:\\awd1115-coursework-adamjohnson7615\\finalproject\\starlogger\\starlogger\\views\\achievements\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|solutionrelative:starlogger\\views\\achievements\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|d:\\awd1115-coursework-adamjohnson7615\\finalproject\\starlogger\\starlogger\\views\\game\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|solutionrelative:starlogger\\views\\game\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|d:\\awd1115-coursework-adamjohnson7615\\finalproject\\starlogger\\starlogger\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|solutionrelative:starlogger\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|d:\\awd1115-coursework-adamjohnson7615\\finalproject\\starlogger\\starlogger\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|solutionrelative:starlogger\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|d:\\awd1115-coursework-adamjohnson7615\\finalproject\\starlogger\\starlogger\\areas\\manage\\controllers\\manageachievementscontroller.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|solutionrelative:starlogger\\areas\\manage\\controllers\\manageachievementscontroller.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|d:\\awd1115-coursework-adamjohnson7615\\finalproject\\starlogger\\starlogger\\areas\\manage\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|solutionrelative:starlogger\\areas\\manage\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|d:\\awd1115-coursework-adamjohnson7615\\finalproject\\starlogger\\starlogger\\models\\achievement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|solutionrelative:starlogger\\models\\achievement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|d:\\awd1115-coursework-adamjohnson7615\\finalproject\\starlogger\\starlogger\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|solutionrelative:starlogger\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|d:\\awd1115-coursework-adamjohnson7615\\finalproject\\starlogger\\starlogger\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|solutionrelative:starlogger\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|d:\\awd1115-coursework-adamjohnson7615\\finalproject\\starlogger\\starlogger\\views\\achievements\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|solutionrelative:starlogger\\views\\achievements\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|d:\\awd1115-coursework-adamjohnson7615\\finalproject\\starlogger\\starlogger\\views\\game\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|solutionrelative:starlogger\\views\\game\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|d:\\awd1115-coursework-adamjohnson7615\\finalproject\\starlogger\\starlogger\\views\\achievements\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|solutionrelative:starlogger\\views\\achievements\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|d:\\awd1115-coursework-adamjohnson7615\\finalproject\\starlogger\\starlogger\\views\\game\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|solutionrelative:starlogger\\views\\game\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|d:\\awd1115-coursework-adamjohnson7615\\finalproject\\starlogger\\starlogger\\helpers\\slughelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|solutionrelative:starlogger\\helpers\\slughelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|d:\\awd1115-coursework-adamjohnson7615\\finalproject\\starlogger\\starlogger\\starlogger.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|solutionrelative:starlogger\\starlogger.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|d:\\awd1115-coursework-adamjohnson7615\\finalproject\\starlogger\\starlogger\\views\\achievements\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|solutionrelative:starlogger\\views\\achievements\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|d:\\awd1115-coursework-adamjohnson7615\\finalproject\\starlogger\\starlogger\\starlogger.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|solutionrelative:starlogger\\starlogger.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|d:\\awd1115-coursework-adamjohnson7615\\finalproject\\starlogger\\starlogger\\views\\game\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|solutionrelative:starlogger\\views\\game\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|d:\\awd1115-coursework-adamjohnson7615\\finalproject\\starlogger\\starlogger\\models\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|solutionrelative:starlogger\\models\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|d:\\awd1115-coursework-adamjohnson7615\\finalproject\\starlogger\\starlogger\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|solutionrelative:starlogger\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|d:\\awd1115-coursework-adamjohnson7615\\finalproject\\starlogger\\starlogger\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|solutionrelative:starlogger\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|d:\\awd1115-coursework-adamjohnson7615\\finalproject\\starlogger\\starlogger\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|solutionrelative:starlogger\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|d:\\awd1115-coursework-adamjohnson7615\\finalproject\\starlogger\\starlogger\\migrations\\20250922034507_addachievements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|solutionrelative:starlogger\\migrations\\20250922034507_addachievements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|d:\\awd1115-coursework-adamjohnson7615\\finalproject\\starlogger\\starlogger\\migrations\\20250922033225_achievementcrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|solutionrelative:starlogger\\migrations\\20250922033225_achievementcrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|d:\\awd1115-coursework-adamjohnson7615\\finalproject\\starlogger\\starlogger\\migrations\\20250922022900_gamecrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|solutionrelative:starlogger\\migrations\\20250922022900_gamecrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|d:\\awd1115-coursework-adamjohnson7615\\finalproject\\starlogger\\starlogger\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|solutionrelative:starlogger\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|d:\\awd1115-coursework-adamjohnson7615\\finalproject\\starlogger\\starlogger\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|solutionrelative:starlogger\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|d:\\awd1115-coursework-adamjohnson7615\\finalproject\\starlogger\\starlogger\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|solutionrelative:starlogger\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|d:\\awd1115-coursework-adamjohnson7615\\finalproject\\starlogger\\starlogger\\migrations\\20250923185735_cascadedeleteachievements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|solutionrelative:starlogger\\migrations\\20250923185735_cascadedeleteachievements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|d:\\awd1115-coursework-adamjohnson7615\\finalproject\\starlogger\\starlogger\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|solutionrelative:starlogger\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|d:\\awd1115-coursework-adamjohnson7615\\finalproject\\starlogger\\starlogger\\views\\game\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|solutionrelative:starlogger\\views\\game\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|d:\\awd1115-coursework-adamjohnson7615\\finalproject\\starlogger\\starlogger\\views\\achievements\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|solutionrelative:starlogger\\views\\achievements\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|d:\\awd1115-coursework-adamjohnson7615\\finalproject\\starlogger\\starlogger\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|solutionrelative:starlogger\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|d:\\awd1115-coursework-adamjohnson7615\\finalproject\\starlogger\\starlogger\\models\\achievement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|solutionrelative:starlogger\\models\\achievement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|d:\\awd1115-coursework-adamjohnson7615\\finalproject\\starlogger\\starlogger\\helpers\\slughelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|solutionrelative:starlogger\\helpers\\slughelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|d:\\awd1115-coursework-adamjohnson7615\\finalproject\\starlogger\\starlogger\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|solutionrelative:starlogger\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|d:\\awd1115-coursework-adamjohnson7615\\finalproject\\starlogger\\starlogger\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|solutionrelative:starlogger\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|d:\\awd1115-coursework-adamjohnson7615\\finalproject\\starlogger\\starlogger\\areas\\manage\\views\\game\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|solutionrelative:starlogger\\areas\\manage\\views\\game\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|d:\\awd1115-coursework-adamjohnson7615\\finalproject\\starlogger\\starlogger\\areas\\manage\\views\\achievements\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|solutionrelative:starlogger\\areas\\manage\\views\\achievements\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|d:\\awd1115-coursework-adamjohnson7615\\finalproject\\starlogger\\starlogger\\areas\\manage\\views\\achievements\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|solutionrelative:starlogger\\areas\\manage\\views\\achievements\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|d:\\awd1115-coursework-adamjohnson7615\\finalproject\\starlogger\\starlogger\\areas\\manage\\controllers\\manageachievementscontroller.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|solutionrelative:starlogger\\areas\\manage\\controllers\\manageachievementscontroller.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -151,157 +111,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Areas\\Manage\\Views\\Game\\Edit.cshtml",
-              "RelativeDocumentMoniker": "StarLogger\\Areas\\Manage\\Views\\Game\\Edit.cshtml",
-              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Areas\\Manage\\Views\\Game\\Edit.cshtml",
-              "RelativeToolTip": "StarLogger\\Areas\\Manage\\Views\\Game\\Edit.cshtml",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Views\\Achievements\\Create.cshtml",
+              "RelativeDocumentMoniker": "StarLogger\\Views\\Achievements\\Create.cshtml",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Views\\Achievements\\Create.cshtml",
+              "RelativeToolTip": "StarLogger\\Views\\Achievements\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-06T01:12:25.871Z",
+              "WhenOpened": "2025-10-19T23:36:34.286Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Areas\\Manage\\Views\\Game\\Create.cshtml",
-              "RelativeDocumentMoniker": "StarLogger\\Areas\\Manage\\Views\\Game\\Create.cshtml",
-              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Areas\\Manage\\Views\\Game\\Create.cshtml",
-              "RelativeToolTip": "StarLogger\\Areas\\Manage\\Views\\Game\\Create.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-06T01:12:21.246Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Areas\\Manage\\Views\\Achievements\\Edit.cshtml",
-              "RelativeDocumentMoniker": "StarLogger\\Areas\\Manage\\Views\\Achievements\\Edit.cshtml",
-              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Areas\\Manage\\Views\\Achievements\\Edit.cshtml",
-              "RelativeToolTip": "StarLogger\\Areas\\Manage\\Views\\Achievements\\Edit.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-06T01:12:16.365Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Areas\\Manage\\Views\\Achievements\\Create.cshtml",
-              "RelativeDocumentMoniker": "StarLogger\\Areas\\Manage\\Views\\Achievements\\Create.cshtml",
-              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Areas\\Manage\\Views\\Achievements\\Create.cshtml",
-              "RelativeToolTip": "StarLogger\\Areas\\Manage\\Views\\Achievements\\Create.cshtml",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-06T01:12:11.239Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "GameController.cs",
-              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Areas\\Manage\\Controllers\\GameController.cs",
-              "RelativeDocumentMoniker": "StarLogger\\Areas\\Manage\\Controllers\\GameController.cs",
-              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Areas\\Manage\\Controllers\\GameController.cs",
-              "RelativeToolTip": "StarLogger\\Areas\\Manage\\Controllers\\GameController.cs",
-              "ViewState": "AgIAAGQAAAAAAAAAAAAAAGQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T00:51:44.905Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ManageAchievementsController.cs.cs",
-              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Areas\\Manage\\Controllers\\ManageAchievementsController.cs.cs",
-              "RelativeDocumentMoniker": "StarLogger\\Areas\\Manage\\Controllers\\ManageAchievementsController.cs.cs",
-              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Areas\\Manage\\Controllers\\ManageAchievementsController.cs.cs",
-              "RelativeToolTip": "StarLogger\\Areas\\Manage\\Controllers\\ManageAchievementsController.cs.cs",
-              "ViewState": "AgIAAGcAAAAAAAAAAAAgwHEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T00:48:29.474Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Program.cs",
-              "RelativeDocumentMoniker": "StarLogger\\Program.cs",
-              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Program.cs",
-              "RelativeToolTip": "StarLogger\\Program.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAAAFUAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T01:57:03.481Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "AchievementsController.cs",
               "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Controllers\\AchievementsController.cs",
               "RelativeDocumentMoniker": "StarLogger\\Controllers\\AchievementsController.cs",
               "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Controllers\\AchievementsController.cs",
               "RelativeToolTip": "StarLogger\\Controllers\\AchievementsController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJ0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-23T20:22:53.657Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Achievement.cs",
-              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Models\\Achievement.cs",
-              "RelativeDocumentMoniker": "StarLogger\\Models\\Achievement.cs",
-              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Models\\Achievement.cs",
-              "RelativeToolTip": "StarLogger\\Models\\Achievement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T02:17:51.809Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "StarLogger\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "StarLogger\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAACMAAAAAAAAAAAAwwD0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-12T23:14:59.333Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Views\\Achievements\\Edit.cshtml",
-              "RelativeDocumentMoniker": "StarLogger\\Views\\Achievements\\Edit.cshtml",
-              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Views\\Achievements\\Edit.cshtml",
-              "RelativeToolTip": "StarLogger\\Views\\Achievements\\Edit.cshtml",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-23T19:24:30.188Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Views\\Game\\Create.cshtml",
-              "RelativeDocumentMoniker": "StarLogger\\Views\\Game\\Create.cshtml",
-              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Views\\Game\\Create.cshtml",
-              "RelativeToolTip": "StarLogger\\Views\\Game\\Create.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-23T18:38:18.668Z",
+              "WhenOpened": "2025-10-19T23:31:58.207Z",
               "EditorCaption": ""
             },
             {
@@ -312,243 +142,62 @@
               "RelativeDocumentMoniker": "StarLogger\\Views\\Game\\Edit.cshtml",
               "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Views\\Game\\Edit.cshtml",
               "RelativeToolTip": "StarLogger\\Views\\Game\\Edit.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-22T02:24:51.631Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-19T01:54:28.414Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "GameController.cs",
-              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Controllers\\GameController.cs",
-              "RelativeDocumentMoniker": "StarLogger\\Controllers\\GameController.cs",
-              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Controllers\\GameController.cs",
-              "RelativeToolTip": "StarLogger\\Controllers\\GameController.cs",
-              "ViewState": "AgIAAHQAAAAAAAAAAAAiwI4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T02:11:56.456Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "StarLogger\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "StarLogger\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-12T23:16:27.439Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Views\\Game\\Details.cshtml",
-              "RelativeDocumentMoniker": "StarLogger\\Views\\Game\\Details.cshtml",
-              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Views\\Game\\Details.cshtml",
-              "RelativeToolTip": "StarLogger\\Views\\Game\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-22T02:26:26.268Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Views\\Achievements\\Details.cshtml",
-              "RelativeDocumentMoniker": "StarLogger\\Views\\Achievements\\Details.cshtml",
-              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Views\\Achievements\\Details.cshtml",
-              "RelativeToolTip": "StarLogger\\Views\\Achievements\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-22T02:57:19.813Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Views\\Achievements\\Index.cshtml",
-              "RelativeDocumentMoniker": "StarLogger\\Views\\Achievements\\Index.cshtml",
-              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Views\\Achievements\\Index.cshtml",
-              "RelativeToolTip": "StarLogger\\Views\\Achievements\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-22T02:55:47.782Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 7,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Views\\Game\\Index.cshtml",
               "RelativeDocumentMoniker": "StarLogger\\Views\\Game\\Index.cshtml",
               "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Views\\Game\\Index.cshtml",
               "RelativeToolTip": "StarLogger\\Views\\Game\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAgAAABoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-22T02:22:57.223Z"
+              "WhenOpened": "2025-10-19T01:45:15.662Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "SlugHelper.cs",
-              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Helpers\\SlugHelper.cs",
-              "RelativeDocumentMoniker": "StarLogger\\Helpers\\SlugHelper.cs",
-              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Helpers\\SlugHelper.cs",
-              "RelativeToolTip": "StarLogger\\Helpers\\SlugHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA8AAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Program.cs",
+              "RelativeDocumentMoniker": "StarLogger\\Program.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Program.cs",
+              "RelativeToolTip": "StarLogger\\Program.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAAAG8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T00:43:46.394Z"
+              "WhenOpened": "2025-10-19T01:30:10.417Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "StarLogger.csproj",
-              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\StarLogger.csproj",
-              "RelativeDocumentMoniker": "StarLogger\\StarLogger.csproj",
-              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\StarLogger.csproj",
-              "RelativeToolTip": "StarLogger\\StarLogger.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-09-29T00:42:37.514Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Views\\Achievements\\Delete.cshtml",
-              "RelativeDocumentMoniker": "StarLogger\\Views\\Achievements\\Delete.cshtml",
-              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Views\\Achievements\\Delete.cshtml",
-              "RelativeToolTip": "StarLogger\\Views\\Achievements\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "StarLogger\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "StarLogger\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAswDQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-22T03:04:23.558Z"
+              "WhenOpened": "2025-10-19T01:26:59.406Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Views\\Game\\Delete.cshtml",
-              "RelativeDocumentMoniker": "StarLogger\\Views\\Game\\Delete.cshtml",
-              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Views\\Game\\Delete.cshtml",
-              "RelativeToolTip": "StarLogger\\Views\\Game\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "StarLogger\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "StarLogger\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-22T02:26:52.444Z"
+              "WhenOpened": "2025-10-19T01:25:37.194Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "StarLogger",
-              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\StarLogger.csproj",
-              "RelativeDocumentMoniker": "StarLogger\\StarLogger.csproj",
-              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\StarLogger.csproj",
-              "RelativeToolTip": "StarLogger\\StarLogger.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-09-23T19:53:53.329Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "20250923185735_CascadeDeleteAchievements.cs",
-              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Migrations\\20250923185735_CascadeDeleteAchievements.cs",
-              "RelativeDocumentMoniker": "StarLogger\\Migrations\\20250923185735_CascadeDeleteAchievements.cs",
-              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Migrations\\20250923185735_CascadeDeleteAchievements.cs",
-              "RelativeToolTip": "StarLogger\\Migrations\\20250923185735_CascadeDeleteAchievements.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-23T18:57:36.431Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Game.cs",
-              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Models\\Game.cs",
-              "RelativeDocumentMoniker": "StarLogger\\Models\\Game.cs",
-              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Models\\Game.cs",
-              "RelativeToolTip": "StarLogger\\Models\\Game.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T01:37:50.333Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "StarLogger\\Models\\ErrorViewModel.cs",
-              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "StarLogger\\Models\\ErrorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-23T18:30:07.002Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "StarLogger\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "StarLogger\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-23T18:29:06.087Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "libman.json",
-              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\libman.json",
-              "RelativeDocumentMoniker": "StarLogger\\libman.json",
-              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\libman.json",
-              "RelativeToolTip": "StarLogger\\libman.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-23T18:21:57.305Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "20250922034507_AddAchievements.cs",
-              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Migrations\\20250922034507_AddAchievements.cs",
-              "RelativeDocumentMoniker": "StarLogger\\Migrations\\20250922034507_AddAchievements.cs",
-              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Migrations\\20250922034507_AddAchievements.cs",
-              "RelativeToolTip": "StarLogger\\Migrations\\20250922034507_AddAchievements.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T03:45:07.905Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "20250922033225_AchievementCRUD.cs",
-              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Migrations\\20250922033225_AchievementCRUD.cs",
-              "RelativeDocumentMoniker": "StarLogger\\Migrations\\20250922033225_AchievementCRUD.cs",
-              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Migrations\\20250922033225_AchievementCRUD.cs",
-              "RelativeToolTip": "StarLogger\\Migrations\\20250922033225_AchievementCRUD.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T03:32:26.945Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "20250922022900_GameCRUD.cs",
-              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Migrations\\20250922022900_GameCRUD.cs",
-              "RelativeDocumentMoniker": "StarLogger\\Migrations\\20250922022900_GameCRUD.cs",
-              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Migrations\\20250922022900_GameCRUD.cs",
-              "RelativeToolTip": "StarLogger\\Migrations\\20250922022900_GameCRUD.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T02:29:01.993Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 10,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\appsettings.json",
               "RelativeDocumentMoniker": "StarLogger\\appsettings.json",
@@ -556,19 +205,204 @@
               "RelativeToolTip": "StarLogger\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-22T01:57:30.648Z"
+              "WhenOpened": "2025-10-19T01:29:29.47Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "site.css",
-              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "StarLogger\\wwwroot\\css\\site.css",
-              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "StarLogger\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-09-12T23:16:50.346Z"
+              "DocumentIndex": 2,
+              "Title": "StarLoggerContext.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Data\\StarLoggerContext.cs",
+              "RelativeDocumentMoniker": "StarLogger\\Data\\StarLoggerContext.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Data\\StarLoggerContext.cs",
+              "RelativeToolTip": "StarLogger\\Data\\StarLoggerContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T01:18:14.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Views\\Achievements\\Index.cshtml",
+              "RelativeDocumentMoniker": "StarLogger\\Views\\Achievements\\Index.cshtml",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Views\\Achievements\\Index.cshtml",
+              "RelativeToolTip": "StarLogger\\Views\\Achievements\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-19T02:03:27.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "StarLogger\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "StarLogger\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-19T01:29:15.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "StarLogger\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "StarLogger\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-19T01:28:29.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Views\\Game\\Delete.cshtml",
+              "RelativeDocumentMoniker": "StarLogger\\Views\\Game\\Delete.cshtml",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Views\\Game\\Delete.cshtml",
+              "RelativeToolTip": "StarLogger\\Views\\Game\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-19T01:24:13.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Views\\Game\\Create.cshtml",
+              "RelativeDocumentMoniker": "StarLogger\\Views\\Game\\Create.cshtml",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Views\\Game\\Create.cshtml",
+              "RelativeToolTip": "StarLogger\\Views\\Game\\Create.cshtml",
+              "ViewState": "AgIAABAAAAAAAAAAAAAuwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-19T00:51:01.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Views\\Achievements\\Details.cshtml",
+              "RelativeDocumentMoniker": "StarLogger\\Views\\Achievements\\Details.cshtml",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Views\\Achievements\\Details.cshtml",
+              "RelativeToolTip": "StarLogger\\Views\\Achievements\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-19T01:21:28.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "StarLogger\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "StarLogger\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T01:19:56.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Achievement.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Models\\Achievement.cs",
+              "RelativeDocumentMoniker": "StarLogger\\Models\\Achievement.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Models\\Achievement.cs",
+              "RelativeToolTip": "StarLogger\\Models\\Achievement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T01:19:04.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SlugHelper.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Helpers\\SlugHelper.cs",
+              "RelativeDocumentMoniker": "StarLogger\\Helpers\\SlugHelper.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Helpers\\SlugHelper.cs",
+              "RelativeToolTip": "StarLogger\\Helpers\\SlugHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T01:18:39.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "GameController.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Controllers\\GameController.cs",
+              "RelativeDocumentMoniker": "StarLogger\\Controllers\\GameController.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Controllers\\GameController.cs",
+              "RelativeToolTip": "StarLogger\\Controllers\\GameController.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAUwI4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T01:15:43.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "StarLogger\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "StarLogger\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T01:15:36.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Areas\\Manage\\Views\\Game\\Create.cshtml",
+              "RelativeDocumentMoniker": "StarLogger\\Areas\\Manage\\Views\\Game\\Create.cshtml",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Areas\\Manage\\Views\\Game\\Create.cshtml",
+              "RelativeToolTip": "StarLogger\\Areas\\Manage\\Views\\Game\\Create.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAuwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-19T01:13:58.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Areas\\Manage\\Views\\Achievements\\Delete.cshtml",
+              "RelativeDocumentMoniker": "StarLogger\\Areas\\Manage\\Views\\Achievements\\Delete.cshtml",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Areas\\Manage\\Views\\Achievements\\Delete.cshtml",
+              "RelativeToolTip": "StarLogger\\Areas\\Manage\\Views\\Achievements\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-19T01:13:08.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Areas\\Manage\\Views\\Achievements\\Create.cshtml",
+              "RelativeDocumentMoniker": "StarLogger\\Areas\\Manage\\Views\\Achievements\\Create.cshtml",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Areas\\Manage\\Views\\Achievements\\Create.cshtml",
+              "RelativeToolTip": "StarLogger\\Areas\\Manage\\Views\\Achievements\\Create.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-19T01:11:22.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ManageAchievementsController.cs.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Areas\\Manage\\Controllers\\ManageAchievementsController.cs.cs",
+              "RelativeDocumentMoniker": "StarLogger\\Areas\\Manage\\Controllers\\ManageAchievementsController.cs.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Areas\\Manage\\Controllers\\ManageAchievementsController.cs.cs",
+              "RelativeToolTip": "StarLogger\\Areas\\Manage\\Controllers\\ManageAchievementsController.cs.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAiwHEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T01:09:16.451Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
             }
           ]
         }

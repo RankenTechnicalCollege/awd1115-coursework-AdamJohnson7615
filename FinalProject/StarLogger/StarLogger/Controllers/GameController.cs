@@ -5,6 +5,7 @@ using StarLogger.Models;
 using StarLogger.Helpers;
 using System.Linq;
 using System.Threading.Tasks;
+using StarLogger.Models.ViewModels;
 
 namespace StarLogger.Controllers
 {
@@ -135,6 +136,26 @@ namespace StarLogger.Controllers
                 await _context.SaveChangesAsync();
             }
             return RedirectToAction(nameof(Index));
+        }
+
+        public async Task<IActionResult> WithAchievements()
+        {
+            var data = await _context.Games
+                .Include(g => g.Achievements)
+                .Select(g => new GameAchievementsViewModel
+                {
+                    GameId = g.GameId,
+                    Title = g.Title,
+                    Platform = g.Platform,
+                    Genre = g.Genre,
+                    ReleaseDate = g.ReleaseDate,
+                    AchievementCount = g.Achievements.Count,
+                    Achievements = g.Achievements.ToList()
+                })
+                .ToListAsync();
+
+            ViewData["Title"] = "Games & Achievements";
+            return View(data);
         }
 
         private bool GameExists(int id) => _context.Games.Any(e => e.GameId == id);

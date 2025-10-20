@@ -20,7 +20,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark" style="background: linear-gradient(90deg, #0f0c29, #302b63, #24243e);">
             <div class="container">
-                <a class="navbar-brand d-flex align-items-center" href="@Url.Action("Index", "Home")">
+                <a class="navbar-brand d-flex align-items-center" asp-area="" asp-controller="Home" asp-action="Index">
                     <img src="~/images/starlogger.png" alt="Starlogger Logo" class="img-fluid" style="height:40px; margin-right:10px;" />
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -31,7 +31,7 @@
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
                             <a class="nav-link @(ViewContext.RouteData.Values["controller"]?.ToString() == "Home" ? "active" : "")"
-                               asp-controller="Home" asp-action="Index">Home</a>
+                               asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
                         <li class="nav-item"><a class="nav-link" href="#">Profile</a></li>
                         <li class="nav-item">

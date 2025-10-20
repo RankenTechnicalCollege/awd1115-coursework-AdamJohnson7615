@@ -32,7 +32,7 @@ app.UseRouting();
 app.UseAuthorization();
 
 // ==============================
-// Achievements Routes
+// Achievements Routes (public)
 // ==============================
 
 // Achievements list
@@ -40,6 +40,12 @@ app.MapControllerRoute(
     name: "achievements",
     pattern: "achievements/",
     defaults: new { controller = "Achievements", action = "Index" });
+
+// Achievement create
+app.MapControllerRoute(
+    name: "achievement-create",
+    pattern: "achievements/create/",
+    defaults: new { controller = "Achievements", action = "Create" });
 
 // Achievement detail with slug
 app.MapControllerRoute(
@@ -60,7 +66,7 @@ app.MapControllerRoute(
     defaults: new { controller = "Achievements", action = "Delete" });
 
 // ==============================
-// Games Routes
+// Games Routes (public)
 // ==============================
 
 // Games list
