@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|d:\\awd1115-coursework-adamjohnson7615\\finalproject\\starlogger\\starlogger\\views\\achievements\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|solutionrelative:starlogger\\views\\achievements\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|d:\\awd1115-coursework-adamjohnson7615\\finalproject\\starlogger\\starlogger\\controllers\\achievementscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BAC7678F-E32A-498D-A085-AE5ED256945C}|StarLogger\\StarLogger.csproj|solutionrelative:starlogger\\controllers\\achievementscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -107,6 +111,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Views\\Achievements\\Create.cshtml",
+              "RelativeDocumentMoniker": "StarLogger\\Views\\Achievements\\Create.cshtml",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Views\\Achievements\\Create.cshtml",
+              "RelativeToolTip": "StarLogger\\Views\\Achievements\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-19T23:36:34.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "AchievementsController.cs",
               "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Controllers\\AchievementsController.cs",
               "RelativeDocumentMoniker": "StarLogger\\Controllers\\AchievementsController.cs",
@@ -119,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Views\\Game\\Edit.cshtml",
               "RelativeDocumentMoniker": "StarLogger\\Views\\Game\\Edit.cshtml",
@@ -131,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Views\\Game\\Index.cshtml",
               "RelativeDocumentMoniker": "StarLogger\\Views\\Game\\Index.cshtml",
@@ -143,7 +160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Program.cs",
               "RelativeDocumentMoniker": "StarLogger\\Program.cs",
@@ -156,7 +173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "StarLogger\\Views\\Shared\\_Layout.cshtml",
@@ -168,7 +185,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "StarLogger\\Views\\Home\\Index.cshtml",
@@ -180,7 +197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\appsettings.json",
               "RelativeDocumentMoniker": "StarLogger\\appsettings.json",
@@ -192,7 +209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "StarLoggerContext.cs",
               "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Data\\StarLoggerContext.cs",
               "RelativeDocumentMoniker": "StarLogger\\Data\\StarLoggerContext.cs",
@@ -205,7 +222,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Views\\Achievements\\Index.cshtml",
               "RelativeDocumentMoniker": "StarLogger\\Views\\Achievements\\Index.cshtml",
@@ -217,7 +234,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "StarLogger\\Views\\_ViewStart.cshtml",
@@ -229,7 +246,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "StarLogger\\Views\\_ViewImports.cshtml",
@@ -241,7 +258,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Views\\Game\\Delete.cshtml",
               "RelativeDocumentMoniker": "StarLogger\\Views\\Game\\Delete.cshtml",
@@ -253,7 +270,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Views\\Game\\Create.cshtml",
               "RelativeDocumentMoniker": "StarLogger\\Views\\Game\\Create.cshtml",
@@ -265,7 +282,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Details.cshtml",
               "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Views\\Achievements\\Details.cshtml",
               "RelativeDocumentMoniker": "StarLogger\\Views\\Achievements\\Details.cshtml",
@@ -277,7 +294,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "StarLogger\\Models\\ErrorViewModel.cs",
@@ -289,7 +306,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Achievement.cs",
               "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Models\\Achievement.cs",
               "RelativeDocumentMoniker": "StarLogger\\Models\\Achievement.cs",
@@ -301,7 +318,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "SlugHelper.cs",
               "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Helpers\\SlugHelper.cs",
               "RelativeDocumentMoniker": "StarLogger\\Helpers\\SlugHelper.cs",
@@ -313,7 +330,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "GameController.cs",
               "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Controllers\\GameController.cs",
               "RelativeDocumentMoniker": "StarLogger\\Controllers\\GameController.cs",
@@ -325,7 +342,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "StarLogger\\Controllers\\HomeController.cs",
@@ -337,7 +354,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Areas\\Manage\\Views\\Game\\Create.cshtml",
               "RelativeDocumentMoniker": "StarLogger\\Areas\\Manage\\Views\\Game\\Create.cshtml",
@@ -349,7 +366,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Areas\\Manage\\Views\\Achievements\\Delete.cshtml",
               "RelativeDocumentMoniker": "StarLogger\\Areas\\Manage\\Views\\Achievements\\Delete.cshtml",
@@ -361,7 +378,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Areas\\Manage\\Views\\Achievements\\Create.cshtml",
               "RelativeDocumentMoniker": "StarLogger\\Areas\\Manage\\Views\\Achievements\\Create.cshtml",
@@ -373,7 +390,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "ManageAchievementsController.cs.cs",
               "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\StarLogger\\StarLogger\\Areas\\Manage\\Controllers\\ManageAchievementsController.cs.cs",
               "RelativeDocumentMoniker": "StarLogger\\Areas\\Manage\\Controllers\\ManageAchievementsController.cs.cs",
