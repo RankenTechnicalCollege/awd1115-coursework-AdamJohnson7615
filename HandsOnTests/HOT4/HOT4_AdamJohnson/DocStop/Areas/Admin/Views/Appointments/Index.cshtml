@@ -1,0 +1,30 @@
+﻿@model IEnumerable<DocStop.Models.Appointment>
+@{
+    ViewData["Title"] = "Manage Appointments (Admin)";
+}
+
+<h2>Manage Appointments</h2>
+
+<table class="table table-striped table-bordered">
+    <thead>
+        <tr>
+            <th>Start Date/Time</th>
+            <th>Customer</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var a in Model)
+        {
+            <tr>
+                <td>@a.Start.ToString("g")</td>
+                <td>@a.Customer?.Username</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@a.Id" class="btn btn-sm btn-warning">Edit</a>
+                    <a asp-action="Details" asp-route-id="@a.Id" class="btn btn-sm btn-info">Details</a>
+                    <a asp-action="Delete" asp-route-id="@a.Id" class="btn btn-sm btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

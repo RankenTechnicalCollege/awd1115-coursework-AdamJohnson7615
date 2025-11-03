@@ -1,0 +1,28 @@
+﻿@model IEnumerable<DocStop.Models.Appointment>
+@{
+    ViewData["Title"] = "Appointments";
+}
+
+<h2>Appointments</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create Appointment</a>
+</p>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Start Date/Time</th>
+            <th>Customer</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var a in Model)
+        {
+            <tr>
+                <td>@a.Start.ToString("g")</td>
+                <td>@a.Customer?.Username</td>
+            </tr>
+        }
+    </tbody>
+</table>

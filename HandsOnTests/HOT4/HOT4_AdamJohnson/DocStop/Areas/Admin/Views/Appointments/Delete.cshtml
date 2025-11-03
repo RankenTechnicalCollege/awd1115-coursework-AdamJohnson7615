@@ -1,0 +1,21 @@
+﻿@model DocStop.Models.Appointment
+@{
+    ViewData["Title"] = "Delete Appointment";
+}
+
+<h2>Delete Appointment</h2>
+
+<h4>Are you sure you want to delete this appointment?</h4>
+
+<div class="card my-3">
+    <div class="card-body">
+        <p><strong>Start Date/Time:</strong> @Model.Start.ToString("f")</p>
+        <p><strong>Customer:</strong> @Model.Customer?.Username</p>
+    </div>
+</div>
+
+<form asp-action="DeleteConfirmed" method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>
