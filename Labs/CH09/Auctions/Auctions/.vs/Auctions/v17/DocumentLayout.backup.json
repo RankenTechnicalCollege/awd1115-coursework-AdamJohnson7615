@@ -1,0 +1,442 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH09\\Auctions\\Auctions\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4F0C03CA-D4C1-47D2-8586-3A56A41BE99F}|Auctions\\Auctions.csproj|d:\\awd1115-coursework-adamjohnson7615\\labs\\ch09\\auctions\\auctions\\auctions\\views\\listings\\mybids.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F0C03CA-D4C1-47D2-8586-3A56A41BE99F}|Auctions\\Auctions.csproj|solutionrelative:auctions\\views\\listings\\mybids.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F0C03CA-D4C1-47D2-8586-3A56A41BE99F}|Auctions\\Auctions.csproj|d:\\awd1115-coursework-adamjohnson7615\\labs\\ch09\\auctions\\auctions\\auctions\\data\\services\\ilistingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F0C03CA-D4C1-47D2-8586-3A56A41BE99F}|Auctions\\Auctions.csproj|solutionrelative:auctions\\data\\services\\ilistingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F0C03CA-D4C1-47D2-8586-3A56A41BE99F}|Auctions\\Auctions.csproj|d:\\awd1115-coursework-adamjohnson7615\\labs\\ch09\\auctions\\auctions\\auctions\\controllers\\listingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F0C03CA-D4C1-47D2-8586-3A56A41BE99F}|Auctions\\Auctions.csproj|solutionrelative:auctions\\controllers\\listingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F0C03CA-D4C1-47D2-8586-3A56A41BE99F}|Auctions\\Auctions.csproj|d:\\awd1115-coursework-adamjohnson7615\\labs\\ch09\\auctions\\auctions\\auctions\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F0C03CA-D4C1-47D2-8586-3A56A41BE99F}|Auctions\\Auctions.csproj|solutionrelative:auctions\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F0C03CA-D4C1-47D2-8586-3A56A41BE99F}|Auctions\\Auctions.csproj|d:\\awd1115-coursework-adamjohnson7615\\labs\\ch09\\auctions\\auctions\\auctions\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F0C03CA-D4C1-47D2-8586-3A56A41BE99F}|Auctions\\Auctions.csproj|solutionrelative:auctions\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F0C03CA-D4C1-47D2-8586-3A56A41BE99F}|Auctions\\Auctions.csproj|d:\\awd1115-coursework-adamjohnson7615\\labs\\ch09\\auctions\\auctions\\auctions\\views\\listings\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F0C03CA-D4C1-47D2-8586-3A56A41BE99F}|Auctions\\Auctions.csproj|solutionrelative:auctions\\views\\listings\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F0C03CA-D4C1-47D2-8586-3A56A41BE99F}|Auctions\\Auctions.csproj|d:\\awd1115-coursework-adamjohnson7615\\labs\\ch09\\auctions\\auctions\\auctions\\views\\listings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F0C03CA-D4C1-47D2-8586-3A56A41BE99F}|Auctions\\Auctions.csproj|solutionrelative:auctions\\views\\listings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F0C03CA-D4C1-47D2-8586-3A56A41BE99F}|Auctions\\Auctions.csproj|d:\\awd1115-coursework-adamjohnson7615\\labs\\ch09\\auctions\\auctions\\auctions\\models\\bid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F0C03CA-D4C1-47D2-8586-3A56A41BE99F}|Auctions\\Auctions.csproj|solutionrelative:auctions\\models\\bid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F0C03CA-D4C1-47D2-8586-3A56A41BE99F}|Auctions\\Auctions.csproj|d:\\awd1115-coursework-adamjohnson7615\\labs\\ch09\\auctions\\auctions\\auctions\\data\\services\\bidsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F0C03CA-D4C1-47D2-8586-3A56A41BE99F}|Auctions\\Auctions.csproj|solutionrelative:auctions\\data\\services\\bidsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F0C03CA-D4C1-47D2-8586-3A56A41BE99F}|Auctions\\Auctions.csproj|d:\\awd1115-coursework-adamjohnson7615\\labs\\ch09\\auctions\\auctions\\auctions\\data\\services\\ibidsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F0C03CA-D4C1-47D2-8586-3A56A41BE99F}|Auctions\\Auctions.csproj|solutionrelative:auctions\\data\\services\\ibidsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F0C03CA-D4C1-47D2-8586-3A56A41BE99F}|Auctions\\Auctions.csproj|d:\\awd1115-coursework-adamjohnson7615\\labs\\ch09\\auctions\\auctions\\auctions\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F0C03CA-D4C1-47D2-8586-3A56A41BE99F}|Auctions\\Auctions.csproj|solutionrelative:auctions\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F0C03CA-D4C1-47D2-8586-3A56A41BE99F}|Auctions\\Auctions.csproj|d:\\awd1115-coursework-adamjohnson7615\\labs\\ch09\\auctions\\auctions\\auctions\\views\\listings\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F0C03CA-D4C1-47D2-8586-3A56A41BE99F}|Auctions\\Auctions.csproj|solutionrelative:auctions\\views\\listings\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F0C03CA-D4C1-47D2-8586-3A56A41BE99F}|Auctions\\Auctions.csproj|d:\\awd1115-coursework-adamjohnson7615\\labs\\ch09\\auctions\\auctions\\auctions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F0C03CA-D4C1-47D2-8586-3A56A41BE99F}|Auctions\\Auctions.csproj|solutionrelative:auctions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F0C03CA-D4C1-47D2-8586-3A56A41BE99F}|Auctions\\Auctions.csproj|d:\\awd1115-coursework-adamjohnson7615\\labs\\ch09\\auctions\\auctions\\auctions\\data\\services\\listingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F0C03CA-D4C1-47D2-8586-3A56A41BE99F}|Auctions\\Auctions.csproj|solutionrelative:auctions\\data\\services\\listingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F0C03CA-D4C1-47D2-8586-3A56A41BE99F}|Auctions\\Auctions.csproj|d:\\awd1115-coursework-adamjohnson7615\\labs\\ch09\\auctions\\auctions\\auctions\\data\\services\\icommentsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F0C03CA-D4C1-47D2-8586-3A56A41BE99F}|Auctions\\Auctions.csproj|solutionrelative:auctions\\data\\services\\icommentsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F0C03CA-D4C1-47D2-8586-3A56A41BE99F}|Auctions\\Auctions.csproj|d:\\awd1115-coursework-adamjohnson7615\\labs\\ch09\\auctions\\auctions\\auctions\\data\\services\\commentsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F0C03CA-D4C1-47D2-8586-3A56A41BE99F}|Auctions\\Auctions.csproj|solutionrelative:auctions\\data\\services\\commentsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F0C03CA-D4C1-47D2-8586-3A56A41BE99F}|Auctions\\Auctions.csproj|d:\\awd1115-coursework-adamjohnson7615\\labs\\ch09\\auctions\\auctions\\auctions\\paginatedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F0C03CA-D4C1-47D2-8586-3A56A41BE99F}|Auctions\\Auctions.csproj|solutionrelative:auctions\\paginatedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F0C03CA-D4C1-47D2-8586-3A56A41BE99F}|Auctions\\Auctions.csproj|d:\\awd1115-coursework-adamjohnson7615\\labs\\ch09\\auctions\\auctions\\auctions\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4F0C03CA-D4C1-47D2-8586-3A56A41BE99F}|Auctions\\Auctions.csproj|solutionrelative:auctions\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F0C03CA-D4C1-47D2-8586-3A56A41BE99F}|Auctions\\Auctions.csproj|d:\\awd1115-coursework-adamjohnson7615\\labs\\ch09\\auctions\\auctions\\auctions\\views\\listings\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F0C03CA-D4C1-47D2-8586-3A56A41BE99F}|Auctions\\Auctions.csproj|solutionrelative:auctions\\views\\listings\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F0C03CA-D4C1-47D2-8586-3A56A41BE99F}|Auctions\\Auctions.csproj|d:\\awd1115-coursework-adamjohnson7615\\labs\\ch09\\auctions\\auctions\\auctions\\models\\listing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F0C03CA-D4C1-47D2-8586-3A56A41BE99F}|Auctions\\Auctions.csproj|solutionrelative:auctions\\models\\listing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F0C03CA-D4C1-47D2-8586-3A56A41BE99F}|Auctions\\Auctions.csproj|d:\\awd1115-coursework-adamjohnson7615\\labs\\ch09\\auctions\\auctions\\auctions\\models\\listingvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F0C03CA-D4C1-47D2-8586-3A56A41BE99F}|Auctions\\Auctions.csproj|solutionrelative:auctions\\models\\listingvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F0C03CA-D4C1-47D2-8586-3A56A41BE99F}|Auctions\\Auctions.csproj|d:\\awd1115-coursework-adamjohnson7615\\labs\\ch09\\auctions\\auctions\\auctions\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4F0C03CA-D4C1-47D2-8586-3A56A41BE99F}|Auctions\\Auctions.csproj|solutionrelative:auctions\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F0C03CA-D4C1-47D2-8586-3A56A41BE99F}|Auctions\\Auctions.csproj|d:\\awd1115-coursework-adamjohnson7615\\labs\\ch09\\auctions\\auctions\\auctions\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F0C03CA-D4C1-47D2-8586-3A56A41BE99F}|Auctions\\Auctions.csproj|solutionrelative:auctions\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F0C03CA-D4C1-47D2-8586-3A56A41BE99F}|Auctions\\Auctions.csproj|d:\\awd1115-coursework-adamjohnson7615\\labs\\ch09\\auctions\\auctions\\auctions\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F0C03CA-D4C1-47D2-8586-3A56A41BE99F}|Auctions\\Auctions.csproj|solutionrelative:auctions\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F0C03CA-D4C1-47D2-8586-3A56A41BE99F}|Auctions\\Auctions.csproj|d:\\awd1115-coursework-adamjohnson7615\\labs\\ch09\\auctions\\auctions\\auctions\\data\\migrations\\20251206180856_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F0C03CA-D4C1-47D2-8586-3A56A41BE99F}|Auctions\\Auctions.csproj|solutionrelative:auctions\\data\\migrations\\20251206180856_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MyBids.cshtml",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH09\\Auctions\\Auctions\\Auctions\\Views\\Listings\\MyBids.cshtml",
+              "RelativeDocumentMoniker": "Auctions\\Views\\Listings\\MyBids.cshtml",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH09\\Auctions\\Auctions\\Auctions\\Views\\Listings\\MyBids.cshtml",
+              "RelativeToolTip": "Auctions\\Views\\Listings\\MyBids.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-07T02:41:16.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH09\\Auctions\\Auctions\\Auctions\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Auctions\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH09\\Auctions\\Auctions\\Auctions\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "Auctions\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-07T02:25:33.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH09\\Auctions\\Auctions\\Auctions\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Auctions\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH09\\Auctions\\Auctions\\Auctions\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Auctions\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T02:25:14.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH09\\Auctions\\Auctions\\Auctions\\Views\\Listings\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Auctions\\Views\\Listings\\Edit.cshtml",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH09\\Auctions\\Auctions\\Auctions\\Views\\Listings\\Edit.cshtml",
+              "RelativeToolTip": "Auctions\\Views\\Listings\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-07T02:25:00.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BidsService.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH09\\Auctions\\Auctions\\Auctions\\Data\\Services\\BidsService.cs",
+              "RelativeDocumentMoniker": "Auctions\\Data\\Services\\BidsService.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH09\\Auctions\\Auctions\\Auctions\\Data\\Services\\BidsService.cs",
+              "RelativeToolTip": "Auctions\\Data\\Services\\BidsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T01:17:21.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IBidsService.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH09\\Auctions\\Auctions\\Auctions\\Data\\Services\\IBidsService.cs",
+              "RelativeDocumentMoniker": "Auctions\\Data\\Services\\IBidsService.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH09\\Auctions\\Auctions\\Auctions\\Data\\Services\\IBidsService.cs",
+              "RelativeToolTip": "Auctions\\Data\\Services\\IBidsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T01:16:37.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PaginatedList.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH09\\Auctions\\Auctions\\Auctions\\PaginatedList.cs",
+              "RelativeDocumentMoniker": "Auctions\\PaginatedList.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH09\\Auctions\\Auctions\\Auctions\\PaginatedList.cs",
+              "RelativeToolTip": "Auctions\\PaginatedList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T01:11:19.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH09\\Auctions\\Auctions\\Auctions\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Auctions\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH09\\Auctions\\Auctions\\Auctions\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Auctions\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAwwD0AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-07T00:35:44.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH09\\Auctions\\Auctions\\Auctions\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "Auctions\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH09\\Auctions\\Auctions\\Auctions\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "Auctions\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-12-07T00:33:08.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH09\\Auctions\\Auctions\\Auctions\\Views\\Listings\\Details.cshtml",
+              "RelativeDocumentMoniker": "Auctions\\Views\\Listings\\Details.cshtml",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH09\\Auctions\\Auctions\\Auctions\\Views\\Listings\\Details.cshtml",
+              "RelativeToolTip": "Auctions\\Views\\Listings\\Details.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAEoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-06T22:24:26.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH09\\Auctions\\Auctions\\Auctions\\Views\\Listings\\Index.cshtml",
+              "RelativeDocumentMoniker": "Auctions\\Views\\Listings\\Index.cshtml",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH09\\Auctions\\Auctions\\Auctions\\Views\\Listings\\Index.cshtml",
+              "RelativeToolTip": "Auctions\\Views\\Listings\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-06T18:26:56.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ListingsController.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH09\\Auctions\\Auctions\\Auctions\\Controllers\\ListingsController.cs",
+              "RelativeDocumentMoniker": "Auctions\\Controllers\\ListingsController.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH09\\Auctions\\Auctions\\Auctions\\Controllers\\ListingsController.cs",
+              "RelativeToolTip": "Auctions\\Controllers\\ListingsController.cs",
+              "ViewState": "AgIAAM8AAAAAAAAAAAAwwO8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T18:11:47.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IListingsService.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH09\\Auctions\\Auctions\\Auctions\\Data\\Services\\IListingsService.cs",
+              "RelativeDocumentMoniker": "Auctions\\Data\\Services\\IListingsService.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH09\\Auctions\\Auctions\\Auctions\\Data\\Services\\IListingsService.cs",
+              "RelativeToolTip": "Auctions\\Data\\Services\\IListingsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T18:15:17.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ListingsService.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH09\\Auctions\\Auctions\\Auctions\\Data\\Services\\ListingsService.cs",
+              "RelativeDocumentMoniker": "Auctions\\Data\\Services\\ListingsService.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH09\\Auctions\\Auctions\\Auctions\\Data\\Services\\ListingsService.cs",
+              "RelativeToolTip": "Auctions\\Data\\Services\\ListingsService.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAYwB8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T18:16:14.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH09\\Auctions\\Auctions\\Auctions\\Program.cs",
+              "RelativeDocumentMoniker": "Auctions\\Program.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH09\\Auctions\\Auctions\\Auctions\\Program.cs",
+              "RelativeToolTip": "Auctions\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T18:25:34.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Bid.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH09\\Auctions\\Auctions\\Auctions\\Models\\Bid.cs",
+              "RelativeDocumentMoniker": "Auctions\\Models\\Bid.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH09\\Auctions\\Auctions\\Auctions\\Models\\Bid.cs",
+              "RelativeToolTip": "Auctions\\Models\\Bid.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T17:59:32.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ICommentsService.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH09\\Auctions\\Auctions\\Auctions\\Data\\Services\\ICommentsService.cs",
+              "RelativeDocumentMoniker": "Auctions\\Data\\Services\\ICommentsService.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH09\\Auctions\\Auctions\\Auctions\\Data\\Services\\ICommentsService.cs",
+              "RelativeToolTip": "Auctions\\Data\\Services\\ICommentsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T01:17:58.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CommentsService.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH09\\Auctions\\Auctions\\Auctions\\Data\\Services\\CommentsService.cs",
+              "RelativeDocumentMoniker": "Auctions\\Data\\Services\\CommentsService.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH09\\Auctions\\Auctions\\Auctions\\Data\\Services\\CommentsService.cs",
+              "RelativeToolTip": "Auctions\\Data\\Services\\CommentsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T01:18:34.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH09\\Auctions\\Auctions\\Auctions\\Views\\Listings\\Create.cshtml",
+              "RelativeDocumentMoniker": "Auctions\\Views\\Listings\\Create.cshtml",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH09\\Auctions\\Auctions\\Auctions\\Views\\Listings\\Create.cshtml",
+              "RelativeToolTip": "Auctions\\Views\\Listings\\Create.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACAAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-06T19:27:22.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ListingVM.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH09\\Auctions\\Auctions\\Auctions\\Models\\ListingVM.cs",
+              "RelativeDocumentMoniker": "Auctions\\Models\\ListingVM.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH09\\Auctions\\Auctions\\Auctions\\Models\\ListingVM.cs",
+              "RelativeToolTip": "Auctions\\Models\\ListingVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T19:21:24.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "20251206180856_Initial.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH09\\Auctions\\Auctions\\Auctions\\Data\\Migrations\\20251206180856_Initial.cs",
+              "RelativeDocumentMoniker": "Auctions\\Data\\Migrations\\20251206180856_Initial.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH09\\Auctions\\Auctions\\Auctions\\Data\\Migrations\\20251206180856_Initial.cs",
+              "RelativeToolTip": "Auctions\\Data\\Migrations\\20251206180856_Initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T18:09:01.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH09\\Auctions\\Auctions\\Auctions\\appsettings.json",
+              "RelativeDocumentMoniker": "Auctions\\appsettings.json",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH09\\Auctions\\Auctions\\Auctions\\appsettings.json",
+              "RelativeToolTip": "Auctions\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAC6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-06T18:06:48.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH09\\Auctions\\Auctions\\Auctions\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Auctions\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH09\\Auctions\\Auctions\\Auctions\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Auctions\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T18:04:51.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Listing.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH09\\Auctions\\Auctions\\Auctions\\Models\\Listing.cs",
+              "RelativeDocumentMoniker": "Auctions\\Models\\Listing.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH09\\Auctions\\Auctions\\Auctions\\Models\\Listing.cs",
+              "RelativeToolTip": "Auctions\\Models\\Listing.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T17:55:51.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH09\\Auctions\\Auctions\\Auctions\\Models\\Comment.cs",
+              "RelativeDocumentMoniker": "Auctions\\Models\\Comment.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH09\\Auctions\\Auctions\\Auctions\\Models\\Comment.cs",
+              "RelativeToolTip": "Auctions\\Models\\Comment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T18:02:05.129Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

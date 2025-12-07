@@ -1,0 +1,48 @@
+﻿@model IEnumerable<QuarterlySales.Models.Sales>
+@{
+    ViewData["Title"] = "Quarterly Sales";
+    int selectedEmployeeId = ViewBag.SelectedEmployeeId;
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form method="get">
+    <label for="employeeFilter">Filter by Employee:</label>
+    <select name="employeeId" id="employeeFilter" onchange="this.form.submit()">
+        <option value="">-- All Employees --</option>
+        @foreach (var emp in ViewBag.Employees)
+        {
+            if (emp.EmployeeId == ViewBag.SelectedEmployeeId)
+            {
+                <option value="@emp.EmployeeId" selected>@emp.FirstName @emp.LastName</option>
+            }
+            else
+            {
+                <option value="@emp.EmployeeId">@emp.FirstName @emp.LastName</option>
+            }
+        }
+    </select>
+</form>
+
+
+<table class="table table-bordered mt-3">
+    <thead>
+        <tr>
+            <th>Employee</th>
+            <th>Quarter</th>
+            <th>Year</th>
+            <th>Amount</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var sale in Model)
+        {
+            <tr>
+                <td>@sale.Employee.FirstName @sale.Employee.LastName</td>
+                <td>@sale.Quarter</td>
+                <td>@sale.Year</td>
+                <td>@sale.Amount.ToString("C")</td>
+            </tr>
+        }
+    </tbody>
+</table>

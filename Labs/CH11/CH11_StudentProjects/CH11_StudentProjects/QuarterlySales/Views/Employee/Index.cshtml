@@ -1,0 +1,43 @@
+﻿@model IEnumerable<QuarterlySales.Models.Employee>
+@{
+    ViewData["Title"] = "Employees";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Add New Employee</a>
+</p>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Date of Birth</th>
+            <th>Date of Hire</th>
+            <th>Manager</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var emp in Model)
+        {
+            <tr>
+                <td>@emp.FirstName</td>
+                <td>@emp.LastName</td>
+                <td>@emp.DOB.ToShortDateString()</td>
+                <td>@emp.DateOfHire.ToShortDateString()</td>
+                <td>
+                    @if (emp.Manager != null && emp.Manager.EmployeeId != 0)
+                    {
+                        @emp.Manager.FirstName @emp.Manager.LastName
+                    }
+                    else
+                    {
+                        <em>None</em>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
