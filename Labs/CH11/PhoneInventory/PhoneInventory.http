@@ -1,0 +1,37 @@
+﻿@PhoneInventory_HostAddress = https://localhost:7154
+
+GET {{PhoneInventory_HostAddress}}/phones
+
+###
+
+POST {{PhoneInventory_HostAddress}}/phones
+Content-Type: application/json
+{
+  "make": "Samsung",
+  "model": "Galaxy S21",
+  "isavailable": true,
+  "secret": "SerialNumber123"
+}
+###
+
+GET {{PhoneInventory_HostAddress}}/phones/2
+
+###
+
+DELETE {{PhoneInventory_HostAddress}}/phones/2
+
+###
+
+PUT {{PhoneInventory_HostAddress}}/phones/5
+Content-Type: application/json
+{
+  "make": "Apple",
+  "model": "iPhone 13 Pro",
+  "isavailable": true,
+  "secret": "NewSerialNumber456"
+}
+###
+
+GET {{PhoneInventory_HostAddress}}/phones/available
+
+###

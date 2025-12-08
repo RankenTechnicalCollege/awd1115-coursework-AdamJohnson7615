@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH11\\PhoneInventory\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D6B62A3B-BB77-4D7A-8F34-DD777E453E4A}|PhoneInventory.csproj|d:\\awd1115-coursework-adamjohnson7615\\labs\\ch11\\phoneinventory\\phoneinventory.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{D6B62A3B-BB77-4D7A-8F34-DD777E453E4A}|PhoneInventory.csproj|solutionrelative:phoneinventory.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6B62A3B-BB77-4D7A-8F34-DD777E453E4A}|PhoneInventory.csproj|d:\\awd1115-coursework-adamjohnson7615\\labs\\ch11\\phoneinventory\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6B62A3B-BB77-4D7A-8F34-DD777E453E4A}|PhoneInventory.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6B62A3B-BB77-4D7A-8F34-DD777E453E4A}|PhoneInventory.csproj|d:\\awd1115-coursework-adamjohnson7615\\labs\\ch11\\phoneinventory\\phonedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6B62A3B-BB77-4D7A-8F34-DD777E453E4A}|PhoneInventory.csproj|solutionrelative:phonedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6B62A3B-BB77-4D7A-8F34-DD777E453E4A}|PhoneInventory.csproj|d:\\awd1115-coursework-adamjohnson7615\\labs\\ch11\\phoneinventory\\phonedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6B62A3B-BB77-4D7A-8F34-DD777E453E4A}|PhoneInventory.csproj|solutionrelative:phonedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6B62A3B-BB77-4D7A-8F34-DD777E453E4A}|PhoneInventory.csproj|d:\\awd1115-coursework-adamjohnson7615\\labs\\ch11\\phoneinventory\\phone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6B62A3B-BB77-4D7A-8F34-DD777E453E4A}|PhoneInventory.csproj|solutionrelative:phone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PhoneInventory.http",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH11\\PhoneInventory\\PhoneInventory.http",
+              "RelativeDocumentMoniker": "PhoneInventory.http",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH11\\PhoneInventory\\PhoneInventory.http",
+              "RelativeToolTip": "PhoneInventory.http",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-12-07T22:04:10.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PhoneDTO.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH11\\PhoneInventory\\PhoneDTO.cs",
+              "RelativeDocumentMoniker": "PhoneDTO.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH11\\PhoneInventory\\PhoneDTO.cs",
+              "RelativeToolTip": "PhoneDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T21:59:27.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PhoneDb.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH11\\PhoneInventory\\PhoneDb.cs",
+              "RelativeDocumentMoniker": "PhoneDb.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH11\\PhoneInventory\\PhoneDb.cs",
+              "RelativeToolTip": "PhoneDb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T21:47:13.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Phone.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH11\\PhoneInventory\\Phone.cs",
+              "RelativeDocumentMoniker": "Phone.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH11\\PhoneInventory\\Phone.cs",
+              "RelativeToolTip": "Phone.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T21:39:31.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH11\\PhoneInventory\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\Labs\\CH11\\PhoneInventory\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAADoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T21:38:42.542Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
