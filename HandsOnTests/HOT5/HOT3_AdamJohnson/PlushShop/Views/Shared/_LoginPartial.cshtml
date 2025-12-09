@@ -1,0 +1,68 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using PlushShop.Models
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+<ul class="navbar-nav">
+
+    @* --------- ADMIN LINK (Only for Admin users) --------- *@
+    @if (SignInManager.IsSignedIn(User) && User.IsInRole("Admin"))
+    {
+        <li class="nav-item">
+            <a class="nav-link text-dark"
+               asp-area="Admin"
+               asp-controller="Products"
+               asp-action="Index">
+                Edit Inventory
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-dark"
+               asp-area="Admin"
+               asp-controller="UserManager"
+               asp-action="Index">
+                Manage Users
+            </a>
+        </li>
+    }
+
+    @* --------- IF USER LOGGED IN --------- *@
+    @if (SignInManager.IsSignedIn(User))
+    {
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="Identity"
+               asp-page="/Account/Manage/Index">
+                Hello, @User.Identity?.Name!
+            </a>
+        </li>
+
+        <li class="nav-item">
+            <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout"
+                  asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                <button type="submit" class="nav-link btn btn-link text-dark">
+                    Logout
+                </button>
+            </form>
+        </li>
+    }
+    else
+    {
+        @* --------- IF USER NOT LOGGED IN --------- *@
+        <li class="nav-item">
+            <a class="nav-link text-dark"
+               asp-area="Identity"
+               asp-page="/Account/Login">
+                Login
+            </a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link text-dark"
+               asp-area="Identity"
+               asp-page="/Account/Register">
+                Register
+            </a>
+        </li>
+    }
+
+</ul>

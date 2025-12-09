@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PlushShop")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+28c6e8836d5beff529c83b156b8478a8653a6116")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+840ffb5dfcccdf0b50acfa831dbeb60c6646a022")]
 [assembly: System.Reflection.AssemblyProductAttribute("PlushShop")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PlushShop")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

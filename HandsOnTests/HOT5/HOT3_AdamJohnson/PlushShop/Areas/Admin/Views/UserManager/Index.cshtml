@@ -1,0 +1,46 @@
+﻿@using Microsoft.AspNetCore.Identity
+@model List<ApplicationUser>
+@{
+    Layout = "_AdminLayout";
+    ViewData["Title"] = "Manage Users";
+}
+
+<h1 class="mb-4">User Manager</h1>
+
+<div class="mb-3">
+    <form method="post" asp-action="CreateAdminRole" class="d-inline">
+        <button class="btn btn-primary">Create Admin Role</button>
+    </form>
+</div>
+
+<div class="row">
+    @foreach (var user in Model)
+    {
+        <div class="col-md-4 mb-3">
+            <div class="card shadow-sm h-100">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">@user.Email</h5>
+                    <p class="card-text mb-2">
+                        Name: @user.FirstName @user.LastName
+                    </p>
+                    <div class="mt-auto">
+                        <form method="post" asp-action="AddToAdmin" class="d-inline me-1">
+                            <input type="hidden" name="userId" value="@user.Id" />
+                            <button class="btn btn-sm btn-success">Add to Admin</button>
+                        </form>
+
+                        <form method="post" asp-action="RemoveFromAdmin" class="d-inline me-1">
+                            <input type="hidden" name="userId" value="@user.Id" />
+                            <button class="btn btn-sm btn-warning">Remove Admin</button>
+                        </form>
+
+                        <form method="post" asp-action="DeleteUser" class="d-inline">
+                            <input type="hidden" name="userId" value="@user.Id" />
+                            <button class="btn btn-sm btn-danger">Delete User</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>

@@ -1,0 +1,40 @@
+﻿@model IEnumerable<PlushShop.Models.Product>
+@{
+    Layout = "_AdminLayout";
+    ViewData["Title"] = "Manage Products";
+}
+
+<h2 class="mb-4">Manage Products</h2>
+
+@if (TempData["Message"] != null)
+{
+    <div class="alert alert-success">@TempData["Message"]</div>
+}
+
+<a asp-area="Admin" asp-controller="Products" asp-action="Create" class="btn btn-primary mb-3">Add New Product</a>
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    @foreach (var p in Model)
+    {
+        <div class="col">
+            <div class="card h-100 shadow-sm">
+                <img src="@Url.Content($"~/images/products/{p.ImageFileName}")"
+                     class="card-img-top"
+                     alt="@p.Name"
+                     style="max-height:200px; object-fit:contain;" />
+
+                <div class="card-body">
+                    <h5 class="card-title">@p.Name</h5>
+                    <p class="card-text text-muted">@p.Company • @p.Series</p>
+                    <p class="card-text mb-1"><strong>Stock:</strong> @p.Stock</p>
+                    <p class="card-text mb-1"><strong>Price:</strong> @p.Price.ToString("C")</p>
+                </div>
+
+                <div class="card-footer d-flex justify-content-between">
+                    <a asp-area="Admin" asp-controller="Products" asp-action="Edit" asp-route-id="@p.Id" class="btn btn-warning btn-sm">Edit</a>
+                    <a asp-area="Admin" asp-controller="Products" asp-action="Delete" asp-route-id="@p.Id" class="btn btn-danger btn-sm">Delete</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>

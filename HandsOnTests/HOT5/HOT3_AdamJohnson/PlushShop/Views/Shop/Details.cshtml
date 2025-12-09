@@ -1,0 +1,82 @@
+﻿@model PlushShop.Models.Product
+@{
+    ViewData["Title"] = Model.Name;
+
+    // Function to create safe filenames for logos
+    string SafeLogoFile(string name)
+    {
+        if (string.IsNullOrEmpty(name)) return "";
+        return Uri.EscapeDataString(name.Trim()) + ".png";
+    }
+
+    var companyLogoUrl = Url.Content("~/images/logo/" + SafeLogoFile(Model.Company));
+    var seriesLogoUrl = Url.Content("~/images/logo/" + SafeLogoFile(Model.Series));
+}
+
+<div class="container mt-4">
+    <div class="row">
+        <!-- Product image -->
+        <div class="col-md-5 text-center">
+            <img src="@Url.Content($"~/images/products/{Model.ImageFileName}")"
+                 alt="@Model.Name"
+                 class="img-fluid border rounded mb-3"
+                 style="max-height: 350px; object-fit: contain;" />
+        </div>
+
+        <!-- Product info -->
+        <div class="col-md-7">
+            <h2>@Model.Name</h2>
+            <p class="text-muted">@Model.Company • @Model.Series</p>
+
+            <h4 class="text-success mb-3">@Model.Price.ToString("C")</h4>
+
+            @if (!string.IsNullOrEmpty(Model.Description))
+            {
+                <p class="mb-4">@Model.Description</p>
+            }
+            else
+            {
+                <p class="text-muted mb-4"><em>No description available for this plush.</em></p>
+            }
+
+            <form method="post" asp-controller="Cart" asp-action="AddToCart" asp-route-slug="@Model.Slug">
+                <select name="qty" class="form-select form-select-sm mb-3" style="width:100px;">
+                    @for (int i = 1; i <= Model.Stock; i++)
+                    {
+                        <option value="@i">@i</option>
+                    }
+                </select>
+
+                <button type="submit" class="btn btn-primary" @(Model.Stock == 0 ? "disabled" : "")>
+                    @(Model.Stock == 0 ? "Out of Stock" : "Add to Cart")
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <hr class="my-4" />
+
+    <div class="row text-center">
+        <!-- Company logo -->
+        <div class="col-md-6 mb-3">
+            <div class="card border-0 shadow-sm p-3">
+                <h5 class="mb-2">Company</h5>
+                <img src="@companyLogoUrl"
+                     alt="@Model.Company Logo"
+                     class="img-fluid"
+                     style="max-height: 80px; object-fit: contain;" />
+            </div>
+        </div>
+
+        <!-- Series logo -->
+        <div class="col-md-6 mb-3">
+            <div class="card border-0 shadow-sm p-3">
+                <h5 class="mb-2">Series</h5>
+                <img src="@seriesLogoUrl"
+                     alt="@Model.Series Logo"
+                     class="img-fluid"
+                     style="max-height: 80px; object-fit: contain;" />
+            </div>
+        </div>
+    </div>
+</div>
