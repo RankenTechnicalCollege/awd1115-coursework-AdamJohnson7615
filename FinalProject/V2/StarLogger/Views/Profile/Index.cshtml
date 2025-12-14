@@ -1,0 +1,426 @@
+﻿@model StarLogger.ViewModels.ProfileViewModel
+
+@{
+    ViewData["Title"] = Model.User.UserName + "'s Profile";
+}
+
+@* --- Header Section --- *@
+<div class="row align-items-center mb-5 p-4 rounded" style="background: rgba(255,255,255,0.05);">
+    <div class="col-md-2 text-center">
+        <div class="position-relative d-inline-block">
+            <img src="@Model.User.ProfilePictureUrl" alt="@Model.User.UserName"
+                 class="rounded-circle img-fluid border border-3 border-primary"
+                 style="width: 120px; height: 120px; object-fit: cover;">
+
+            @if (User.Identity.IsAuthenticated && User.Identity.Name == Model.User.UserName)
+            {
+                <button type="button"
+                        class="btn btn-warning btn-sm position-absolute bottom-0 end-0 rounded-circle border border-dark"
+                        style="width: 32px; height: 32px; padding: 0;"
+                        data-bs-toggle="modal"
+                        data-bs-target="#avatarModal"
+                        title="Change Profile Picture">
+                    <i class="bi bi-pencil-fill text-dark" style="font-size: 0.8rem;"></i>
+                </button>
+            }
+        </div>
+    </div>
+    <div class="col-md-10">
+        <h1 class="display-4 text-warning">@Model.User.UserName</h1>
+        <div class="d-flex gap-4 text-muted">
+            <span class="text-white"><i class="bi bi-controller"></i> @Model.GamesCount Games Owned</span>
+
+            <span class="text-white">
+                <i class="bi bi-pencil-square"></i> @Model.ActivityFeed.Count Posts
+            </span>
+
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    @* --- Left Column: Game Library --- *@
+    <div class="col-md-8">
+        <div class="d-flex justify-content-between align-items-end mb-3 border-bottom pb-2">
+            <h3 class="text-warning m-0"><i class="bi bi-collection"></i> Library</h3>
+            @* --- CONTROLS: Sort & Filter (Library) --- *@
+            <div class="d-flex gap-2">
+                <select id="libraryFilter" class="form-select form-select-sm bg-dark text-white border-secondary" style="width: auto;">
+                    <option value="all">Show All</option>
+                    <option value="NotStarted">Unplayed</option>
+                    <option value="CurrentlyPlaying">Now Playing</option>
+                    <option value="Finished">Finished</option>
+                    <option value="Completed100Percent">100% Completed</option>
+                </select>
+
+                <select id="librarySort" class="form-select form-select-sm bg-dark text-white border-secondary" style="width: auto;">
+                    <option value="date_desc">Newest Added</option>
+                    <option value="alpha_asc">A-Z</option>
+                    <option value="alpha_desc">Z-A</option>
+                    <option value="rating_desc">Rating (High to Low)</option>
+                    <option value="rating_asc">Rating (Low to High)</option>
+                </select>
+            </div>
+        </div>
+
+        @if (!Model.GameLibrary.Any())
+        {
+            <p class="text-muted">No games logged yet.</p>
+        }
+        else
+        {
+            @* The Container for the cards *@
+            <div id="gameGrid" class="row row-cols-2 row-cols-md-4 g-3 mb-3">
+                @foreach (var ug in Model.GameLibrary)
+                {
+                    var badgeClass = ug.Status == StarLogger.Models.CompletionStatus.Finished ? "bg-success" :
+                    ug.Status == StarLogger.Models.CompletionStatus.Completed100Percent ? "bg-warning text-dark" :
+                    ug.Status == StarLogger.Models.CompletionStatus.CurrentlyPlaying ? "bg-primary" : "bg-secondary";
+
+                    <div class="col game-card"
+                         data-title="@ug.Game.Title"
+                         data-rating="@(ug.Rating ?? 0)"
+                         data-date="@ug.DateAdded.Ticks"
+                         data-status="@ug.Status">
+
+                        <div class="card bg-secondary text-white border-0 h-100 position-relative group-action">
+                            <img src="@ug.Game.CoverImageUrl" class="card-img-top" alt="@ug.Game.Title" style="height: 250px; object-fit: cover;">
+
+                            @* --- ACTION BUTTONS (Edit + Delete) --- *@
+                            @if (User.Identity.IsAuthenticated && User.Identity.Name == Model.User.UserName)
+                            {
+                                <div class="position-absolute top-0 end-0 m-2 d-flex gap-1">
+
+                                    @* 1. Edit Button *@
+                                    <a asp-controller="Game" asp-action="Edit" asp-route-id="@ug.GameId"
+                                       class="btn btn-sm btn-dark opacity-75" title="Edit Game">
+                                        <i class="bi bi-pencil-fill"></i>
+                                    </a>
+
+                                    @* 2. Delete Button *@
+                                    <form asp-controller="Game" asp-action="Remove" method="post"
+                                          onsubmit="return confirm('Are you sure you want to remove @ug.Game.Title from your library?');">
+                                        <input type="hidden" name="gameId" value="@ug.GameId" />
+                                        <button type="submit" class="btn btn-sm btn-danger opacity-75" title="Remove Game">
+                                            <i class="bi bi-trash-fill"></i>
+                                        </button>
+                                    </form>
+
+                                </div>
+                            }
+                            @* ----------------------------------------------- *@
+
+                            <div class="card-body p-2">
+                                <h6 class="card-title text-truncate" style="font-size: 0.85rem;" title="@ug.Game.Title">@ug.Game.Title</h6>
+                                <div class="d-flex justify-content-between align-items-center mt-2">
+                                    <span class="badge @badgeClass" style="font-size: 0.65rem;">
+                                        @if (ug.Status == StarLogger.Models.CompletionStatus.Completed100Percent)
+                                        {
+                                            <text>100%</text>
+                                        }
+                                        else
+                                        {
+
+                                            @ug.Status
+                                        }
+                                    </span>
+                                    <div class="d-flex gap-1 align-items-center">
+                                        @if (ug.Rating.HasValue)
+                                        {
+                                            <span class="badge bg-warning text-dark" style="font-size: 0.65rem;"><i class="bi bi-star-fill"></i> @ug.Rating</span>
+                                        }
+                                        @if (!string.IsNullOrEmpty(ug.AchievementsEarned))
+                                        {
+                                            <button type="button" class="badge bg-success border-0 p-1" style="font-size: 0.65rem;"
+                                                    data-bs-toggle="popover" data-bs-trigger="focus"
+                                                    title="Achievements" data-bs-content="@ug.AchievementsEarned">
+                                                <i class="bi bi-trophy-fill"></i>
+                                            </button>
+                                        }
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+            <div id="paginationControls" class="d-flex justify-content-between align-items-center mt-4">
+                <button id="btnPrev" class="btn btn-outline-light btn-sm"><i class="bi bi-chevron-left"></i> Previous</button>
+                <span class="text-muted small">Page <span id="pageIndicator">1</span></span>
+                <button id="btnNext" class="btn btn-outline-light btn-sm">Next <i class="bi bi-chevron-right"></i></button>
+            </div>
+        }
+    </div>
+
+    @* --- Right Column: Activity Feed --- *@
+    <div class="col-md-4">
+        <div class="d-flex justify-content-between align-items-end mb-3 border-bottom pb-2">
+            <h3 class="text-warning m-0"><i class="bi bi-activity"></i> Activity</h3>
+            @* --- Activity Filter Dropdown --- *@
+            <select id="activityFilter" class="form-select form-select-sm bg-dark text-white border-secondary" style="width: auto; max-width: 150px;">
+                <option value="all">All Games</option>
+                <option value="General">General (No Game)</option>
+                @foreach (var ug in Model.GameLibrary.OrderBy(x => x.Game.Title))
+                {
+                    <option value="@ug.Game.Title">@ug.Game.Title</option>
+                }
+            </select>
+        </div>
+
+        @if (!Model.ActivityFeed.Any())
+        {
+            <p class="text-white text-muted">No recent activity.</p>
+        }
+        else
+        {
+            <div id="activityGrid" class="vstack gap-3 mb-3">
+                @foreach (var post in Model.ActivityFeed)
+                {
+                    <div class="card bg-dark border-secondary activity-card" data-game-title="@(post.Game != null ? post.Game.Title : "General")">
+                        <div class="card-header border-secondary d-flex justify-content-between align-items-center p-2">
+                            <div class="small">
+                                <span class="text-warning fw-bold">@post.User.UserName</span>
+                                @if (post.Game != null)
+                                {
+                                    <span class="text-white">posted about</span>
+                                    <span class="text-danger fw-bold">@post.Game.Title</span>
+                                }
+                            </div>
+                            @if (User.Identity.IsAuthenticated && (post.User.UserName == User.Identity.Name || User.IsInRole("Admin")))
+                            {
+                                <div class="dropdown">
+                                    <button class="btn btn-link text-white p-0" type="button" data-bs-toggle="dropdown">
+                                        <i class="bi bi-three-dots-vertical small"></i>
+                                    </button>
+                                    <ul class="dropdown-menu dropdown-menu-dark">
+                                        <li><a class="dropdown-item" asp-controller="Post" asp-action="Edit" asp-route-id="@post.Id">Edit</a></li>
+                                        <li>
+                                            <form asp-controller="Post" asp-action="Delete" asp-route-id="@post.Id" method="post" onsubmit="return confirm('Delete?');">
+                                                <button class="dropdown-item text-danger">Delete</button>
+                                            </form>
+                                        </li>
+                                    </ul>
+                                </div>
+                            }
+                        </div>
+
+                        <div class="card-body p-2">
+                            <small class="text-white-50 d-block mb-1">@post.DatePosted.ToString("MMM dd")</small>
+                            <p class="card-text text-white small">@post.Content</p>
+                        </div>
+
+                        <div class="card-footer border-secondary p-2 d-flex gap-3">
+
+                            @* Like Button *@
+                            @{
+                                var likedIds = ViewBag.LikedPostIds as List<int> ?? new List<int>();
+                                var isLiked = likedIds.Contains(post.Id);
+                                var heartIcon = isLiked ? "bi-heart-fill" : "bi-heart";
+                            }
+                            <button class="btn btn-sm btn-link text-danger text-decoration-none p-0"
+                                    onclick="toggleLike(this, @post.Id)">
+                                @Html.AntiForgeryToken()
+                                <i class="@heartIcon"></i> <span>@post.LikeCount Likes</span>
+                            </button>
+
+                            <a asp-controller="Post" asp-action="Details" asp-route-id="@post.Id" class="text-decoration-none small">
+                                <i class="bi bi-chat-left text-info"></i> <span class="text-info">Comments</span>
+                            </a>
+                        </div>
+                    </div>
+                }
+            </div>
+
+            <div id="activityPagination" class="d-flex justify-content-between align-items-center mt-2">
+                <button id="btnActPrev" class="btn btn-outline-light btn-sm"><i class="bi bi-chevron-left"></i> Newer</button>
+                <span class="text-muted small">Page <span id="actPageIndicator">1</span></span>
+                <button id="btnActNext" class="btn btn-outline-light btn-sm">Older <i class="bi bi-chevron-right"></i></button>
+            </div>
+        }
+    </div>
+</div>
+
+@* Avatar Updater *@
+<div class="modal fade" id="avatarModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content bg-dark border-secondary text-white">
+            <div class="modal-header border-secondary">
+                <h5 class="modal-title pixel-font text-warning">Update Profile Picture</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form asp-controller="Profile" asp-action="UpdateAvatar" method="post">
+                <div class="modal-body">
+                    <h4 class="text-info">
+                        If you want to use a image from your computer, consider uploading it to a image hosting website
+                        such as Imgur or ImgBB and copy-pasting its URL.
+                    </h4>
+                    <p class="text-muted small">Enter a valid image URL (JPG, PNG, GIF) to display by your username.</p>
+
+                    <div class="form-group mb-3">
+                        <label class="form-label">Image URL</label>
+                        <input type="url" name="newUrl" class="form-control bg-secondary text-white border-0"
+                               placeholder="https://example.com/my-pic.jpg" required />
+                    </div>
+                </div>
+                <div class="modal-footer border-secondary">
+                    <button type="button" class="btn btn-outline-light" data-bs-dismiss="modal">Cancel</button>
+                    <button type="submit" class="btn btn-warning text-dark fw-bold">
+                        <i class="bi bi-save-fill"></i> Save
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        // :ikes
+        function toggleLike(btn, postId) {
+            var icon = btn.querySelector("i");
+            var countSpan = btn.querySelector("span");
+            var token = btn.querySelector('input[name="__RequestVerificationToken"]').value;
+
+            fetch('/Post/ToggleLike?postId=' + postId, {
+                method: 'POST',
+                headers: { 'RequestVerificationToken': token }
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    countSpan.innerText = data.newCount + " Likes";
+                    if (data.isLiked) {
+                        icon.classList.remove("bi-heart");
+                        icon.classList.add("bi-heart-fill");
+                    } else {
+                        icon.classList.remove("bi-heart-fill");
+                        icon.classList.add("bi-heart");
+                    }
+                }
+            })
+            .catch(error => console.error('Error:', error));
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+            popoverTriggerList.map(function (popoverTriggerEl) { return new bootstrap.Popover(popoverTriggerEl) })
+
+            // GAME LIBRARY
+            const ITEMS_PER_PAGE = 12;
+            let currentPage = 1;
+            let allCards = [];
+            let filteredCards = [];
+
+            const grid = document.getElementById('gameGrid');
+            if(grid) {
+                allCards = Array.from(grid.getElementsByClassName('game-card'));
+                filteredCards = [...allCards];
+
+                document.getElementById('librarySort').addEventListener('change', applySortAndFilter);
+                document.getElementById('libraryFilter').addEventListener('change', applySortAndFilter);
+                document.getElementById('btnPrev').addEventListener('click', () => changePage(-1));
+                document.getElementById('btnNext').addEventListener('click', () => changePage(1));
+
+                applySortAndFilter();
+            }
+
+            function applySortAndFilter() {
+                const sortValue = document.getElementById('librarySort').value;
+                const filterValue = document.getElementById('libraryFilter').value;
+
+                if (filterValue === 'all') { filteredCards = [...allCards]; }
+                else { filteredCards = allCards.filter(card => card.dataset.status === filterValue); }
+
+                filteredCards.sort((a, b) => {
+                    const titleA = a.dataset.title.toLowerCase();
+                    const titleB = b.dataset.title.toLowerCase();
+                    const rateA = parseFloat(a.dataset.rating);
+                    const rateB = parseFloat(b.dataset.rating);
+                    const dateA = parseInt(a.dataset.date);
+                    const dateB = parseInt(b.dataset.date);
+
+                    switch (sortValue) {
+                        case 'alpha_asc': return titleA.localeCompare(titleB);
+                        case 'alpha_desc': return titleB.localeCompare(titleA);
+                        case 'rating_desc': return rateB - rateA;
+                        case 'rating_asc': return rateA - rateB;
+                        case 'date_desc': return dateB - dateA;
+                        default: return 0;
+                    }
+                });
+                currentPage = 1;
+                renderGrid();
+            }
+
+            function changePage(direction) {
+                const maxPage = Math.ceil(filteredCards.length / ITEMS_PER_PAGE);
+                const newPage = currentPage + direction;
+                if (newPage > 0 && newPage <= maxPage) { currentPage = newPage; renderGrid(); }
+            }
+
+            function renderGrid() {
+                grid.innerHTML = '';
+                const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
+                const endIndex = startIndex + ITEMS_PER_PAGE;
+                const pageItems = filteredCards.slice(startIndex, endIndex);
+                pageItems.forEach(card => grid.appendChild(card));
+                document.getElementById('pageIndicator').textContent = currentPage;
+                const maxPage = Math.ceil(filteredCards.length / ITEMS_PER_PAGE);
+                document.getElementById('btnPrev').disabled = currentPage === 1;
+                document.getElementById('btnNext').disabled = currentPage >= maxPage || maxPage === 0;
+                if (filteredCards.length === 0) grid.innerHTML = '<div class="col-12 text-center text-muted p-4">No games match this filter.</div>';
+            }
+
+            // ACTIVITY FEED
+            const ACT_PER_PAGE = 5;
+            let actPage = 1;
+            let allActivityCards = [];
+            let filteredActivityCards = [];
+
+            const actGrid = document.getElementById('activityGrid');
+            if(actGrid) {
+                allActivityCards = Array.from(actGrid.getElementsByClassName('activity-card'));
+                filteredActivityCards = [...allActivityCards];
+
+                document.getElementById('btnActPrev').addEventListener('click', () => changeActPage(-1));
+                document.getElementById('btnActNext').addEventListener('click', () => changeActPage(1));
+                document.getElementById('activityFilter').addEventListener('change', filterActivity);
+
+                renderActivityGrid();
+            }
+
+            function filterActivity() {
+                const filterGame = document.getElementById('activityFilter').value;
+                if (filterGame === 'all') {
+                    filteredActivityCards = [...allActivityCards];
+                } else {
+                    filteredActivityCards = allActivityCards.filter(card => card.dataset.gameTitle === filterGame);
+                }
+                actPage = 1;
+                renderActivityGrid();
+            }
+
+            function changeActPage(direction) {
+                const maxActPage = Math.ceil(filteredActivityCards.length / ACT_PER_PAGE);
+                const newActPage = actPage + direction;
+                if (newActPage > 0 && newActPage <= maxActPage) {
+                    actPage = newActPage;
+                    renderActivityGrid();
+                }
+            }
+
+            function renderActivityGrid() {
+                actGrid.innerHTML = '';
+                const startIndex = (actPage - 1) * ACT_PER_PAGE;
+                const endIndex = startIndex + ACT_PER_PAGE;
+                const pageItems = filteredActivityCards.slice(startIndex, endIndex);
+                pageItems.forEach(card => actGrid.appendChild(card));
+                document.getElementById('actPageIndicator').textContent = actPage;
+                const maxActPage = Math.ceil(filteredActivityCards.length / ACT_PER_PAGE);
+                document.getElementById('btnActPrev').disabled = actPage === 1;
+                document.getElementById('btnActNext').disabled = actPage >= maxActPage || maxActPage === 0;
+                if (filteredActivityCards.length === 0) actGrid.innerHTML = '<div class="text-center text-muted p-2">No posts found.</div>';
+            }
+        });
+    </script>
+}

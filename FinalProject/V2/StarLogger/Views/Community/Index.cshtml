@@ -1,0 +1,66 @@
+﻿@model List<StarLogger.Controllers.CommunityMemberViewModel>
+
+@{
+    ViewData["Title"] = "Community";
+
+    // Array of Bootstrap colors for the "Random" effect
+    string[] colors = { "primary", "secondary", "success", "danger", "warning", "info", "light" };
+    var random = new Random();
+}
+
+<div class="container py-5">
+    <div class="text-center mb-5">
+        <h1 class="display-4 pixel-font text-white">The Community</h1>
+        <p class="lead text-white-50">Meet the other players exploring the StarLogger galaxy.</p>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4">
+        @foreach (var member in Model)
+        {
+            // Pick a random color for this card
+            var color = colors[random.Next(colors.Length)];
+
+            <div class="col">
+                <div class="card h-100 bg-dark border-@color shadow hover-effect">
+                    <div class="card-body text-center d-flex flex-column align-items-center justify-content-center">
+
+                        @* Profile Picture *@
+                        <div class="mb-3 position-relative">
+                            <img src="@member.ProfilePictureUrl" class="rounded-circle border border-@color border-3"
+                                 style="width: 80px; height: 80px; object-fit: cover;"
+                                 alt="@member.UserName">
+
+                            @* Game Count Badge *@
+                            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-@color text-dark">
+                                @member.GameCount
+                            </span>
+                        </div>
+
+                        @* Username *@
+                        <h5 class="card-title pixel-font text-white mb-1">@member.UserName</h5>
+
+                        <p class="card-text text-warning small mb-3">
+                            Owner of <span class="text-@color fw-bold">@member.GameCount</span> games
+                        </p>
+
+                        @* View Profile Button *@
+                        <a asp-controller="Profile" asp-action="Index" asp-route-username="@member.UserName"
+                           class="btn btn-outline-@color btn-sm w-100 mt-auto">
+                            View Profile
+                        </a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+<style>
+    .hover-effect {
+        transition: transform 0.2s ease-in-out;
+    }
+
+        .hover-effect:hover {
+            transform: translateY(-5px);
+        }
+</style>

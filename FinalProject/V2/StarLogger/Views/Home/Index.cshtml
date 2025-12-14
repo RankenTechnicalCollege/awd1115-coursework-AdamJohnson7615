@@ -1,0 +1,281 @@
+﻿@model List<StarLogger.Models.Post>
+
+@{
+    ViewData["Title"] = "Home";
+}
+
+@* --- Hero Section --- *@
+<div class="text-center mb-5">
+    <h1 class="display-4 pixel-font">Welcome to StarLogger</h1>
+    <p class="lead text-warning">Track games, share reviews, and join the galaxy.</p>
+</div>
+
+@* --- CAROUSEL SECTION --- *@
+<div class="container mt-4 mb-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div id="heroCarousel" class="carousel slide border border-3 border-warning rounded shadow overflow-hidden" data-bs-ride="carousel">
+
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="~/images/SLIDE1.PNG" class="d-block w-100" alt="First Slide">
+                        <div class="carousel-caption d-none d-md-block bg-warning text-dark rounded shadow mb-4 p-2" style="--bs-bg-opacity: .9;">
+                            <h5 class="fw-bold">Search Games</h5>
+                            <p class="mb-0">Search up video games you own and add them to your library!</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="~/images/SLIDE2.PNG" class="d-block w-100" alt="Second Slide">
+                        <div class="carousel-caption d-none d-md-block bg-warning text-dark rounded shadow mb-4 p-2" style="--bs-bg-opacity: .9;">
+                            <h5 class="fw-bold">Post & Share</h5>
+                            <p class="mb-0">Make posts about your gaming journey or comment on other's posts and connect!</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="~/images/SLIDE3.PNG" class="d-block w-100" alt="Third Slide">
+                        <div class="carousel-caption d-none d-md-block bg-warning text-dark rounded shadow mb-4 p-2" style="--bs-bg-opacity: .9;">
+                            <h5 class="fw-bold">It's All YOU!</h5>
+                            <p class="mb-0">Set your avatar, display your games and achievements proudly.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@* --- SESSION DEMO (Last Viewed Game) --- *@
+@if (ViewBag.LastViewedName != null)
+{
+    <div class="row justify-content-center mb-4">
+        <div class="col-md-8">
+            <div class="alert alert-info border-info bg-dark text-info d-flex align-items-center justify-content-between shadow">
+                <div>
+                    <i class="bi bi-eye-fill me-2"></i>
+                    You were just looking at <strong>@ViewBag.LastViewedName</strong>.
+                </div>
+
+                @if (ViewBag.LastViewedId != null)
+                {
+                    <a asp-controller="Game" asp-action="Details" asp-route-id="@ViewBag.LastViewedId" class="btn btn-sm btn-outline-info">
+                        Take me back <i class="bi bi-arrow-right"></i>
+                    </a>
+                }
+                else
+                {
+                    <a asp-controller="Game" asp-action="Index" asp-route-search="@ViewBag.LastViewedName" class="btn btn-sm btn-outline-info">
+                        Find it again <i class="bi bi-search"></i>
+                    </a>
+                }
+            </div>
+        </div>
+    </div>
+}
+
+@* --- The Feed --- *@
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <h3 class="mb-4 border-bottom pb-2"><i class="bi bi-globe"></i> Global Activity</h3>
+
+        @if (!Model.Any())
+        {
+            <div class="alert alert-dark text-danger text-center">It's quiet... too quiet. Be the first to post!</div>
+        }
+        else
+        {
+            <div class="vstack gap-4" id="feedContainer">
+                @foreach (var post in Model)
+                {
+                    <div class="card bg-dark border-secondary shadow feed-item">
+                        <div class="card-header border-secondary d-flex justify-content-between align-items-center">
+                            <div class="d-flex align-items-center gap-2">
+                                <img src="@post.User.ProfilePictureUrl" class="rounded-circle" style="width: 30px; height: 30px;">
+                                <a asp-controller="Profile" asp-action="Index" asp-route-username="@post.User.UserName" class="text-decoration-none text-warning fw-bold">
+                                    @post.User.UserName
+                                </a>
+                                <span class="text-white small">made a post.</span>
+                            </div>
+                            <div class="d-flex align-items-center gap-2">
+                                <small class="text-info me-2">@post.DatePosted.ToString("MMM dd")</small>
+
+                                @if (User.Identity.IsAuthenticated && (post.User.UserName == User.Identity.Name || User.IsInRole("Admin")))
+                                {
+                                    <div class="dropdown">
+                                        <button class="btn btn-link text-white p-0" type="button" data-bs-toggle="dropdown">
+                                            <i class="bi bi-three-dots-vertical"></i>
+                                        </button>
+                                        <ul class="dropdown-menu dropdown-menu-dark">
+                                            <li>
+                                                <a class="dropdown-item" asp-controller="Post" asp-action="Edit" asp-route-id="@post.Id">
+                                                    <i class="bi bi-pencil me-2"></i> Edit
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <form asp-controller="Post" asp-action="Delete" asp-route-id="@post.Id" method="post"
+                                                      onsubmit="return confirm('Are you sure you want to delete this post?');">
+                                                    <button type="submit" class="dropdown-item text-danger">
+                                                        <i class="bi bi-trash me-2"></i> Delete
+                                                    </button>
+                                                </form>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+
+                        <div class="card-body">
+                            @if (post.Game != null)
+                            {
+                                <div class="d-flex gap-3 mb-3 align-items-start">
+                                    <img src="@post.Game.CoverImageUrl" class="rounded" style="width: 60px;">
+                                    <div>
+                                        <a asp-controller="Game" asp-action="Details" asp-route-id="@post.Game.Id" class="text-decoration-none">
+                                            <h5 class="card-title mb-1 text-info hover-underline">@post.Game.Title</h5>
+                                        </a>
+                                        <p class="card-text text-white">@post.Content</p>
+                                    </div>
+                                </div>
+                            }
+                            else
+                            {
+                                <p class="card-text fs-5 text-white">@post.Content</p>
+                            }
+                        </div>
+
+                        <div class="card-footer border-secondary text-muted d-flex gap-4">
+                            @{
+                                var likedIds = ViewBag.LikedPostIds as List<int> ?? new List<int>();
+                                var isLiked = likedIds.Contains(post.Id);
+                                var heartIcon = isLiked ? "bi-heart-fill" : "bi-heart";
+                            }
+                            <button class="btn btn-sm btn-link text-danger text-decoration-none p-0"
+                                    onclick="toggleLike(this, @post.Id)">
+                                @Html.AntiForgeryToken()
+                                <i class="@heartIcon"></i> <span>@post.LikeCount Likes</span>
+                            </button>
+
+                            <a asp-controller="Post" asp-action="Details" asp-route-id="@post.Id" class="btn btn-sm btn-link text-info text-decoration-none p-0">
+                                <i class="bi bi-chat"></i> Comments
+                            </a>
+                        </div>
+                    </div>
+                }
+            </div>
+
+            @* --- PAGINATION CONTROLS --- *@
+            <div id="feedPagination" class="d-flex justify-content-between align-items-center mt-4">
+                <button id="btnFeedPrev" class="btn btn-outline-light btn-sm"><i class="bi bi-chevron-left"></i> Newer</button>
+                <span class="text-muted small">Page <span id="feedPageIndicator">1</span></span>
+                <button id="btnFeedNext" class="btn btn-outline-light btn-sm">Older <i class="bi bi-chevron-right"></i></button>
+            </div>
+            @* --------------------------- *@
+        }
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        // LIKE FUNCTIONALITY
+        function toggleLike(btn, postId) {
+            var icon = btn.querySelector("i");
+            var countSpan = btn.querySelector("span");
+            var token = btn.querySelector('input[name="__RequestVerificationToken"]').value;
+
+            fetch('/Post/ToggleLike?postId=' + postId, {
+                method: 'POST',
+                headers: { 'RequestVerificationToken': token }
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    countSpan.innerText = data.newCount + " Likes";
+                    if (data.isLiked) {
+                        icon.classList.remove("bi-heart");
+                        icon.classList.add("bi-heart-fill");
+                    } else {
+                        icon.classList.remove("bi-heart-fill");
+                        icon.classList.add("bi-heart");
+                    }
+                }
+            })
+            .catch(error => console.error('Error:', error));
+        }
+
+        // PAGINATION LOGIC
+        document.addEventListener('DOMContentLoaded', function() {
+            const ITEMS_PER_PAGE = 8;
+            let currentPage = 1;
+
+            // Select all items with the 'feed-item' class
+            const allPosts = Array.from(document.querySelectorAll('.feed-item'));
+            const totalPages = Math.ceil(allPosts.length / ITEMS_PER_PAGE);
+
+            const btnPrev = document.getElementById('btnFeedPrev');
+            const btnNext = document.getElementById('btnFeedNext');
+            const pageInd = document.getElementById('feedPageIndicator');
+
+            // Only run if posts exist
+            if(allPosts.length > 0) {
+
+                function showPage(page) {
+                    // Hide all first
+                    allPosts.forEach(post => post.style.display = 'none');
+
+                    // Calculate range
+                    const start = (page - 1) * ITEMS_PER_PAGE;
+                    const end = start + ITEMS_PER_PAGE;
+
+                    // Show items in range
+                    for(let i = start; i < end; i++) {
+                        if(allPosts[i]) {
+                            allPosts[i].style.display = 'block';
+                        }
+                    }
+
+                    // Update controls
+                    pageInd.innerText = page;
+                    btnPrev.disabled = (page === 1);
+                    btnNext.disabled = (page === totalPages || totalPages === 0);
+                }
+
+                // Event Listeners
+                btnPrev.addEventListener('click', () => {
+                    if(currentPage > 1) {
+                        currentPage--;
+                        showPage(currentPage);
+                        // Optional: Scroll to top of feed
+                        document.getElementById('feedContainer').scrollIntoView({ behavior: 'smooth' });
+                    }
+                });
+
+                btnNext.addEventListener('click', () => {
+                    if(currentPage < totalPages) {
+                        currentPage++;
+                        showPage(currentPage);
+                        // Optional: Scroll to top of feed
+                        document.getElementById('feedContainer').scrollIntoView({ behavior: 'smooth' });
+                    }
+                });
+
+                // Initialize
+                showPage(1);
+            }
+        });
+    </script>
+}

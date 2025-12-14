@@ -1,0 +1,66 @@
+﻿@{
+    ViewData["Title"] = "Contact";
+}
+
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8 text-center mb-5">
+            <h1 class="display-4 pixel-font text-warning">Contact Us</h1>
+            <p class="lead text-white-50">
+                Found a bug in the system? Have a feature request? Or just want to say hello?
+                Fill out the log below.
+            </p>
+        </div>
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+
+            @if (TempData["Success"] != null)
+            {
+                <div class="alert alert-success border-0 shadow">
+                    <i class="bi bi-check-circle-fill me-2"></i> @TempData["Success"]
+                </div>
+            }
+            @if (TempData["Error"] != null)
+            {
+                <div class="alert alert-danger border-0 shadow">
+                    <i class="bi bi-exclamation-triangle-fill me-2"></i> @TempData["Error"]
+                </div>
+            }
+
+            <div class="card bg-dark border-secondary shadow-lg">
+                <div class="card-body p-4">
+                    <form asp-action="Index" method="post">
+                        <div class="mb-3">
+                            <label class="form-label text-muted">Your Name</label>
+                            <div class="input-group">
+                                <span class="input-group-text bg-secondary border-0 text-white"><i class="bi bi-person"></i></span>
+                                <input name="name" class="form-control bg-secondary text-white border-0" placeholder="Name" required />
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label text-muted">Your Email</label>
+                            <div class="input-group">
+                                <span class="input-group-text bg-secondary border-0 text-white"><i class="bi bi-at"></i></span>
+                                <input name="email" type="email" class="form-control bg-secondary text-white border-0" placeholder="name@gmail.com" required />
+                            </div>
+                        </div>
+
+                        <div class="mb-4">
+                            <label class="form-label text-muted">Your Inquiry</label>
+                            <textarea name="message" class="form-control bg-secondary text-white border-0" rows="5" placeholder="Message content..." required></textarea>
+                        </div>
+
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-primary btn-lg">
+                                <i class="bi bi-send-fill"></i> Send
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

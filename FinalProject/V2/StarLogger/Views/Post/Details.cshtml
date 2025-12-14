@@ -1,0 +1,164 @@
+﻿@model StarLogger.Models.Post
+
+@{
+    ViewData["Title"] = "Post Details";
+}
+
+<div class="container mt-4">
+    <a asp-controller="Home" asp-action="Index" class="btn btn-outline-light mb-4">
+        <i class="bi bi-arrow-left"></i> Back to Feed
+    </a>
+
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card bg-dark border-secondary shadow mb-4">
+                <div class="card-header border-secondary d-flex justify-content-between align-items-center">
+                    <div class="d-flex align-items-center gap-2">
+                        <a asp-controller="Profile" asp-action="Index" asp-route-username="@Model.User.UserName"
+                           class="d-flex align-items-center gap-2 text-decoration-none">
+                            <img src="@Model.User.ProfilePictureUrl" class="rounded-circle" style="width: 30px; height: 30px;">
+                            <span class="text-warning fw-bold">@Model.User.UserName</span>
+                        </a>
+                        @if (Model.Game != null)
+                        {
+                            <span class="text-muted">
+                                <i class="bi bi-caret-right-fill"></i> <span class="text-danger">@Model.Game.Title</span>
+                            </span>
+                        }
+                    </div>
+                    <small class="text-white-50">@Model.DatePosted.ToString("MMM dd, HH:mm")</small>
+                </div>
+                <div class="card-body">
+                    @if (Model.Game != null)
+                    {
+                        <div class="d-flex gap-3 align-items-start">
+                            <img src="@Model.Game.CoverImageUrl" class="rounded" style="width: 60px;">
+                            <div>
+                                <h5 class="card-title mb-1 text-info">@Model.Game.Title</h5>
+                                <p class="card-text text-white">@Model.Content</p>
+                            </div>
+                        </div>
+                    }
+                    else
+                    {
+                        <p class="card-text fs-5 text-white">@Model.Content</p>
+                    }
+                </div>
+
+                <div class="card-footer border-secondary">
+                    <div class="d-flex flex-column gap-2">
+                        <div>
+                            @{
+                                bool isLiked = ViewBag.IsLiked ?? false;
+                                var heartIcon = isLiked ? "bi-heart-fill" : "bi-heart";
+                            }
+                            <button class="btn btn-sm btn-link text-danger text-decoration-none p-0"
+                                    onclick="toggleLike(this, @Model.Id)">
+                                @Html.AntiForgeryToken()
+                                <i class="@heartIcon"></i> <span>@Model.LikeCount Likes</span>
+                            </button>
+                        </div>
+
+                        @if (Model.PostLikes != null && Model.PostLikes.Any())
+                        {
+                            <div class="small text-danger">
+                                @{
+                                    var likers = Model.PostLikes.Select(pl => pl.User.UserName).ToList();
+                                    var count = likers.Count;
+                                }
+
+                                @if (count == 1)
+                                {
+                                    <span><strong>@likers[0]</strong> liked this post.</span>
+                                }
+                                else if (count == 2)
+                                {
+                                    <span><strong>@likers[0]</strong> and <strong>@likers[1]</strong> liked this post.</span>
+                                }
+                                else
+                                {
+                                    <span><strong>@likers[0]</strong>, <strong>@likers[1]</strong>, and <strong>@(count - 2) others</strong> liked this post.</span>
+                                }
+                            </div>
+                        }
+                    </div>
+                </div>
+
+            </div>
+
+            @* The Comment Section *@
+            <h4 class="text-white mb-3 pixel-font"><i class="bi bi-chat-left-text"></i> Comments (@Model.Comments.Count)</h4>
+
+            <div class="vstack gap-3 mb-5">
+                @if (Model.Comments.Any())
+                {
+                    @foreach (var comment in Model.Comments.OrderBy(c => c.DatePosted))
+                    {
+                        <div class="d-flex gap-3 p-3 rounded bg-secondary bg-opacity-10 border border-secondary">
+                            <a asp-controller="Profile" asp-action="Index" asp-route-username="@comment.User.UserName">
+                                <img src="@comment.User.ProfilePictureUrl" class="rounded-circle" style="width: 40px; height: 40px;">
+                            </a>
+
+                            <div class="w-100">
+                                <div class="d-flex justify-content-between">
+                                    <a asp-controller="Profile" asp-action="Index" asp-route-username="@comment.User.UserName" class="text-decoration-none">
+                                        <span class="fw-bold text-info">@comment.User.UserName</span>
+                                    </a>
+
+                                    <small class="text-muted">@comment.DatePosted.ToString("MMM dd, HH:mm")</small>
+                                </div>
+                                <p class="mb-0 text-white-50">@comment.Content</p>
+                            </div>
+                        </div>
+                    }
+                }
+                else
+                {
+                    <p class="text-white-50">No comments yet. Be the first!</p>
+                }
+            </div>
+
+            <div class="card bg-dark border-secondary">
+                <div class="card-body">
+                    <form asp-action="AddComment" method="post">
+                        <input type="hidden" name="postId" value="@Model.Id" />
+                        <div class="input-group">
+                            <input name="content" class="form-control bg-secondary text-white border-0" placeholder="Write a reply..." required />
+                            <button type="submit" class="btn btn-primary">Reply</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        function toggleLike(btn, postId) {
+            var icon = btn.querySelector("i");
+            var countSpan = btn.querySelector("span");
+            var token = btn.querySelector('input[name="__RequestVerificationToken"]').value;
+
+            fetch('/Post/ToggleLike?postId=' + postId, {
+                method: 'POST',
+                headers: { 'RequestVerificationToken': token }
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    countSpan.innerText = data.newCount + " Likes";
+                    if (data.isLiked) {
+                        icon.classList.remove("bi-heart");
+                        icon.classList.add("bi-heart-fill");
+                    } else {
+                        icon.classList.remove("bi-heart-fill");
+                        icon.classList.add("bi-heart");
+                    }
+                }
+            })
+            .catch(error => console.error('Error:', error));
+        }
+    </script>
+}

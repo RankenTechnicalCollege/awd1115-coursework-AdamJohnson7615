@@ -1,0 +1,101 @@
+﻿@model StarLogger.Models.Game
+
+@{
+    ViewData["Title"] = Model.Title;
+    var userGame = ViewBag.UserGame as StarLogger.Models.UserGame;
+}
+
+<div class="container py-5">
+
+    @* --- Navigation --- *@
+    <a asp-controller="Game" asp-action="Index" class="btn btn-outline-light mb-4">
+        <i class="bi bi-arrow-left"></i> Back to Search
+    </a>
+
+    <div class="row">
+        @* --- LEFT COLUMN: Cover Image --- *@
+        <div class="col-md-4 text-center mb-4">
+            <div class="card bg-dark border-secondary shadow hover-effect">
+                <img src="@Model.CoverImageUrl" class="card-img-top" alt="@Model.Title">
+            </div>
+        </div>
+
+        @* --- RIGHT COLUMN: Info & Actions --- *@
+        <div class="col-md-8">
+            <h1 class="display-4 pixel-font text-white">@Model.Title</h1>
+            <span class="badge bg-secondary fs-6 mb-3">@Model.Platform</span>
+            <span class="badge bg-dark border border-secondary text-white-50 fs-6 mb-3">IGDB: @Model.IgdbId</span>
+
+            <hr class="border-secondary" />
+
+            <div class="card bg-dark border-secondary bg-opacity-50 mb-4">
+                <div class="card-body">
+                    @if (userGame != null)
+                    {
+                        <div class="d-flex align-items-center justify-content-between">
+                            <div>
+                                <h4 class="text-success pixel-font mb-1">
+                                    <i class="bi bi-check-circle-fill"></i> In Library
+                                </h4>
+                                <p class="text-white-50 mb-0">
+                                    Status: <span class="text-white">@userGame.Status</span> |
+                                    Rating: <span class="text-warning">@userGame.Rating/10</span>
+                                </p>
+                            </div>
+                            <a asp-controller="Game" asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary">
+                                <i class="bi bi-pencil-square"></i> Edit Entry
+                            </a>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="d-flex align-items-center justify-content-between">
+                            <div>
+                                <h4 class="text-white pixel-font mb-1">Not in Library</h4>
+                                <p class="text-white-50 mb-0">Add this game to track your progress.</p>
+                            </div>
+
+                            <form asp-action="Add" method="post">
+                                <input type="hidden" name="title" value="@Model.Title" />
+                                <input type="hidden" name="platform" value="@Model.Platform" />
+                                <input type="hidden" name="igdbId" value="@Model.IgdbId" />
+                                <input type="hidden" name="coverUrl" value="@Model.CoverImageUrl" />
+                                <button type="submit" class="btn btn-success btn-lg">
+                                    <i class="bi bi-plus-circle"></i> Add to Library
+                                </button>
+                            </form>
+                        </div>
+                    }
+                </div>
+            </div>
+
+            @* --- COMMUNITY SECTION: Who else plays this? --- *@
+            <h4 class="text-white mt-5 mb-3 pixel-font">
+                <i class="bi bi-people-fill"></i> Commanders playing this
+            </h4>
+
+            @if (Model.UserGames != null && Model.UserGames.Any())
+            {
+                <div class="d-flex flex-wrap gap-3">
+                    @foreach (var entry in Model.UserGames)
+                    {
+                        @if (entry.User != null)
+                        {
+                            <a asp-controller="Profile" asp-action="Index" asp-route-username="@entry.User.UserName"
+                               class="text-decoration-none text-center"
+                               data-bs-toggle="tooltip" title="@entry.User.UserName (@entry.Status)">
+                                <img src="@entry.User.ProfilePictureUrl" class="rounded-circle border border-secondary"
+                                     style="width: 50px; height: 50px; object-fit: cover;">
+                            </a>
+                        }
+                    }
+                </div>
+            }
+            else
+            {
+                <p class="text-white-50">No other commanders have logged this game yet.</p>
+            }
+
+        </div>
+    </div>
+</div>

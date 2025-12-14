@@ -1,0 +1,58 @@
+﻿@model StarLogger.Models.UserGame
+
+@{
+    ViewData["Title"] = "Edit " + Model.Game.Title;
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card bg-dark text-white border-secondary shadow">
+
+                @* Header with Cover Art background effect *@
+                <div class="card-header border-secondary text-center position-relative overflow-hidden" style="height: 150px;">
+                    <div style="background-image: url('@Model.Game.CoverImageUrl'); background-size: cover; filter: blur(10px); opacity: 0.5; position: absolute; top:0; left:0; right:0; bottom:0;"></div>
+                    <div class="position-relative z-1 pt-4">
+                        <img src="@Model.Game.CoverImageUrl" class="rounded shadow" style="height: 100px;">
+                    </div>
+                </div>
+
+                <div class="card-body">
+                    <h3 class="text-center mb-4">@Model.Game.Title</h3>
+
+                    <form asp-action="Edit" method="post">
+                        <input type="hidden" name="gameId" value="@Model.GameId" />
+
+                        @* 1. Completion Status *@
+                        <div class="mb-3">
+                            <label class="form-label text-warning">Completion Status</label>
+                            <select name="status" class="form-select bg-secondary text-white border-0" asp-for="Status" asp-items="Html.GetEnumSelectList<StarLogger.Models.CompletionStatus>()">
+                            </select>
+                        </div>
+
+                        @* 2. Rating (1-10) *@
+                        <div class="mb-3">
+                            <label class="form-label text-warning">Your Rating (1-10)</label>
+                            <input type="number" name="rating" class="form-control bg-secondary text-white border-0"
+                                   value="@Model.Rating" min="1" max="10" placeholder="Unrated" />
+                        </div>
+
+                        @* 3. Achievements *@
+                        <div class="mb-4">
+                            <label class="form-label text-warning">Achievements Earned</label>
+                            <textarea name="achievements" class="form-control bg-secondary text-white border-0" rows="3" placeholder="List your achievements here...">@Model.AchievementsEarned</textarea>
+                            <small class="text-muted">Separate with commas or new lines.</small>
+                        </div>
+
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-success btn-lg">
+                                <i class="bi bi-save"></i> Save Progress
+                            </button>
+                            <a asp-controller="Profile" asp-action="Index" asp-route-username="StarGamer" class="btn btn-outline-light">Cancel</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

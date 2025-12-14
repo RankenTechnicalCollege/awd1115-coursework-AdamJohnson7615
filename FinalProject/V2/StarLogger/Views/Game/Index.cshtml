@@ -1,0 +1,78 @@
+﻿@model StarLogger.ViewModels.GameSearchViewModel
+
+@{
+    ViewData["Title"] = "Find Games";
+}
+
+<div class="container text-center">
+    <h1 class="mb-4 pixel-font">Find New Games</h1>
+
+    @* --- Alerts for Add Actions --- *@
+    @if (TempData["Success"] != null)
+    {
+        <div class="alert alert-success">@TempData["Success"]</div>
+    }
+    @if (TempData["Error"] != null)
+    {
+        <div class="alert alert-danger">@TempData["Error"]</div>
+    }
+
+    @* --- Search Bar --- *@
+    <div class="row justify-content-center mb-5">
+        <div class="col-md-8">
+            <form asp-action="Index" method="post" class="d-flex gap-2">
+                <input asp-for="SearchTerm" class="form-control form-control-lg bg-secondary text-white border-0" placeholder="Search (e.g. Metroid)..." />
+                <button type="submit" class="btn btn-primary btn-lg"><i class="bi bi-search"></i></button>
+            </form>
+        </div>
+    </div>
+
+    @* --- Search Results Grid --- *@
+    @if (Model.Results.Any())
+    {
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            @foreach (var game in Model.Results)
+            {
+                <div class="col">
+                    <div class="card bg-dark border-secondary h-100 shadow-sm hover-effect">
+                        <img src="@game.CoverUrl" class="card-img-top" alt="@game.Title" style="height: 300px; object-fit: cover;">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title text-white">@game.Title</h5>
+                            <p class="card-text text-muted mb-4">@game.Platform</p>
+
+                            @* Add/Detail Buttons *@
+                            <div class="mt-auto d-flex flex-column gap-2">
+
+                                <form asp-action="Add" method="post">
+                                    <input type="hidden" name="title" value="@game.Title" />
+                                    <input type="hidden" name="platform" value="@game.Platform" />
+                                    <input type="hidden" name="igdbId" value="@game.IgdbId" />
+                                    <input type="hidden" name="coverUrl" value="@game.CoverUrl" />
+                                    <button type="submit" class="btn btn-outline-success w-100">
+                                        <i class="bi bi-plus-circle"></i> Add
+                                    </button>
+                                </form>
+
+                                <form asp-action="Preview" method="post">
+                                    <input type="hidden" name="title" value="@game.Title" />
+                                    <input type="hidden" name="platform" value="@game.Platform" />
+                                    <input type="hidden" name="igdbId" value="@game.IgdbId" />
+                                    <input type="hidden" name="coverUrl" value="@game.CoverUrl" />
+                                    <button type="submit" class="btn btn-outline-info w-100">
+                                        <i class="bi bi-eye"></i> View Details
+                                    </button>
+                                </form>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+    else if (!string.IsNullOrEmpty(Model.SearchTerm))
+    {
+        <p class="text-muted">No results found from the Galactic Archives.</p>
+    }
+</div>

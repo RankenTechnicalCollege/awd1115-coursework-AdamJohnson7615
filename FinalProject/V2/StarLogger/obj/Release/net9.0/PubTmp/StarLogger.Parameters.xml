@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="StarLogger2025" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\V2\\StarLogger\\obj\\Release\\net9\.0\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="StarLogger.Data.ApplicationDbContext" description="" value="Server=tcp:starloggerdbserver.database.windows.net,1433;Initial Catalog=StarLogger_db;Persist Security Info=False;User ID=CloudSA322673c3;Password=Gfze7071!;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\V2\\StarLogger\\obj\\Release\\net9\.0\\PubTmp\\EFSQLScripts\\StarLogger\.Data\.ApplicationDbContext\.sql$" />
+  </parameter>
+</parameters>

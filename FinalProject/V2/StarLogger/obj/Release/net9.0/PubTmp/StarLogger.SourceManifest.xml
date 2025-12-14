@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="D:\awd1115-coursework-AdamJohnson7615\FinalProject\V2\StarLogger\obj\Release\net9.0\PubTmp\Out\" />
+  <dbfullsql path="D:\awd1115-coursework-AdamJohnson7615\FinalProject\V2\StarLogger\obj\Release\net9.0\PubTmp\EFSQLScripts\StarLogger.Data.ApplicationDbContext.sql" />
+</sitemanifest>

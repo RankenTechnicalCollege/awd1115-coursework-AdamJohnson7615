@@ -1,0 +1,96 @@
+﻿@{
+    ViewData["Title"] = "About Us";
+}
+
+<div class="container py-5">
+
+    <div class="row align-items-center mb-5">
+        <div class="col-lg-6">
+            <h1 class="display-3 pixel-font text-warning mb-3">What is <br><span class="text-warning">StarLogger?</span></h1>
+            <p class="lead text-white-50">
+                StarLogger isn't just a database; it's a chronicle of every world visited, every boss defeated, and every achievement unlocked.
+                Built for explorers who need to keep track of their expanding digital universe.
+            </p>
+            <p class="text-white">
+                Whether you are a completionist hunter or a casual traveler, your journey deserves to be recorded.
+            </p>
+        </div>
+        <div class="col-lg-6 text-center">
+            <img src="~/images/games.png" class="img-fluid rounded shadow-lg border border-secondary" alt="Games">
+        </div>
+    </div>
+
+    <div class="row g-4 mb-5">
+        <div class="col-md-4">
+            <div class="card bg-dark border-secondary h-100 shadow-sm hover-effect">
+                <div class="card-body text-center p-4">
+                    <div class="mb-3">
+                        <i class="bi bi-controller text-info display-4"></i>
+                    </div>
+                    <h3 class="pixel-font text-white">Track Everything</h3>
+                    <p class="text-white-50">
+                        From your backlog of shame to your 100% completed masterpieces. Organize your library by status and platform.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card bg-dark border-secondary h-100 shadow-sm hover-effect">
+                <div class="card-body text-center p-4">
+                    <div class="mb-3">
+                        <i class="bi bi-broadcast text-danger display-4"></i>
+                    </div>
+                    <h3 class="pixel-font text-white">Share the Signal</h3>
+                    <p class="text-white-50">
+                        Post updates, review games, and let the galaxy know what you are playing. Comment and like posts.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card bg-dark border-secondary h-100 shadow-sm hover-effect">
+                <div class="card-body text-center p-4">
+                    <div class="mb-3">
+                        <i class="bi bi-trophy text-warning display-4"></i>
+                    </div>
+                    <h3 class="pixel-font text-white">Earn Reputation</h3>
+                    <p class="text-white-50">
+                        Display your rarest achievements and high ratings on your personal profile. Flex your success!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card bg-secondary text-white border-0 overflow-hidden">
+        <div class="row g-0">
+            <div class="col-md-4">
+                <img src="https://placehold.co/400x400/0f0c29/FFF?text=IGDB" class="img-fluid h-100 object-fit-cover" alt="Developer">
+            </div>
+            <div class="col-md-8 d-flex align-items-center">
+                <div class="card-body p-5">
+                    <h2 class="pixel-font text-warning">API Provided by IGDB.</h2>
+                    <p class="card-text fs-5">
+                        "The Public API used for this project was provided by the Internet Game Database (IGDB), which provided game
+                        titles, covers, and platforms. To check it out for your projects, visit <a href="https://www.igdb.com/api">here</a>! "
+                    </p>
+                    <a asp-controller="Home" asp-action="Index" class="btn btn-outline-light mt-3">
+                        Home
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<style>
+    .hover-effect {
+        transition: transform 0.2s;
+    }
+
+        .hover-effect:hover {
+            transform: translateY(-5px);
+            border-color: #ffc107 !important;
+        }
+</style>
