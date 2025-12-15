@@ -438,3 +438,4 @@ D:\awd1115-coursework-AdamJohnson7615\FinalProject\V2\StarLogger\obj\Debug\net9.
 D:\awd1115-coursework-AdamJohnson7615\FinalProject\V2\StarLogger\obj\Debug\net9.0\StarLogger.pdb
 D:\awd1115-coursework-AdamJohnson7615\FinalProject\V2\StarLogger\obj\Debug\net9.0\StarLogger.genruntimeconfig.cache
 D:\awd1115-coursework-AdamJohnson7615\FinalProject\V2\StarLogger\obj\Debug\net9.0\ref\StarLogger.dll
+D:\awd1115-coursework-AdamJohnson7615\FinalProject\V2\StarLogger\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\V2\\StarLogger\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F3850837-EA68-4A74-B048-BEE3CDA0EE00}|StarLogger.csproj|d:\\awd1115-coursework-adamjohnson7615\\finalproject\\v2\\starlogger\\migrations\\20251214030954_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3850837-EA68-4A74-B048-BEE3CDA0EE00}|StarLogger.csproj|solutionrelative:migrations\\20251214030954_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F3850837-EA68-4A74-B048-BEE3CDA0EE00}|StarLogger.csproj|d:\\awd1115-coursework-adamjohnson7615\\finalproject\\v2\\starlogger\\services\\igdbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3850837-EA68-4A74-B048-BEE3CDA0EE00}|StarLogger.csproj|solutionrelative:services\\igdbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3850837-EA68-4A74-B048-BEE3CDA0EE00}|StarLogger.csproj|d:\\awd1115-coursework-adamjohnson7615\\finalproject\\v2\\starlogger\\services\\gamerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3850837-EA68-4A74-B048-BEE3CDA0EE00}|StarLogger.csproj|solutionrelative:services\\gamerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3850837-EA68-4A74-B048-BEE3CDA0EE00}|StarLogger.csproj|d:\\awd1115-coursework-adamjohnson7615\\finalproject\\v2\\starlogger\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3850837-EA68-4A74-B048-BEE3CDA0EE00}|StarLogger.csproj|solutionrelative:controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3850837-EA68-4A74-B048-BEE3CDA0EE00}|StarLogger.csproj|d:\\awd1115-coursework-adamjohnson7615\\finalproject\\v2\\starlogger\\services\\igamerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3850837-EA68-4A74-B048-BEE3CDA0EE00}|StarLogger.csproj|solutionrelative:services\\igamerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +31,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20251214030954_init.cs",
-              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\V2\\StarLogger\\Migrations\\20251214030954_init.cs",
-              "RelativeDocumentMoniker": "Migrations\\20251214030954_init.cs",
-              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\V2\\StarLogger\\Migrations\\20251214030954_init.cs",
-              "RelativeToolTip": "Migrations\\20251214030954_init.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "IgdbService.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\V2\\StarLogger\\Services\\IgdbService.cs",
+              "RelativeDocumentMoniker": "Services\\IgdbService.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\V2\\StarLogger\\Services\\IgdbService.cs",
+              "RelativeToolTip": "Services\\IgdbService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T03:09:55.564Z",
+              "WhenOpened": "2025-12-14T05:53:59.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IGameRepository.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\V2\\StarLogger\\Services\\IGameRepository.cs",
+              "RelativeDocumentMoniker": "Services\\IGameRepository.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\V2\\StarLogger\\Services\\IGameRepository.cs",
+              "RelativeToolTip": "Services\\IGameRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T05:53:43.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameRepository.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\V2\\StarLogger\\Services\\GameRepository.cs",
+              "RelativeDocumentMoniker": "Services\\GameRepository.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\V2\\StarLogger\\Services\\GameRepository.cs",
+              "RelativeToolTip": "Services\\GameRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T05:51:49.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameController.cs",
+              "DocumentMoniker": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\V2\\StarLogger\\Controllers\\GameController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GameController.cs",
+              "ToolTip": "D:\\awd1115-coursework-AdamJohnson7615\\FinalProject\\V2\\StarLogger\\Controllers\\GameController.cs",
+              "RelativeToolTip": "Controllers\\GameController.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAmwAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T05:49:08.978Z",
               "EditorCaption": ""
             }
           ]

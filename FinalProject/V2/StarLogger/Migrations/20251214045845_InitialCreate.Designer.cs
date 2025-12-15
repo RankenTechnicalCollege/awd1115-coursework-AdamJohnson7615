@@ -12,8 +12,8 @@ using StarLogger.Data;
 namespace StarLogger.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20251214030954_init")]
-    partial class init
+    [Migration("20251214045845_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
